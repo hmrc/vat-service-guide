@@ -1,4 +1,4 @@
-# VAT (MTD) Service Guide
+# VAT (MTD) End-to-end Service Guide
 
 ## Overview
 
@@ -24,8 +24,8 @@ This streamlined digital experience will integrate tax into day-to-day business 
 ## End-to-end user journeys
 These journeys show examples of use. They are not exhaustive and are not meant to be prescriptive.
 
-  * [Business submits a VAT return using the Making Tax Digital process](documentation/business-journey.html#business-journey)
-  * [Agent submits a VAT return using the Making Tax Digital process](documentation/agent-journey.html#agent-journey)
+  * [Business submits a VAT return using the Making Tax Digital process](#business-journey)
+  * [Agent submits a VAT return using the Making Tax Digital process](#agent-journey)
 
 
 ## Roadmap

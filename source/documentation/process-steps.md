@@ -98,6 +98,9 @@ To add a client:
 
 ### Agent signs up a client to VAT (MTD)
 
+![Active](documentation/figures/agents-sign-up.png)
+
+
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
 Agents can sign up an existing client’s business. However, the creation of the agent account which is a one-off process must be completed to enable an agency to sign up their clients.
 

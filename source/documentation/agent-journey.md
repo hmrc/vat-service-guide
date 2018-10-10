@@ -2,6 +2,10 @@
 
 ## End-to-end user journey: agent submits a VAT return using the Making Tax Digital process
 
+### Active
+
+Text describing the diagram below.
+
 ![Active](documentation/figures/active.png)
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
@@ -20,3 +24,15 @@
 14. [Agent unsubscribes client from MTD](#unsubscribing-a-client-from-vat-mtd)
 15. [Client breaks agent-client link](#client-breaks-agent-authority-link)
 16. [Agent changes details](#client-breaks-agent-authority-link)
+
+### Penalties
+
+Text describing the diagram below.
+
+![Penalties](documentation/figures/penalties.png)
+
+### Closedown
+
+Text describing the diagram below.
+
+![Closedown](documentation/figures/closedown.png)

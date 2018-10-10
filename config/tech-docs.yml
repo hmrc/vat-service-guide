@@ -14,7 +14,7 @@ header_links:
   Support: https://hmrc-devhub-cycle-32.herokuapp.com/developer/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: true
+enable_search: false
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:
@@ -33,5 +33,5 @@ max_toc_heading_level: 6
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: true
 
-show_contribution_banner: true
+show_contribution_banner: false
 github_repo: git@github.com:hmrc/vat-service-guide.git
