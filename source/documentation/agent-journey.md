@@ -2,7 +2,7 @@
 
 ## End-to-end user journey: agent submits a VAT return using the Making Tax Digital process
 
-![Alt text](figures/active.png)
+![Active](documentation/figures/active.png)
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)

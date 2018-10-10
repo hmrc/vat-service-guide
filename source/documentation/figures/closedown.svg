@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740px" height="525px" viewBox="0 0 740 525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Closedown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Closedown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="740" height="525"></rect>
+        <path d="M566.5,26.5 L566.5,123.5 L713.5,123.5 L713.5,26.5 L566.5,26.5 Z" id="Rectangle" stroke="#005EA5" stroke-width="3" fill-opacity="0.05" fill="#005EA5" fill-rule="nonzero"></path>
+        <text id="HMRC" font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23" fill="#005EA5">
+            <tspan x="609.9135" y="42.703">HMRC</tspan>
+        </text>
+        <g id="Optional-step" transform="translate(540.000000, 175.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text>
+                    <tspan x="16.096" y="16">Client unsubscribed </tspan>
+                    <tspan x="38.544" y="36">from VAT MTD</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Optional-step" transform="translate(0.000000, 175.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text>
+                    <tspan x="16.096" y="16">Client unsubscribed </tspan>
+                    <tspan x="38.544" y="36">from VAT MTD</tspan>
+                </text>
+            </g>
+        </g>
+        <path id="Line-6" d="M521.5,226.5 L200,226.5 L198.5,226.5 L198.5,223.5 L200,223.5 L521.5,223.5 L521.5,215.5 L540.5,225 L521.5,234.5 L521.5,226.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <g id="Optional-step" transform="translate(540.000000, 300.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text>
+                    <tspan x="19.744" y="16">Client to agent link </tspan>
+                    <tspan x="57.152" y="36">removed</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Optional-step" transform="translate(0.000000, 300.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text>
+                    <tspan x="3.192" y="16">Agent breaks client link</tspan>
+                </text>
+            </g>
+        </g>
+        <path id="Line-6" d="M521.5,351.5 L200,351.5 L198.5,351.5 L198.5,348.5 L200,348.5 L521.5,348.5 L521.5,340.5 L540.5,350 L521.5,359.5 L521.5,351.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <g id="Group-2" transform="translate(0.000000, 425.000000)">
+            <g id="Optional-step" transform="translate(540.000000, 0.000000)">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                    <text>
+                        <tspan x="8.192" y="16">Agent details changed</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Optional-step">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                    <text>
+                        <tspan x="3.056" y="16">Change of agent details</tspan>
+                    </text>
+                </g>
+            </g>
+            <path id="Line-6" d="M521.5,51.5 L200,51.5 L198.5,51.5 L198.5,48.5 L200,48.5 L521.5,48.5 L521.5,40.5 L540.5,50 L521.5,59.5 L521.5,51.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        </g>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Agent-and-Client" transform="translate(38.000000, 25.000000)">
+            <g id="Group-6">
+                <g id="Group-5">
+                    <g id="Group-4">
+                        <text id="Agent-and-Client" font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23" fill="#2E358B">
+                            <tspan x="64" y="19">Agent and </tspan>
+                            <tspan x="82.4775" y="42">Client</tspan>
+                        </text>
+                        <g id="Group-3" transform="translate(0.000000, 12.000000)" fill-rule="nonzero" stroke="#2E358B" stroke-width="4">
+                            <g id="Group" transform="translate(0.000000, 0.500000)">
+                                <ellipse id="Oval" fill-opacity="0.05" fill="#2E358B" cx="32.5" cy="19.3043259" rx="17.5" ry="19.3043259"></ellipse>
+                                <path d="M-1.93354765,72.3938672 C-0.81801581,54.3104053 14.2025352,40 32.5545454,40 C51.5749163,40 67.0167528,55.371725 67.1087023,74.3936441 L67.1090908,80.0203557 L67.1090908,80.0204938 L67.1090908,87.6472053 L-2,87.6472053 L-2,72.3938701 L-1.93354765,72.3938672 Z" id="Combined-Shape" fill-opacity="0.05" fill="#2E358B" stroke-linejoin="round"></path>
+                                <path d="M17.2820426,70.8458192 L17.2820426,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                                <path d="M47.8270482,70.8458192 L47.8270482,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
