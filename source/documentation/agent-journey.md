@@ -23,22 +23,22 @@
 
 Text describing the 'start up journey' diagram below.
 
-![Active](documentation/figures/agent-start-up.svg)
+![Active](documentation/figures/agent-start-up.png)
 
 ### Active
 
 Text describing the 'active journey' diagram below.
 
-![Active](documentation/figures/agent-active.svg)
+![Active](documentation/figures/agent-active.png)
 
 ### Penalties
 
 Text describing the 'penalties journey' diagram below.
 
-![Agent penalties](documentation/figures/agent-penalties.svg)
+![Agent penalties](documentation/figures/agent-penalties.png)
 
 ### Closedown
 
 Text describing the 'closedown journey' diagram below.
 
-![Agent closedown](documentation/figures/agent-closedown.svg)
+![Agent closedown](documentation/figures/agent-closedown.png)
