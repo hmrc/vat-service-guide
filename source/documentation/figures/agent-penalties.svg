@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740px" height="510px" viewBox="0 0 740 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Penalties - agent</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Penalties---agent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="740" height="510"></rect>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 230.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="41.976" y="35">Software tracks </tspan>
+                <tspan x="21.288" y="55">payment of penalties </tspan>
+                <tspan x="55.008" y="75">and interest</tspan>
+            </text>
+        </g>
+        <g id="Right-arrow" transform="translate(200.000000, 249.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 304.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <text id="GOV.UK-Pay-API" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="478.532" y="260">GOV.UK </tspan>
+            <tspan x="478.868" y="280">Pay API</tspan>
+        </text>
+        <path id="Line-6" d="M521.5,462 L200,462 L198.5,462 L198.5,459 L200,459 L521.5,459 L521.5,451 L540.5,460.5 L521.5,470 L521.5,462 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <g id="Agent-and-Client" transform="translate(38.000000, 25.000000)">
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23" fill="#2E358B">
+                <tspan x="64" y="46">Agent and </tspan>
+                <tspan x="82.4775" y="69">Client</tspan>
+            </text>
+            <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 12.000000)" stroke="#2E358B">
+                <g id="Group" transform="translate(0.000000, 0.500000)" fill-rule="nonzero" stroke-width="4">
+                    <ellipse id="Oval" fill-opacity="0.05" fill="#2E358B" cx="32.5" cy="19.3043259" rx="17.5" ry="19.3043259"></ellipse>
+                    <path d="M-1.93354765,72.3938672 C-0.81801581,54.3104053 14.2025352,40 32.5545454,40 C51.5749163,40 67.0167528,55.371725 67.1087023,74.3936441 L67.1090908,80.0203557 L67.1090908,80.0204938 L67.1090908,87.6472053 L-2,87.6472053 L-2,72.3938701 L-1.93354765,72.3938672 Z" id="Combined-Shape" fill-opacity="0.05" fill="#2E358B" stroke-linejoin="round"></path>
+                    <path d="M17.2820426,70.8458192 L17.2820426,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                    <path d="M47.8270482,70.8458192 L47.8270482,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Accountancy-Software" transform="translate(295.000000, 25.000000)" fill="#006435">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#006435" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23">
+                <tspan x="14.6465" y="45.703">Accountancy </tspan>
+                <tspan x="31.5185" y="68.703">Software</tspan>
+            </text>
+        </g>
+        <g id="HMRC" transform="translate(565.000000, 25.000000)" fill="#005EA5">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#005EA5" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23">
+                <tspan x="44.9135" y="55.703">HMRC</tspan>
+            </text>
+        </g>
+        <g id="One-line-sentence" transform="translate(0.000000, 410.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text id="One-line-rectangle">
+                    <tspan x="37.632" y="16">Agent appeals</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="One-line-sentence" transform="translate(540.000000, 410.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text id="One-line-rectangle">
+                    <tspan x="8.184" y="16">Agent appeal received</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Two-lines-rectangle" transform="translate(540.000000, 285.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="18.712" y="45">Penalties and interest </tspan>
+                <tspan x="68.584" y="65">received</tspan>
+            </text>
+        </g>
+        <g id="Two-lines-rectangle" transform="translate(0.000000, 175.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="23.144" y="45">Agent pays penalties </tspan>
+                <tspan x="55.008" y="65">and interest</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

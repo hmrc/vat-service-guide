@@ -6,7 +6,7 @@
 
 Text describing the diagram below.
 
-![Active](documentation/figures/active.png)
+![Active](documentation/figures/agent-active.svg)
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
@@ -29,10 +29,10 @@ Text describing the diagram below.
 
 Text describing the diagram below.
 
-![Penalties](documentation/figures/penalties.png)
+![Agent penalties](documentation/figures/agent-penalties.svg)
 
 ### Closedown
 
 Text describing the diagram below.
 
-![Closedown](documentation/figures/closedown.png)
+![Agent closedown](documentation/figures/agent-closedown.svg)

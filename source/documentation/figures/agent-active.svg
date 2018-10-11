@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740px" height="1265px" viewBox="0 0 740 1265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Active - agent</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Active---agent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="740" height="1265"></rect>
+        <g id="Agent-and-Client" transform="translate(38.000000, 25.000000)">
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23" fill="#2E358B">
+                <tspan x="64" y="46">Agent and </tspan>
+                <tspan x="82.4775" y="69">Client</tspan>
+            </text>
+            <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 12.000000)" stroke="#2E358B">
+                <g id="Group" transform="translate(0.000000, 0.500000)" fill-rule="nonzero" stroke-width="4">
+                    <ellipse id="Oval" fill-opacity="0.05" fill="#2E358B" cx="32.5" cy="19.3043259" rx="17.5" ry="19.3043259"></ellipse>
+                    <path d="M-1.93354765,72.3938672 C-0.81801581,54.3104053 14.2025352,40 32.5545454,40 C51.5749163,40 67.0167528,55.371725 67.1087023,74.3936441 L67.1090908,80.0203557 L67.1090908,80.0204938 L67.1090908,87.6472053 L-2,87.6472053 L-2,72.3938701 L-1.93354765,72.3938672 Z" id="Combined-Shape" fill-opacity="0.05" fill="#2E358B" stroke-linejoin="round"></path>
+                    <path d="M17.2820426,70.8458192 L17.2820426,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                    <path d="M47.8270482,70.8458192 L47.8270482,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Right-arrow" transform="translate(200.000000, 249.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 304.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <text id="VAT-API" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="491.848" y="263">VAT </tspan>
+            <tspan x="493.144" y="283">API</tspan>
+        </text>
+        <g id="Right-arrow" transform="translate(200.000000, 469.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 524.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,417.5 L640,417.5 L641.5,417.5 L641.5,420.5 L640,420.5 L218.5,420.5 L218.5,428.5 L199.5,419 L218.5,409.5 L218.5,417.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,384 L640,419" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <text id="VAT-API" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="491.848" y="483">VAT </tspan>
+            <tspan x="493.144" y="503">API</tspan>
+        </text>
+        <g id="Right-arrow" transform="translate(200.000000, 689.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 744.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,637.5 L640,637.5 L641.5,637.5 L641.5,640.5 L640,640.5 L218.5,640.5 L218.5,648.5 L199.5,639 L218.5,629.5 L218.5,637.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,604 L640,639" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Right-arrow" transform="translate(200.000000, 909.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 964.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,857.5 L640,857.5 L641.5,857.5 L641.5,860.5 L640,860.5 L218.5,860.5 L218.5,868.5 L199.5,859 L218.5,849.5 L218.5,857.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,824 L640,859" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Right-arrow" transform="translate(200.000000, 1129.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 1184.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,1077.5 L640,1077.5 L641.5,1077.5 L641.5,1080.5 L640,1080.5 L218.5,1080.5 L218.5,1088.5 L199.5,1079 L218.5,1069.5 L218.5,1077.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,1044 L640,1079" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <text id="VAT-API" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="491.848" y="1143">VAT </tspan>
+            <tspan x="493.144" y="1163">API</tspan>
+        </text>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Group-2" transform="translate(100.000000, 275.000000)" fill-rule="nonzero">
+            <path d="M170.5,31 L2,31" id="Line-4" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" transform="translate(86.500000, 30.500000) scale(-1, 1) translate(-86.500000, -30.500000) "></path>
+            <path id="Line-5" d="M2.75,19 L2.75,31 L2.75,32.5 L-0.25,32.5 L-0.25,31 L-0.25,19 L-8.25,19 L1.25,0 L10.75,19 L2.75,19 Z" fill="#0B0C0C"></path>
+        </g>
+        <path d="M540.5,361 L372,361" id="Line-4" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero" transform="translate(456.500000, 360.500000) scale(-1, 1) translate(-456.500000, -360.500000) "></path>
+        <path id="Line-5" d="M371.75,349 L371.75,361 L371.75,362.5 L368.75,362.5 L368.75,361 L368.75,349 L360.75,349 L370.25,330 L379.75,349 L371.75,349 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <g id="Accountancy-Software" transform="translate(295.000000, 25.000000)" fill="#006435">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#006435" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23">
+                <tspan x="14.6465" y="45.703">Accountancy </tspan>
+                <tspan x="31.5185" y="68.703">Software</tspan>
+            </text>
+        </g>
+        <g id="HMRC" transform="translate(565.000000, 25.000000)" fill="#005EA5">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#005EA5" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23">
+                <tspan x="44.9135" y="55.703">HMRC</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(0.000000, 175.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="46.328" y="35">Agent receives </tspan>
+                <tspan x="10.728" y="55">obligations and submits </tspan>
+                <tspan x="61.208" y="75">VAT return</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 230.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="32.144" y="35">Software retrieves </tspan>
+                <tspan x="10.728" y="55">obligations and submits </tspan>
+                <tspan x="61.208" y="75">VAT return</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 670.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="41.976" y="35">Software tracks </tspan>
+                <tspan x="18.824" y="55">payment of VAT bill or </tspan>
+                <tspan x="15.896" y="75">receipt of a repayment</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(0.000000, 835.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="41.976" y="35">Software tracks </tspan>
+                <tspan x="18.824" y="55">payment of VAT bill or </tspan>
+                <tspan x="15.896" y="75">receipt of a repayment</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 890.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="34.304" y="35">Client's change of </tspan>
+                <tspan x="15.352" y="55">circumstances notified </tspan>
+                <tspan x="54.848" y="75">via software</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 1110.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="34.408" y="35">Software displays </tspan>
+                <tspan x="17.544" y="55">future obligations and </tspan>
+                <tspan x="38.936" y="75">previous returns </tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(540.000000, 1165.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="16.064" y="35">Future obligations and </tspan>
+                <tspan x="38.936" y="55">previous returns </tspan>
+                <tspan x="66.104" y="75">retrieved</tspan>
+            </text>
+        </g>
+        <g id="One-line-sentence" transform="translate(540.000000, 285.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
+                <text id="One-line-rectangle">
+                    <tspan x="17.992" y="16">VAT return received</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 395.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="31.744" y="45">Agent amends VAT </tspan>
+                <tspan x="76.64" y="65">return</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 615.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="20.68" y="45">Agent pays VAT bill or </tspan>
+                <tspan x="20.896" y="65">receives a repayment</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(270.000000, 450.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="35.152" y="45">Software submits </tspan>
+                <tspan x="24.464" y="65">amended VAT return</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(540.000000, 505.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="24.184" y="45">Amended VAT return </tspan>
+                <tspan x="68.584" y="65">received</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(540.000000, 725.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="23.904" y="45">Payment received or </tspan>
+                <tspan x="36.616" y="65">repayment made</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(540.000000, 945.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="62.92" y="45">Change of </tspan>
+                <tspan x="13.232" y="65">circumstances received</tspan>
+            </text>
+        </g>
+        <g id="Four-line-rectangle" transform="translate(0.000000, 1055.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="30.728" y="25">Agent views future </tspan>
+                <tspan x="42.352" y="45">obligations and </tspan>
+                <tspan x="10.432" y="65">previous returns in their </tspan>
+                <tspan x="67.688" y="85">software</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
