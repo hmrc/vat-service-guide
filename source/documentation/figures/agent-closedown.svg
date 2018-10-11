@@ -5,23 +5,23 @@
     <desc>Created with Sketch.</desc>
     <g id="Closedown---agent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#FFFFFF" x="0" y="0" width="740" height="525"></rect>
-        <g id="Two-lines-rectangle" transform="translate(0.000000, 175.000000)">
+        <g id="Two-line-rectangle" transform="translate(0.000000, 175.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
-            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
                 <tspan x="26.096" y="45">Client unsubscribed </tspan>
                 <tspan x="48.544" y="65">from VAT MTD</tspan>
             </text>
         </g>
-        <g id="Two-lines-rectangle" transform="translate(540.000000, 180.000000)">
+        <g id="Two-line-rectangle" transform="translate(540.000000, 180.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
-            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
                 <tspan x="26.096" y="45">Client unsubscribed </tspan>
                 <tspan x="48.544" y="65">from VAT MTD</tspan>
             </text>
         </g>
-        <g id="Two-lines-rectangle" transform="translate(540.000000, 300.000000)">
+        <g id="Two-line-rectangle" transform="translate(540.000000, 300.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
-            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
                 <tspan x="29.744" y="45">Client to agent link </tspan>
                 <tspan x="67.152" y="65">removed</tspan>
             </text>
@@ -30,7 +30,7 @@
         <g id="One-line-sentence" transform="translate(0.000000, 300.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
             <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
-                <text id="One-line-sentence">
+                <text id="One-line-rectangle">
                     <tspan x="3.192" y="16">Agent breaks client link</tspan>
                 </text>
             </g>
@@ -38,7 +38,7 @@
         <g id="One-line-sentence" transform="translate(0.000000, 425.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
             <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
-                <text id="One-line-sentence">
+                <text id="One-line-rectangle">
                     <tspan x="3.056" y="16">Change of agent details</tspan>
                 </text>
             </g>
@@ -46,14 +46,14 @@
         <g id="One-line-sentence" transform="translate(540.000000, 425.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
             <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 39.000000)" fill="#000000" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20">
-                <text id="One-line-sentence">
+                <text id="One-line-rectangle">
                     <tspan x="8.192" y="16">Agent details changed</tspan>
                 </text>
             </g>
         </g>
         <path id="Line-6" d="M521.5,351.5 L200,351.5 L198.5,351.5 L198.5,348.5 L200,348.5 L521.5,348.5 L521.5,340.5 L540.5,350 L521.5,359.5 L521.5,351.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
         <path id="Line-6" d="M521.5,476.5 L200,476.5 L198.5,476.5 L198.5,473.5 L200,473.5 L521.5,473.5 L521.5,465.5 L540.5,475 L521.5,484.5 L521.5,476.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
-        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-linecap="square" fill-rule="nonzero"></path>
         <g id="Agent-and-Client" transform="translate(38.000000, 25.000000)">
             <text font-family="FallingSkySeBd, Falling Sky" font-size="19" font-weight="500" line-spacing="23" fill="#2E358B">
                 <tspan x="64" y="46">Agent and </tspan>

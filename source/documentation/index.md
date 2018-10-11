@@ -1,4 +1,4 @@
-# VAT (MTD) End-to-end Service Guide
+# VAT (MTD) End-to-End Service Guide
 
 ## Overview
 

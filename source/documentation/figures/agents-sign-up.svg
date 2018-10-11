@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="1121px" viewBox="0 0 540 1121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Agents sign up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Agents-sign-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="540" height="1121"></rect>
+        <g id="Wide-two-line-rectangle" transform="translate(170.000000, 20.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Wide-rectangle-two-l" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="23.024" y="45">Agent signs in to Gov </tspan>
+                <tspan x="36.04" y="65">Gateway account</tspan>
+            </text>
+        </g>
+        <g id="Wide-two-line-rectangle" transform="translate(170.000000, 160.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Wide-rectangle-two-l" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="17.592" y="45">Agent confirms VRN of </tspan>
+                <tspan x="79.016" y="65">client</tspan>
+            </text>
+        </g>
+        <g id="Wide-two-line-rectangle" transform="translate(170.000000, 580.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Wide-rectangle-two-l" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="15.4" y="45">Agent confirms client's </tspan>
+                <tspan x="48.288" y="65">email address</tspan>
+            </text>
+        </g>
+        <g id="Wide-two-line-rectangle" transform="translate(170.000000, 720.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Wide-rectangle-two-l" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                <tspan x="29.312" y="45">Client verifies their </tspan>
+                <tspan x="48.288" y="65">email address</tspan>
+            </text>
+        </g>
+        <g id="Wide-three-lines-rectangle" transform="translate(170.000000, 300.000000)">
+            <g id="Group">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <text id="Wide-rectangle-three" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                    <tspan x="13.408" y="35">Agent confirms client is </tspan>
+                    <tspan x="34.184" y="55">Sole Trader or Ltd </tspan>
+                    <tspan x="65.92" y="75">company</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Wide-three-lines-rectangle" transform="translate(20.000000, 440.000000)">
+            <g id="Group">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <text id="Wide-rectangle-three" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                    <tspan x="21.232" y="35">Agent confirms client </tspan>
+                    <tspan x="19.912" y="55">details - NINO, FN/LN, </tspan>
+                    <tspan x="29.424" y="75">DOB for sole trader</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Wide-three-lines-rectangle" transform="translate(170.000000, 860.000000)">
+            <g id="Group">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <text id="Wide-rectangle-three" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                    <tspan x="18.872" y="35">Agent agrees to terms </tspan>
+                    <tspan x="14.608" y="55">of participation for self </tspan>
+                    <tspan x="63.08" y="75">and client</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Wide-three-lines-rectangle" transform="translate(170.000000, 1000.000000)">
+            <g id="Group">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <text id="Wide-rectangle-three" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                    <tspan x="13.296" y="35">Agent waits 24 hours to </tspan>
+                    <tspan x="12.744" y="55">see if client is approved </tspan>
+                    <tspan x="65.456" y="75">to signup</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Wide-three-lines-rectangle" transform="translate(320.000000, 440.000000)">
+            <g id="Group">
+                <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+                <text id="Wide-rectangle-three" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+                    <tspan x="21.232" y="35">Agent confirms client </tspan>
+                    <tspan x="26.616" y="55">details - CRN for Ltd </tspan>
+                    <tspan x="65.92" y="75">company</tspan>
+                </text>
+            </g>
+        </g>
+        <path id="Line-9" d="M269,141.5 L269,120 L269,118.5 L272,118.5 L272,120 L272,141.5 L280,141.5 L270.5,160.5 L261,141.5 L269,141.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M269,281.5 L269,260 L269,258.5 L272,258.5 L272,260 L272,281.5 L280,281.5 L270.5,300.5 L261,281.5 L269,281.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M269,701.5 L269,680 L269,678.5 L272,678.5 L272,680 L272,701.5 L280,701.5 L270.5,720.5 L261,701.5 L269,701.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M119,421.5 L119,350.5 L119,349 L122,349 L122,350.5 L122,421.5 L130,421.5 L120.5,440.5 L111,421.5 L119,421.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M120.5,541 L120.5,630.5" id="Line-9" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path d="M420.5,540.5 L420.5,630" id="Line-9" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M419,421.5 L419,350.5 L419,349 L422,349 L422,350.5 L422,421.5 L430,421.5 L420.5,440.5 L411,421.5 L419,421.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M269,841.5 L269,820 L269,818.5 L272,818.5 L272,820 L272,841.5 L280,841.5 L270.5,860.5 L261,841.5 L269,841.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-9" d="M268,981.5 L268,960 L268,958.5 L271,958.5 L271,960 L271,981.5 L279,981.5 L269.5,1000.5 L260,981.5 L268,981.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M120,350.5 L168.753831,350.5" id="Line-11" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path id="Line-11" d="M152.253831,632 L122,632 L120.5,632 L120.5,629 L122,629 L152.253831,629 L152.253831,621 L171.253831,630.5 L152.253831,640 L152.253831,632 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-11" d="M390,628.5 L419.753831,628.5 L421.253831,628.5 L421.253831,631.5 L419.753831,631.5 L390,631.5 L390,639.5 L371,630 L390,620.5 L390,628.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M371,350.5 L419.753831,350.5" id="Line-11" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <text id="Ltd-company" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="458.376" y="388">Ltd </tspan>
+            <tspan x="437.12" y="408">company</tspan>
+        </text>
+        <text id="Sole-trader" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="54.464" y="388">Sole </tspan>
+            <tspan x="47.808" y="408">trader</tspan>
+        </text>
+    </g>
+</svg>

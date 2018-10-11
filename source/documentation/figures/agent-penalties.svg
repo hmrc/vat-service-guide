@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <g id="Penalties---agent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#FFFFFF" x="0" y="0" width="740" height="510"></rect>
-        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-linecap="square" fill-rule="nonzero"></path>
         <g id="Three-line-rectangle" transform="translate(270.000000, 230.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
             <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
@@ -68,16 +68,16 @@
                 </text>
             </g>
         </g>
-        <g id="Two-lines-rectangle" transform="translate(540.000000, 285.000000)">
+        <g id="Two-line-rectangle" transform="translate(540.000000, 285.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
-            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
                 <tspan x="18.712" y="45">Penalties and interest </tspan>
                 <tspan x="68.584" y="65">received</tspan>
             </text>
         </g>
-        <g id="Two-lines-rectangle" transform="translate(0.000000, 175.000000)">
+        <g id="Two-line-rectangle" transform="translate(0.000000, 175.000000)">
             <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
-            <text font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
+            <text id="Two-lines-rectangle" font-family="FallingSkySeBd, Falling Sky" font-size="16" font-weight="500" line-spacing="20" fill="#000000">
                 <tspan x="23.144" y="45">Agent pays penalties </tspan>
                 <tspan x="55.008" y="65">and interest</tspan>
             </text>

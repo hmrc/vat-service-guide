@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740px" height="1200px" viewBox="0 0 740 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Start up - agent</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Start-up---agent" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="740" height="1200"></rect>
+        <g id="Accountancy-Software" transform="translate(295.000000, 25.000000)" fill="#006435">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#006435" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="19" font-weight="bold" line-spacing="23">
+                <tspan x="17.6428223" y="45.6513672">Accountancy </tspan>
+                <tspan x="34.4023438" y="68.6513672">Software</tspan>
+            </text>
+        </g>
+        <g id="HMRC" transform="translate(565.000000, 25.000000)" fill="#005EA5">
+            <path d="M1.5,1.5 L1.5,98.5 L148.5,98.5 L148.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#005EA5" stroke-width="3" fill-opacity="0.05" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="19" font-weight="bold" line-spacing="23">
+                <tspan x="46.3979492" y="55.6513672">HMRC</tspan>
+            </text>
+        </g>
+        <g id="Right-arrow" transform="translate(200.000000, 1064.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <g id="Right-arrow" transform="translate(470.000000, 1119.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,1012.5 L368.5,1012.5 L370,1012.5 L370,1015.5 L368.5,1015.5 L218.5,1015.5 L218.5,1023.5 L199.5,1014 L218.5,1004.5 L218.5,1012.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M369.25,979.5 L369.25,1014" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Right-arrow" transform="translate(200.000000, 899.000000)" fill="#0B0C0C" fill-rule="nonzero">
+            <path id="Line" d="M51.5,2.5 L-6.09575283e-16,2.5 L-1.5,2.5 L-1.5,-0.5 L6.09575283e-16,-0.5 L51.5,-0.5 L51.5,-8.5 L70.5,1 L51.5,10.5 L51.5,2.5 Z"></path>
+        </g>
+        <path id="Line-4" d="M218.5,847.5 L640,847.5 L641.5,847.5 L641.5,850.5 L640,850.5 L218.5,850.5 L218.5,858.5 L199.5,849 L218.5,839.5 L218.5,847.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,815.5 L640,849" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path id="Line-6" d="M521.5,735.5 L200,735.5 L198.5,735.5 L198.5,732.5 L200,732.5 L521.5,732.5 L521.5,724.5 L540.5,734 L521.5,743.5 L521.5,735.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-6" d="M521.5,570.5 L200,570.5 L198.5,570.5 L198.5,567.5 L200,567.5 L521.5,567.5 L521.5,559.5 L540.5,569 L521.5,578.5 L521.5,570.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-4" d="M218.5,682.5 L640,682.5 L641.5,682.5 L641.5,685.5 L640,685.5 L218.5,685.5 L218.5,693.5 L199.5,684 L218.5,674.5 L218.5,682.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,649 L640,684" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path id="Line-6" d="M521.5,410.5 L200,410.5 L198.5,410.5 L198.5,407.5 L200,407.5 L521.5,407.5 L521.5,399.5 L540.5,409 L521.5,418.5 L521.5,410.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path id="Line-4" d="M218.5,522.5 L640,522.5 L641.5,522.5 L641.5,525.5 L640,525.5 L218.5,525.5 L218.5,533.5 L199.5,524 L218.5,514.5 L218.5,522.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <path d="M640,489 L640,524" id="Line-5" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path id="Line-5" d="M97.5,316.5 L97.5,275 L97.5,273.5 L100.5,273.5 L100.5,275 L100.5,316.5 L108.5,316.5 L99,335.5 L89.5,316.5 L97.5,316.5 Z" fill="#0B0C0C" fill-rule="nonzero"></path>
+        <text id="OATH" font-family="FallingSkyMed, Falling Sky" font-size="16" font-weight="400" fill="#000000">
+            <tspan x="485.232" y="1098">OATH</tspan>
+        </text>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-linecap="square" fill-rule="nonzero"></path>
+        <g id="Agent-and-Client" transform="translate(38.000000, 25.000000)">
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="19" font-weight="bold" line-spacing="23" fill="#2E358B">
+                <tspan x="64.3249512" y="45.6513672">Agent and </tspan>
+                <tspan x="81.8916016" y="68.6513672">Client</tspan>
+            </text>
+            <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 12.000000)" stroke="#2E358B">
+                <g id="Group" transform="translate(0.000000, 0.500000)" fill-rule="nonzero" stroke-width="4">
+                    <ellipse id="Oval" fill-opacity="0.05" fill="#2E358B" cx="32.5" cy="19.3043259" rx="17.5" ry="19.3043259"></ellipse>
+                    <path d="M-1.93354765,72.3938672 C-0.81801581,54.3104053 14.2025352,40 32.5545454,40 C51.5749163,40 67.0167528,55.371725 67.1087023,74.3936441 L67.1090908,80.0203557 L67.1090908,80.0204938 L67.1090908,87.6472053 L-2,87.6472053 L-2,72.3938701 L-1.93354765,72.3938672 Z" id="Combined-Shape" fill-opacity="0.05" fill="#2E358B" stroke-linejoin="round"></path>
+                    <path d="M17.2820426,70.8458192 L17.2820426,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                    <path d="M47.8270482,70.8458192 L47.8270482,85.9826192" id="Line-12" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 175.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="18.9726562" y="45">Agent reads campaign </tspan>
+                <tspan x="28.3398438" y="65">pages and guidance</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 495.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="27.1601562" y="45">Agent links new VAT </tspan>
+                <tspan x="78.3710938" y="65">client</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 660.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="20.9375" y="45">Agent registers client </tspan>
+                <tspan x="49.2929688" y="65">for VAT (MTD)</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 825.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="45.5859375" y="45">Agent chooses</tspan>
+                <tspan x="66.9726562" y="65">software</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(0.000000, 990.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="15.7617188" y="45">Agent links software to </tspan>
+                <tspan x="75.9140625" y="65">HMRC</tspan>
+                <tspan x="66.9726562" y="85">software</tspan>
+            </text>
+        </g>
+        <g id="Two-line-rectangle" transform="translate(540.000000, 715.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text id="Two-lines-rectangle" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="11.1328125" y="45">Client registered for VAT </tspan>
+                <tspan x="76.1796875" y="65">(MTD)</tspan>
+            </text>
+        </g>
+        <g id="Four-line-rectangle" transform="translate(0.000000, 335.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="25.0703125" y="25">Agent creates Agent </tspan>
+                <tspan x="22.375" y="45">Services account and </tspan>
+                <tspan x="10.7421875" y="65">links existing VAT clients</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(540.000000, 390.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="13.5859375" y="35">Agent Services account </tspan>
+                <tspan x="23.6640625" y="55">created and linked to </tspan>
+                <tspan x="29.1992188" y="75">existing VAT clients</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(540.000000, 550.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="17.8710938" y="35">New VAT clients linked </tspan>
+                <tspan x="35.46875" y="55">to Agent Services </tspan>
+                <tspan x="69.6210938" y="75">account</tspan>
+            </text>
+        </g>
+        <g id="Three-line-rectangle" transform="translate(270.000000, 1045.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <text font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20" fill="#000000">
+                <tspan x="14.1054688" y="35">Software asks agent for </tspan>
+                <tspan x="15.4570312" y="55">authorisation to access </tspan>
+                <tspan x="58.359375" y="75">HMRC data</tspan>
+            </text>
+        </g>
+        <g id="One-line-sentence" transform="translate(270.000000, 880.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 40.000000)" fill="#000000" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20">
+                <text id="One-line-rectangle">
+                    <tspan x="28.234375" y="15">Software chosen</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="One-line-sentence" transform="translate(540.000000, 1100.000000)">
+            <path d="M1.5,1.5 L1.5,98.5 L198.5,98.5 L198.5,1.5 L1.5,1.5 Z" id="Rectangle" stroke="#0B0C0C" stroke-width="3" fill-rule="nonzero"></path>
+            <g id="Agent-chooses-softwa" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 40.000000)" fill="#000000" font-family="GDSTransportWebsite-Bold, GDS Transport Website" font-size="16" font-weight="bold" line-spacing="20">
+                <text id="One-line-rectangle">
+                    <tspan x="9.6640625" y="15">Authorisation granted</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -69,7 +69,7 @@
             <tspan x="491.848" y="1143">VAT </tspan>
             <tspan x="493.144" y="1163">API</tspan>
         </text>
-        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        <path d="M0,150 L740,150" id="Line-7" stroke="#0B0C0C" stroke-linecap="square" fill-rule="nonzero"></path>
         <g id="Group-2" transform="translate(100.000000, 275.000000)" fill-rule="nonzero">
             <path d="M170.5,31 L2,31" id="Line-4" stroke="#0B0C0C" stroke-width="3" stroke-linecap="square" transform="translate(86.500000, 30.500000) scale(-1, 1) translate(-86.500000, -30.500000) "></path>
             <path id="Line-5" d="M2.75,19 L2.75,31 L2.75,32.5 L-0.25,32.5 L-0.25,31 L-0.25,19 L-8.25,19 L1.25,0 L10.75,19 L2.75,19 Z" fill="#0B0C0C"></path>

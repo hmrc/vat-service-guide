@@ -65,7 +65,7 @@ We encourage software developers to ensure their agency customers are aware of t
 4. Connection to existing clients is confirmed for that Government Gateway account
 5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked
 
-## Agent links new VAT client
+## Link new VAT client
 
 After an agency has created a new Agent services account, they must get authority from each new client they want to represent for MTD. To do this an agent must send a digital request to each new client. The client can accept or reject the request digitally.
 To add a client:
@@ -94,11 +94,11 @@ To add a client:
 8. Client logs in with Gov Gateway account and completes identity checks
 9. Client confirms authorisation for agent to represent them
 
-## Agent registers client for VAT (MTD)
+## Register client for VAT (MTD)
 
 ### Agent signs up a client to VAT (MTD)
 
-![Active](documentation/figures/agents-sign-up.png)
+![Agents sign up](documentation/figures/agents-sign-up.svg)
 
 
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
@@ -134,7 +134,7 @@ Agents must have already created an agent services account or we display this er
 
 [inset text] The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
-## Process step: business registers for VAT (MTD)
+## Business registers for VAT (MTD)
 
 ### Sole trader and limited company can sign up to MTD for VAT
 
@@ -157,7 +157,7 @@ Please Note: The link to ‘Choose accounting software’ will remain inactive u
 
 Please Note: The link to ‘Choose accounting software’ will remain inactive until the point of leaving Controlled Go Live.
 
-## Business or agent chooses software
+## Choose software
 
 **Coming soon - see the VAT (MTD) roadmap for more details.**
 
@@ -342,7 +342,7 @@ Agents must use third party software to view their client’s future obligations
 
 -------------------
 
-## Paying penalties and interest
+## Pay penalties and interest
 
 Existing penalties and notification methods will remain in place for businesses and agents:
 
@@ -356,11 +356,11 @@ Existing penalties and notification methods will remain in place for businesses 
   * Default interest - VAT Notice 700/43
 
 
-## Appeals
+## Appeal
 
 The existing process for Appeals will remain in place. A business or agent may contact HMRC if they have a query about a tax decision. If they don’t understand the decision they can also get advice from HMRC or professional help.
 
-## Unsubscribing a client from VAT (MTD)
+## Unsubscribe client from VAT (MTD)
 
 Initially there is a manual process in place whereby a business or agent can contact our HMRC helpline to notify us they wish to unsubscribe from the service.
 
@@ -380,12 +380,12 @@ Client only de-authorisation
 3. Client removes authorisation from an agency
 4. Client confirms removal of authorisation from that agency
 
-### Agent breaks client link
+### Client breaks link
 
 This process will be provided by the agent’s Agent Services account.
 
 
-## Process step: change of agent details
+## Change details
 This will initially be the usual process, which can be used to remove the agent reference number and Government Gateway enrolment (HMRC-AS-AGENTS).
 
 The scenario where this is needed is when an agency ceases trading.
