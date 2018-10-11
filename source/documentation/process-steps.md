@@ -373,7 +373,7 @@ In the event that the business continues to be VAT registered, if necessary VAT 
 In time the manual process will be replaced by a digital process.
 
 
-## Client breaks agent authority link
+## Client breaks link
 
 Client only de-authorisation
 
@@ -384,7 +384,7 @@ Client only de-authorisation
 3. Client removes authorisation from an agency
 4. Client confirms removal of authorisation from that agency
 
-### Client breaks link
+### Agent breaks client link
 
 This process will be provided by the agent’s Agent Services account.
 
