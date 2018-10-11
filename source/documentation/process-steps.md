@@ -32,6 +32,8 @@ The agent does this through their accounting software or from GOV.UK. The agent 
   * give information about the agency, which is held by us
   * receive an agent reference number, which is the number assigned to all their existing and new clients
 
+![Links software](documentation/figures/agent-services-account.png)
+
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
 3. Agent identifies their agency with its SA UTR or CTR
@@ -175,6 +177,8 @@ This is a very early draft of what the software choices page may look like in th
 
 ## Link software to HMRC
 
+![Links software](documentation/figures/links-software.png)
+
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
 3. Business or agent signs in to their Government Gateway account.
@@ -196,7 +200,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
   * [Retrieve VAT obligations](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
-**Insert diagram**
+![Links software](documentation/figures/retrieve-obligations.png)
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
