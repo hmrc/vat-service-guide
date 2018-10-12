@@ -40,53 +40,24 @@ The [VAT (MTD) roadmap](https://hmrc-devhub-cycle-32.herokuapp.com/documentation
 
 ## Changelog
 
-**VAT (MTD) Service Guide v1.0 Oct 2018**
-
-  * Developer Hub hosted HTML version with diagrams replaces PDF version V4.0
-
-**Making Tax Digital (MTD)-VAT End-to-End (E2E) Customer Journeys v4.0 Sept 2018**
-
-  * PDF version includes placeholder information for post CGL features
-
-**MTD-VAT E2E customer journeys v3.0 July 2018**
-
-  * PDF version expands End-to-end journeys for business and agent
-  * Adds timeline of feature delivery on journey
-
-**MTDfB-Income Tax E2E customer journeys v1.0 Feb 2018**
-
-  * Standalone PDF version to replace HTML after Sandbox merge with Developer Hub
-  * Adds End-to-end journey diagram
-  * Adds Vision and High Level Design
-
-**Making Tax Digital for Business VAT Guide for Vendors Version v1.0 Dec 2017**
-
-  * HTML version hosted on Developer Hub Sandbox
-  * Adds diagrams to explain agent flow
-  * Adds glossary of terms
-
-  | Changelog                                                                 |          |
-|---------------------------------------------------------------------------|----------|
-| VAT (MTD) End-to-end Service Guide v1.0                                   | Oct 2018 |
-| Document name changed                                                     |          |
-| Developer Hub hosted HTML version with diagrams replaces PDF version V4.0 |          |
-|---------------------------------------------------------------------------|----------|
-| Making Tax Digital (MTD)-VAT End-to-End (E2E) Customer Journeys v4.0      | Sep 2018 |
-| Document name changed                                                     |          |
-| PDF version includes placeholder information for post CGL features        |          |
-|---------------------------------------------------------------------------|----------|
-| MTD-VAT E2E customer journeys v3.0                                        | Jul 2018 |
-| Document name changed                                                     |          |
-| PDF version expands End-to-end journeys for business and agent            |          |
-| Adds timeline of feature delivery on journey                              |          |
-|---------------------------------------------------------------------------|----------|
-| MTDfB-Income Tax E2E customer journeys v1.0                               | Feb 2018 |
-| Document name changed                                                     |          |
-| Standalone PDF replaces HTML after Sandbox merge with Developer Hub       |          |
-| Adds End-to-end journey diagram                                           |          |
-| Adds Vision and High Level Design                                         |          |
-|---------------------------------------------------------------------------|----------|
-| Making Tax Digital for Business VAT Guide for Vendors Version v1.0        | Jun 2017 |
-| HTML version hosted on Developer Hub Sandbox                              |          |
-| Adds diagrams to explain agent flow                                       |          |
-| Adds glossary of terms                                                    |          |
+Description | Date
+ --- | ---
+**VAT (MTD) End-to-end Service Guide v1.0** | **Oct 2018**
+Document name changed |
+Developer Hub hosted HTML version with diagrams replaces PDF version V4.0 |
+**Making Tax Digital (MTD)-VAT End-to-End (E2E) Customer Journeys v4.0** | **Sep 2018**
+Document name changed |
+PDF version includes placeholder information for post CGL features |
+**MTD-VAT E2E customer journeys v3.0** | **Jul 2018**
+Document name changed |
+PDF version expands End-to-end journeys for business and agent |
+Adds timeline of feature delivery on journey |
+**MTDfB-Income Tax E2E customer journeys v1.0** | **Feb 2018**
+Document name changed |
+Standalone PDF replaces HTML after Sandbox merge with Developer Hub |
+Adds End-to-end journey diagram |
+Adds Vision and High Level Design |
+**Making Tax Digital for Business VAT Guide for Vendors Version v1.0** | **Jun 2017**
+HTML version hosted on Developer Hub Sandbox |
+Adds diagrams to explain agent flow |
+Adds glossary of terms |

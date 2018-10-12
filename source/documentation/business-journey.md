@@ -17,6 +17,6 @@
 
 ### Start up
 
-**Change this text:** Before agents can represent clients they must set up their relationships and software.
+Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
 ![Active](documentation/figures/business-sign-up.png)
