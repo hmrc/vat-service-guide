@@ -169,9 +169,9 @@ We are considering the design of this page (see the early draft shown) working w
 
 We require that each application offered  to users complies with our Terms of Use [https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
 
-![Links software](documentation/figures/software-choices.png)
-
 This is a very early draft of what the software choices page may look like in the future, and continues to be user tested.
+
+![Links software](documentation/figures/software-choices.png)
 
 ## Link software to HMRC
 
