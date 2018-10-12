@@ -127,14 +127,16 @@ We will enable customers to register and sign up through GOV.UK. Software develo
 8. Agent waits 24 hours to see if client is approved to sign up
 
 ### Agent signs up a sole trader client to MTD for VAT
+
 Agents must have already created an agent services account or we display this error message:
 
-[inset text] The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
+> The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
 ### Agent signs up a limited company client to VAT (MTD)
+
 Agents must have already created an agent services account or we display this error message:
 
-[inset text] The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
+> The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
 ## Business registers for VAT (MTD)
 
@@ -254,9 +256,9 @@ This is the only POST endpoint. The data items required are the same as the curr
 
 HMRC also requires software to show their customers a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
 
-__Declaration text__
+ > __Declaration text__
 
-When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
+ > When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
 
 ## Amend VAT return
 

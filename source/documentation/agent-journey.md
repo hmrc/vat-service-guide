@@ -1,6 +1,6 @@
 # Agent Journey
 
-## End-to-end user journey: agent submits a VAT return using the Making Tax Digital process
+## Submit a VAT return using the MTD process
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
@@ -21,24 +21,24 @@
 
 ### Start up
 
-Text describing the 'start up journey' diagram below.
+Before agents can represent clients they must set up their relationships and software.
 
 ![Active](documentation/figures/agent-start-up.png)
 
 ### Active
 
-Text describing the 'active journey' diagram below.
+Agents with active client relationships can represent them.
 
 ![Active](documentation/figures/agent-active.png)
 
-### Penalties
+### Penalties and appeals
 
-Text describing the 'penalties journey' diagram below.
+Agents can also represent their clients during penalty and interest payments as well as appeals.
 
 ![Agent penalties](documentation/figures/agent-penalties.png)
 
 ### Closedown
 
-Text describing the 'closedown journey' diagram below.
+Agent to client relationships can come to an end or agents can go out of business.
 
 ![Agent closedown](documentation/figures/agent-closedown.png)

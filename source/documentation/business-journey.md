@@ -1,6 +1,6 @@
 # Business Journey
 
-## End-to-end user journey: business submits a VAT return using the Making Tax Digital process
+## Submit a VAT return using the MTD process
 
 1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Business registers for MTDfB for VAT](#process-step-business-registers-for-vat-mtd)
