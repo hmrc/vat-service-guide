@@ -14,3 +14,9 @@
 10. [Business pays penalties and interest](#pay-penalties-and-interest)
 11. [Business appeals](#appeal)
 12. [Business unsubscribes from MTD](#unsubscribe-client-from-vat-mtd)
+
+### Start up
+
+**Change this text:** Before agents can represent clients they must set up their relationships and software.
+
+![Active](documentation/figures/business-sign-up.png)
