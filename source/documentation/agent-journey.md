@@ -4,7 +4,7 @@
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
-3. [Agent links new VAT client](#agent-links-new-vat-client)
+3. [Agent links new VAT client](#link-new-vat-client)
 4. [Agent registers client for MTDfB for VAT](#register-client-for-vat-mtd)
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
