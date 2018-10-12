@@ -173,7 +173,7 @@ We are considering the design of this page (see the early draft shown) working w
 
 We require that each application offered  to users complies with our Terms of Use [https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
 
-**Insert screenshot?**
+![Links software](documentation/figures/software-choices.png)
 
 This is a very early draft of what the software choices page may look like in the future, and continues to be user tested.
 
@@ -208,7 +208,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
 3. Optionally, business or agent uses their software to retrieve VAT obligations again using the VAT (MTD) API retrieve VAT obligations endpoint to see if the prior obligation has been met or to see the next obligation.
 
-### Business or agent can retrieve obligations in software
+### Retrieve obligations in software
 
 This API allows software to search for obligations based on a date range (start and end) and a status (open O, fulfilled F, or both) of the obligations.
 
@@ -226,7 +226,7 @@ Note: MTD-VAT will be supporting more customer types throughout controlled go li
 
 Note: Period keys should not be shown to the customer, these are for software use to ensure the return is recorded against the correct obligation.
 
-### Example format period keys for stagger types
+### Example period keys for stagger types
 
 **Monthly:**
 
@@ -250,7 +250,7 @@ Note we have not yet configured annual period keys as annual accounting is not i
 
 The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be URL-encoded, for example 18AD, 18A1, %23001.
 
-### Business or agent able to submit VAT return with declaration through software
+### Submit VAT return with declaration through software
 
 This is the only POST endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
@@ -339,14 +339,6 @@ Agents must use third party software to view their client’s future obligations
 3. Business views when their next return is due in BTA
 4. Business views when their next payment is due and what they owe
 5. Business selects how to pay and makes payments via BTA
-
-### Business can view previous returns in BTA
-
-### Business can view when their next return is due in BTA
-
-### Business can view when their next payment is due, along with the ability to make payments via BTA
-
--------------------
 
 ## Pay penalties and interest
 
