@@ -84,8 +84,6 @@ To add a client:
 
 3. The agent is updated with the client's response. If the client accepts, we disclose the client's MTDfB-VAT data to their agent.
 
-**Insert diagram**
-
 1. Agent signs into agent services account
 2. Agent clicks on link to ask a client to authorise them
 3. Agent chooses individual or organisation client type
@@ -97,8 +95,6 @@ To add a client:
 9. Client confirms authorisation for agent to represent them
 
 ## Register client for VAT (MTD)
-
-### Agent signs up a client to VAT (MTD)
 
 ![Agents sign up](documentation/figures/agents-sign-up.png)
 
@@ -126,13 +122,13 @@ We will enable customers to register and sign up through GOV.UK. Software develo
 7. Agent agrees to terms of participation for self and client
 8. Agent waits 24 hours to see if client is approved to sign up
 
-### Agent signs up a sole trader client to MTD for VAT
+### Agent signs up a sole trader
 
 Agents must have already created an agent services account or we display this error message:
 
 > The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
-### Agent signs up a limited company client to VAT (MTD)
+### Agent signs up a limited company
 
 Agents must have already created an agent services account or we display this error message:
 
@@ -140,7 +136,7 @@ Agents must have already created an agent services account or we display this er
 
 ## Business registers for VAT (MTD)
 
-### Sole trader and limited company can sign up to MTD for VAT
+### Sole trader and limited company can sign up
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
@@ -151,19 +147,19 @@ Agents must have already created an agent services account or we display this er
 7. Business agrees to the terms of participation
 8. Business waits 24 hours to see if it is approved to sign up
 
-### Sole trader can sign up to MTD for VAT
+### Sole trader can sign up
 
 If you have previously done this you will not be asked again.
 
 Please Note: The link to ‘Choose accounting software’ will remain inactive until the point of leaving Controlled Go Live.
 
-### Limited company able to sign up to VAT (MTD)
+### Limited company able to sign up
 
 Please Note: The link to ‘Choose accounting software’ will remain inactive until the point of leaving Controlled Go Live.
 
 ## Choose software
 
-**Coming soon - see the VAT (MTD) roadmap for more details.**
+**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
 
 We will publish a list of software applications that are VAT (MTD) compatible on GOV.UK so businesses and agents can choose what suits them.
 
