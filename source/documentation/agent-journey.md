@@ -23,22 +23,22 @@
 
 Before agents can represent clients they must set up their relationships and software.
 
-![Active](documentation/figures/agent-start-up.svg)
+![Active](documentation/figures/agent-start-up.png)
 
 ### Active
 
 Agents with active client relationships can represent them.
 
-![Active](documentation/figures/agent-active.svg)
+![Active](documentation/figures/agent-active.png)
 
 ### Penalties and appeals
 
 Agents can also represent their clients during penalty and interest payments as well as appeals.
 
-![Agent penalties](documentation/figures/agent-penalties.svg)
+![Agent penalties](documentation/figures/agent-penalties.png)
 
 ### Closedown
 
 Agent to client relationships can come to an end or agents can go out of business.
 
-![Agent closedown](documentation/figures/agent-closedown.svg)
+![Agent closedown](documentation/figures/agent-closedown.png)
