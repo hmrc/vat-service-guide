@@ -19,4 +19,28 @@
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
-![Active](documentation/figures/business-sign-up.png)
+<img src="documentation/figures/business-start-up.png"
+alt="Start Up diagram" style="width:520px;" />
+
+### Active
+
+The business journey for active businesses.
+
+<img src="documentation/figures/business-active.png"
+alt="Active diagram" style="width:520px;" />
+
+### Penalties and appeals
+
+The business journey for penalty and interest payments and appeals.
+
+<img src="documentation/figures/business-penalties.png"
+alt="Penalties and appeals diagram" style="width:520px;" />
+
+### Closedown
+
+Businesses may choose to unsubscribe from VAT MTD.
+
+<img src="documentation/figures/business-closedown.png"
+alt="Closedown diagram" style="width:520px;" />
+
+[View the full End-to-end business journey as a numbered list](#business-journey-submit-a-vat-return-using-the-mtd-process)
