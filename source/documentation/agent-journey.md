@@ -24,27 +24,27 @@
 Before agents can represent clients they must set up their relationships and software.
 
 <img src="documentation/figures/agent-start-up.png"
-alt="Start Up diagram" style="width:650px;" />
+alt="Agent start Up diagram" style="width:650px;" />
 
 ### Active
 
 Agents with active client relationships can represent them.
 
 <img src="documentation/figures/agent-active.png"
-alt="Start Up diagram" style="width:650px;" />
+alt="Agent active diagram" style="width:650px;" />
 
 ### Penalties and appeals
 
 Agents can also represent their clients during penalty and interest payments as well as appeals.
 
 <img src="documentation/figures/agent-penalties.png"
-alt="Start Up diagram" style="width:650px;" />
+alt="Agent penalties diagram" style="width:650px;" />
 
 ### Closedown
 
 Agent to client relationships can come to an end or agents can go out of business.
 
 <img src="documentation/figures/agent-closedown.png"
-alt="Start Up diagram" style="width:650px;" />
+alt="Agent closedown diagram" style="width:650px;" />
 
 [View the full End-to-end agent journey as a numbered list](#submit-a-vat-return-using-the-mtd-process)
