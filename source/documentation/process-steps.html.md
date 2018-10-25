@@ -2,7 +2,7 @@
 
 ## Read campaign pages and guidance
 
-__Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/docs/vat-roadmap) for more details.__
+**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
 
 We continue to use GOV.UK as our main way to guide businesses and agents about government services and information, although we will not publish guidance about how to join the VAT pilot until we exit the Controlled Go Live period of the pilot and enter public beta. Initially, the guidance will:
 
@@ -32,7 +32,7 @@ The agent does this through their accounting software or from GOV.UK. The agent 
   * give information about the agency, which is held by us
   * receive an agent reference number, which is the number assigned to all their existing and new clients
 
-<img src="documentation/figures/agent-services-account.png" alt="Agent services account diagram />
+<img src="documentation/figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -96,7 +96,7 @@ To add a client:
 
 ## Register client for VAT (MTD)
 
-<img src="documentation/figures/agents-sign-up.png" alt="Agent sign up diagram" />
+<img src="documentation/figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
 
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
 Agents can sign up an existing client’s business. However, the creation of the agent account which is a one-off process must be completed to enable an agency to sign up their clients.
@@ -158,7 +158,7 @@ Please Note: The link to ‘Choose accounting software’ will remain inactive u
 
 ## Choose software
 
-**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
+**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
 
 We will publish a list of software applications that are VAT (MTD) compatible on GOV.UK so businesses and agents can choose what suits them.
 
@@ -170,11 +170,11 @@ We require that each application offered  to users complies with our Terms of Us
 
 This is a very early draft of what the software choices page may look like in the future, and continues to be user tested.
 
-<img src="documentation/figures/software-choices.png" alt="Link software diagram" />
+<img src="documentation/figures/software-choices.png" alt="Software choices screenshot" border="1px"; />
 
 ## Link software to HMRC
 
-![Links software](documentation/figures/links-software.png)
+<img src="documentation/figures/links-software.png" alt="Links software diagram" style="width:320px;" />
 
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
@@ -197,7 +197,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
   * [Retrieve VAT obligations](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
-<img src="documentation/figures/retrieve-obligations.png" alt="Retrieve obligations diagram" />
+<img src="documentation/figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
@@ -251,7 +251,7 @@ This is the only POST endpoint. The data items required are the same as the curr
 
 HMRC also requires software to show their customers a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
 
- > __Declaration text__
+ > **Declaration text**
 
  > When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
 
@@ -305,7 +305,7 @@ The business’ or agent’s repayment bank account details are only used for a 
 
 ## Notify client change of circumstances
 
-__Coming soon - see the VAT (MTD) roadmap for more details.__
+**Coming soon - see the VAT (MTD) roadmap for more details.**
 
 We would like software developers to remind businesses to check and update their details with us.
 
@@ -366,7 +366,7 @@ In time the manual process will be replaced by a digital process.
 
 Client only de-authorisation
 
-**Insert diagram**
+### Insert diagram
 
 1. Client signs in to Government Gateway account
 2. Client manages their tax agents

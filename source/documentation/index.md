@@ -30,13 +30,13 @@ These journeys show examples of use. They are not exhaustive and are not meant t
 
 ## Roadmap
 
-The [VAT (MTD) roadmap](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/docs/vat-roadmap) explains how the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
+The [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) explains how the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
 
 ## Related API documentation
 
-  * [VAT (MTD) REST API](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/apis/vat-rest)
-  * [Create Test User API](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/apis/create-test-user-api)
-  * [VAT XML API](https://hmrc-devhub-cycle-32.herokuapp.com/documentation/apis/vat-xml)
+  * [VAT (MTD) REST API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/vat-rest)
+  * [Create Test User API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/create-test-user-api)
+  * [VAT XML API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/vat-xml)
 
 ## Changelog
 

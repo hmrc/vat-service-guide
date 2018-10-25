@@ -15,7 +15,7 @@
 11. [Business appeals](#appeal)
 12. [Business unsubscribes from MTD](#unsubscribe-client-from-vat-mtd)
 
-### Start up
+### Set up
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
@@ -43,4 +43,4 @@ Businesses may choose to unsubscribe from VAT MTD.
 <img src="documentation/figures/business-closedown.png"
 alt="Business closedown diagram" border="1px"; style="width:520px;" />
 
-[View the full End-to-end business journey as a numbered list](#business-journey-submit-a-vat-return-using-the-mtd-process)
+[View the full End-to-end business journey as a numbered list](#business-journey)
