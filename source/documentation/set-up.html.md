@@ -215,6 +215,8 @@ This is a very early draft of what the software choices page may look like in th
 
 <img src="figures/links-software.png" alt="Links software diagram" style="width:320px;" />
 
+<a href="figures/links-software.png" target="blank">Open the diagram in a new window or tab</a>
+
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
 3. Business or agent signs in to their Government Gateway account.
