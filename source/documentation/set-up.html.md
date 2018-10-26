@@ -28,6 +28,8 @@ Before businesses can submit VAT returns, they must register for VAT and set up 
 <img src="figures/business-start-up.png"
 alt="Business start up diagram" border="1px"; style="width:520px;" />
 
+<a href="figures/business-start-up.png" target="blank">Open the diagram in a new window or tab</a>
+
 1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
 3. [Business chooses software](#choose-software)
@@ -35,7 +37,7 @@ alt="Business start up diagram" border="1px"; style="width:520px;" />
 
 ## Read campaign pages and guidance
 
-**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
+**See the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
 
 We continue to use GOV.UK as our main way to guide businesses and agents about government services and information, although we will not publish guidance about how to join the VAT pilot until we exit the Controlled Go Live period of the pilot and enter public beta. Initially, the guidance will:
 
@@ -66,6 +68,8 @@ The agent does this through their accounting software or from GOV.UK. The agent 
   * receive an agent reference number, which is the number assigned to all their existing and new clients
 
 <img src="figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
+
+<a href="figures/agent-services-account.png" target="blank">Open the diagram in a new window or tab</a>
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -130,6 +134,8 @@ To add a client:
 ## Register client for VAT (MTD)
 
 <img src="figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
+
+<a href="figures/agents-sign-up.png" target="blank">Open the diagram in a new window or tab</a>
 
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
 Agents can sign up an existing client’s business. However, the creation of the agent account which is a one-off process must be completed to enable an agency to sign up their clients.

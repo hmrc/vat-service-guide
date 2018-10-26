@@ -9,6 +9,8 @@ Agent to client relationships can come to an end or agents can go out of busines
 <img src="figures/agent-closedown.png"
 alt="Agent closedown diagram" border="1px"; style="width:520px;" />
 
+<a href="figures/agent-closedown.png" target="blank">Open the diagram in a new window or tab</a>
+
 <ol start="14">
   <li><a href="#unsubscribe-client-from-vat-mtd">Agent unsubscribes client from MTD</a></li>
   <li><a href="#client-breaks-link">Client breaks agent-client link</a></li>
@@ -19,6 +21,8 @@ Businesses may choose to unsubscribe from VAT MTD.
 
 <img src="figures/business-closedown.png"
 alt="Business closedown diagram" border="1px"; style="width:520px;" />
+
+<a href="figures/business-closedown.png" target="blank">Open the diagram in a new window or tab</a>
 
 <ol start="12">
   <li><a href="#unsubscribe-client-from-vat-mtd">Business unsubscribes from MTD</a></li>
