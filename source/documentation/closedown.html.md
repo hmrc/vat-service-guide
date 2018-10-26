@@ -4,6 +4,26 @@ weight: 5
 
 # Closedown
 
+Agent to client relationships can come to an end or agents can go out of business.
+
+<img src="figures/agent-closedown.png"
+alt="Agent closedown diagram" border="1px"; style="width:520px;" />
+
+<ol start="14">
+  <li><a href="#unsubscribe-client-from-vat-mtd">Agent unsubscribes client from MTD</a></li>
+  <li><a href="#client-breaks-link">Client breaks agent-client link</a></li>
+  <li><a href="#change-details">Agent changes details</a></li>
+</ol>
+
+Businesses may choose to unsubscribe from VAT MTD.
+
+<img src="figures/business-closedown.png"
+alt="Business closedown diagram" border="1px"; style="width:520px;" />
+
+<ol start="12">
+  <li><a href="#unsubscribe-client-from-vat-mtd">Business unsubscribes from MTD</a></li>
+</ol>
+
 ## Unsubscribe client from VAT (MTD)
 
 Initially there is a manual process in place whereby a business or agent can contact our HMRC helpline to notify us they wish to unsubscribe from the service.
@@ -15,9 +35,7 @@ In time the manual process will be replaced by a digital process.
 
 ## Client breaks link
 
-Client only de-authorisation
-
-### Insert diagram
+### Client only de-authorisation
 
 1. Client signs in to Government Gateway account
 2. Client manages their tax agents

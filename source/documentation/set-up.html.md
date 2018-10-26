@@ -8,6 +8,12 @@ weight: 2
 
 Before agents can represent clients they must set up their relationships and software.
 
+<img src="figures/agent-start-up.png"
+alt="Agent start Up diagram" border="1px"; style="width:520px;" />
+
+<a href="figures/agent-start-up.png" target="blank">Open the diagram in a new window or tab</a>
+
+
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
 3. [Agent links new VAT client](#link-new-vat-client)
@@ -15,20 +21,17 @@ Before agents can represent clients they must set up their relationships and sof
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
 
-<img src="figures/agent-start-up.png"
-alt="Agent start Up diagram" border="1px"; style="width:520px;" />
-
 ## Business submits a VAT return using the MTD process
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
+
+<img src="figures/business-start-up.png"
+alt="Business start up diagram" border="1px"; style="width:520px;" />
 
 1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
 3. [Business chooses software](#choose-software)
 4. [Business links software to HMRC](#link-software-to-hmrc)
-
-<img src="figures/business-start-up.png"
-alt="Business start up diagram" border="1px"; style="width:520px;" />
 
 ## Read campaign pages and guidance
 
