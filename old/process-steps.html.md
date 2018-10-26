@@ -1,4 +1,4 @@
-# Process Steps
+# Process Steps (will be removed)
 
 ## Read campaign pages and guidance
 
@@ -32,7 +32,7 @@ The agent does this through their accounting software or from GOV.UK. The agent 
   * give information about the agency, which is held by us
   * receive an agent reference number, which is the number assigned to all their existing and new clients
 
-<img src="documentation/figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
+<img src="figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -96,7 +96,7 @@ To add a client:
 
 ## Register client for VAT (MTD)
 
-<img src="documentation/figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
+<img src="figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
 
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
 Agents can sign up an existing client’s business. However, the creation of the agent account which is a one-off process must be completed to enable an agency to sign up their clients.
@@ -170,11 +170,11 @@ We require that each application offered  to users complies with our Terms of Us
 
 This is a very early draft of what the software choices page may look like in the future, and continues to be user tested.
 
-<img src="documentation/figures/software-choices.png" alt="Software choices screenshot" border="1px"; />
+<img src="figures/software-choices.png" alt="Software choices screenshot" border="1px"; />
 
 ## Link software to HMRC
 
-<img src="documentation/figures/links-software.png" alt="Links software diagram" style="width:320px;" />
+<img src="figures/links-software.png" alt="Links software diagram" style="width:320px;" />
 
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
@@ -197,7 +197,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
   * [Retrieve VAT obligations](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
-<img src="documentation/figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
+<img src="figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.

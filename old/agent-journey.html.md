@@ -1,4 +1,4 @@
-# Agent Journey
+# Agent Journey (will be removed)
 
 ## Submit a VAT return using the MTD process
 
@@ -19,32 +19,32 @@
 15. [Client breaks agent-client link](#client-breaks-link)
 16. [Agent changes details](#change-details)
 
-### Set up
+## Set up
 
 Before agents can represent clients they must set up their relationships and software.
 
-<img src="documentation/figures/agent-start-up.png"
+<img src="figures/agent-start-up.png"
 alt="Agent start Up diagram" border="1px"; style="width:520px;" />
 
-### Active
+## Active
 
 Agents with active client relationships can represent them.
 
-<img src="documentation/figures/agent-active.png"
+<img src="figures/agent-active.png"
 alt="Agent active diagram" border="1px"; style="width:520px;" />
 
-### Penalties and appeals
+## Penalties and appeals
 
 Agents can also represent their clients during penalty and interest payments as well as appeals.
 
-<img src="documentation/figures/agent-penalties.png"
+<img src="figures/agent-penalties.png"
 alt="Agent penalties diagram" border="1px"; style="width:520px;" />
 
-### Closedown
+## Closedown
 
 Agent to client relationships can come to an end or agents can go out of business.
 
-<img src="documentation/figures/agent-closedown.png"
+<img src="figures/agent-closedown.png"
 alt="Agent closedown diagram" border="1px"; style="width:520px;" />
 
 [View the full End-to-end agent journey as a numbered list](#agent-journey)

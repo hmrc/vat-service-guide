@@ -1,4 +1,4 @@
-# Business Journey
+# Business Journey (will be removed)
 
 ## Submit a VAT return using the MTD process
 
@@ -15,32 +15,32 @@
 11. [Business appeals](#appeal)
 12. [Business unsubscribes from MTD](#unsubscribe-client-from-vat-mtd)
 
-### Set up
+## Set up
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
-<img src="documentation/figures/business-start-up.png"
+<img src="figures/business-start-up.png"
 alt="Business start up diagram" border="1px"; style="width:520px;" />
 
-### Active
+## Active
 
 The business journey for active businesses.
 
-<img src="documentation/figures/business-active.png"
+<img src="figures/business-active.png"
 alt="Business active diagram" border="1px"; style="width:520px;" />
 
-### Penalties and appeals
+## Penalties and appeals
 
 The business journey for penalty and interest payments and appeals.
 
-<img src="documentation/figures/business-penalties.png"
+<img src="figures/business-penalties.png"
 alt="Business penalties and appeals diagram" border="1px"; style="width:520px;" />
 
-### Closedown
+## Closedown
 
 Businesses may choose to unsubscribe from VAT MTD.
 
-<img src="documentation/figures/business-closedown.png"
+<img src="figures/business-closedown.png"
 alt="Business closedown diagram" border="1px"; style="width:520px;" />
 
 [View the full End-to-end business journey as a numbered list](#business-journey)
