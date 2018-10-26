@@ -7,7 +7,7 @@ weight: 3
 Agents with active client relationships can represent them.
 
 <img src="figures/agent-active.png"
-alt="Agent active diagram" border="1px"; style="width:520px;" />
+alt="Agent active diagram" border="1px"; style="width:100px;" />
 
 <a href="figures/agent-active.png" target="blank">Open the diagram in a new window or tab</a>
 
@@ -22,7 +22,7 @@ alt="Agent active diagram" border="1px"; style="width:520px;" />
 The business journey for active businesses.
 
 <img src="figures/business-active.png"
-alt="Business active diagram" border="1px"; style="width:520px;" />
+alt="Business active diagram" border="1px"; style="width:100px;" />
 
 <a href="figures/business-active.png" target="blank">Open the diagram in a new window or tab</a>
 
