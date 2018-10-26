@@ -9,7 +9,7 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
 alt="Agent active diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/agent-active.png" target="blank">Open the process flow diagram for obligations and returns in a new tab</a>
 
 1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Agent amends VAT return](#amend-vat-return)
@@ -25,13 +25,11 @@ alt="Business active diagram" border="1px"; style="width:100px;" /></a>
 
 <a href="figures/business-active.png" target="blank">Open the diagram in a new tab</a>
 
-<ol start="5">
-  <li><a href="#retrieve-obligations-and-submit-vat-return">Business receives obligations and submits VAT return</a></li>
-  <li><a href="#amend-vat-return">Business amends VAT return</a></li>
-  <li><a href="#pay-vat-or-get-repayment">Business pays VAT bill or receives a repayment</a></li>
-  <li><a href="#notify-client-change-of-circumstances">Business notifies change of circumstances</a></li>
-  <li><a href="#view-future-obligations-and-previous-returns">Business views future obligations and previous returns in BTA</a></li>
-</ol>
+1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
+2. [Business amends VAT return](#amend-vat-return)
+3. [Business pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
+4. [Business notifies change of circumstances](#notify-client-change-of-circumstances)
+5. [Business views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
 
 ## Retrieve obligations and submit VAT return
 
