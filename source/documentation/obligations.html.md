@@ -2,29 +2,28 @@
 weight: 3
 ---
 
-# Active
+# Obligations and returns
 
-Agents with active client relationships can represent them.
+Agents who have set up their clients for VAT (MTD) can submit their clients' VAT returns.
 
-<img src="figures/agent-active.png"
-alt="Agent active diagram" border="1px"; style="width:100px;" />
+<a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
+alt="Agent active diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/agent-active.png" target="blank">Open the diagram in a new tab</a>
 
-<ol start="7">
-  <li><a href="#retrieve-obligations-and-submit-vat-return">Agent receives obligations and submits VAT return</a></li>
-  <li><a href="#amend-vat-return">Agent amends VAT return</a></li>
-  <li><a href="#pay-vat-or-get-repayment">Client pays VAT bill or receives a repayment</a></li>
-  <li><a href="#notify-client-change-of-circumstances">Agent notifies client’s change of circumstances</a></li>
-  <li><a href="#view-future-obligations-and-previous-returns">Client views future obligations and previous returns in BTA</a></li>
-</ol>
+1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
+2. [Agent amends VAT return](#amend-vat-return)
+3. [Client pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
+4. [Agent notifies client’s change of circumstances](#notify-client-change-of-circumstances)
+5. [Client views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
 
-The business journey for active businesses.
 
-<img src="figures/business-active.png"
-alt="Business active diagram" border="1px"; style="width:100px;" />
+Businesses set up for VAT (MTD) can submit VAT returns.
 
-<a href="figures/business-active.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
+alt="Business active diagram" border="1px"; style="width:100px;" /></a>
+
+<a href="figures/business-active.png" target="blank">Open the diagram in a new tab</a>
 
 <ol start="5">
   <li><a href="#retrieve-obligations-and-submit-vat-return">Business receives obligations and submits VAT return</a></li>
@@ -43,7 +42,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
 
 <img src="figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
 
-<a href="figures/retrieve-obligations.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/retrieve-obligations.png" target="blank">Open the diagram in a new tab</a>
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.

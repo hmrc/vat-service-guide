@@ -11,7 +11,7 @@ Before agents can represent clients they must set up their relationships and sof
 <img src="figures/agent-start-up.png"
 alt="Agent start Up diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-start-up.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/agent-start-up.png" target="blank">Open the diagram in a new tab</a>
 
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
@@ -28,7 +28,7 @@ Before businesses can submit VAT returns, they must register for VAT and set up 
 <img src="figures/business-start-up.png"
 alt="Business start up diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-start-up.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/business-start-up.png" target="blank">Open the diagram in a new tab</a>
 
 1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
@@ -59,7 +59,9 @@ We would like software applications to make businesses and agents aware of the l
 
 ## Create agent services account and link existing VAT clients
 
-An agent must create an Agent services account and connect it to their accounting software. The creation of the account is a one-off process that an agency must do to enable its agents to access Making Tax Digital through this one account and act for their clients.
+### Create an agent services account
+
+An agent must create an agent services account and connect it to their accounting software. The creation of the account is a one-off process that an agency must do to enable its agents to access Making Tax Digital through this one account and act for their clients.
 
 The agent does this through their accounting software or from GOV.UK. The agent must:
 
@@ -69,7 +71,7 @@ The agent does this through their accounting software or from GOV.UK. The agent 
 
 <img src="figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
 
-<a href="figures/agent-services-account.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/agent-services-account.png" target="blank">Open the diagram in a new tab</a>
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -80,11 +82,19 @@ The agent does this through their accounting software or from GOV.UK. The agent 
 7. Agent checks details and creates account
 8. Agent saves agent services account number
 
-### Create an Agent services account
-
 Live page [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account)
 
 For Partnerships or a Limited Liability Partnerships you will need to use your Partnership UTR, and not the UTR for each partner or LL partner.
+
+### Link existing VAT clients
+
+_DIAGRAM GOES HERE_
+
+1. Agent starts journey to to add existing clients
+2. Agent signs in to Government Gateway account with agent credentials for existing clients
+3. Agent enters agency account number and their SA UTR or CTR
+4. Connection to existing clients is confirmed for that Government Gateway account
+5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked
 
 After an agent creates an agent services account, they link their existing VAT clients to the account. When a client subscribes to MTD, the agent can:
 
@@ -97,12 +107,6 @@ To link their existing VAT clients to the agent services account the agent must:
   * submit their firm's SA or CT UTR and agent reference number. This links existing VAT clients linked to a particular Government Gateway ID to the new Agent services account.
 
 We encourage software developers to ensure their agency customers are aware of the service and give links to more information.
-
-1. Agent starts journey to to add existing clients
-2. Agent signs in to Government Gateway account with agent credentials for existing clients
-3. Agent enters agency account number and their SA UTR or CTR
-4. Connection to existing clients is confirmed for that Government Gateway account
-5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked
 
 ## Link new VAT client
 
@@ -121,21 +125,34 @@ To add a client:
 
 3. The agent is updated with the client's response. If the client accepts, we disclose the client's MTDfB-VAT data to their agent.
 
-1. Agent signs into agent services account
-2. Agent clicks on link to ask a client to authorise them
-3. Agent chooses individual or organisation client type
-4. Agent chooses what authorisation they need from client
-5. Agent gives client's VRN and VAT registration date
-6. Agent gets a unique link and sends it to their client in email
-7. Client receives email from agent and clicks on the link to begin the process
-8. Client logs in with Gov Gateway account and completes identity checks
-9. Client confirms authorisation for agent to represent them
+_DIAGRAM GOES HERE_
 
-## Register client for VAT (MTD)
+<ol>
+  <li>Agent signs into agent services account</li>
+  <li>Agent clicks on link to ask a client to authorise them</li>
+  <li>Agent chooses individual or organisation client type</li>
+  <li>Agent chooses what authorisation they need from client</li>
+  <li>Agent gives client's VRN and VAT registration date</li>
+  <li>Agent gets a unique link and sends it to their client in email</li>
+  <li>Client receives email from agent and clicks on the link to begin the process</li>
+  <li>Client logs in with Gov Gateway account and completes identity checks</li>
+  <li>Client confirms authorisation for agent to represent them</li>
+</ol>
+
+## Agent registers client for VAT (MTD)
 
 <img src="figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
 
-<a href="figures/agents-sign-up.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/agents-sign-up.png" target="blank">Open the diagram in a new tab</a>
+
+1. Agent signs in to Government Gateway account
+2. Agent confirms VRN of client
+3. Agent confirms client is sole trader or limited company
+4. Agent confirms client details eg NINO/DOB for sole trader, CRN for limited company
+5. Agent confirms client's email address
+6. Client verifies their email address
+7. Agent agrees to terms of participation for self and client
+8. Agent waits 24 hours to see if client is approved to sign up
 
 In April 2018 we delivered the sign-up service that enables existing VAT businesses to move to the VAT (MTD) service. A business that  wants to use VAT (MTD) must sign up before first use, even if they have already signed up for MTD for income tax.
 Agents can sign up an existing client’s business. However, the creation of the agent account which is a one-off process must be completed to enable an agency to sign up their clients.
@@ -151,30 +168,13 @@ The sign-up service requests minimal information from the business such as e-mai
 
 We will enable customers to register and sign up through GOV.UK. Software developers can also link to the service from their software.
 
-1. Agent signs in to Government Gateway account
-2. Agent confirms VRN of client
-3. Agent confirms client is sole trader or limited company
-4. Agent confirms client details eg NINO/DOB for sole trader, CRN for limited company
-5. Agent confirms client's email address
-6. Client verifies their email address
-7. Agent agrees to terms of participation for self and client
-8. Agent waits 24 hours to see if client is approved to sign up
-
-### Agent signs up a sole trader
-
-Agents must have already created an agent services account or we display this error message:
-
-> The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
-
-### Agent signs up a limited company
-
-Agents must have already created an agent services account or we display this error message:
-
-> The link to ‘Choose accounting software’ will remain inactive until VAT (MTD) leaves Controlled Go Live.
+> Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
 ## Business registers for VAT (MTD)
 
 ### Sole trader and limited company can sign up
+
+_DIAGRAM GOES HERE_
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
@@ -185,15 +185,7 @@ Agents must have already created an agent services account or we display this er
 7. Business agrees to the terms of participation
 8. Business waits 24 hours to see if it is approved to sign up
 
-### Sole trader can sign up
-
-If you have previously done this you will not be asked again.
-
-Please Note: The link to ‘Choose accounting software’ will remain inactive until the point of leaving Controlled Go Live.
-
-### Limited company able to sign up
-
-Please Note: The link to ‘Choose accounting software’ will remain inactive until the point of leaving Controlled Go Live.
+> Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
 ## Choose software
 
@@ -215,7 +207,7 @@ This is a very early draft of what the software choices page may look like in th
 
 <img src="figures/links-software.png" alt="Links software diagram" style="width:320px;" />
 
-<a href="figures/links-software.png" target="blank">Open the diagram in a new window or tab</a>
+<a href="figures/links-software.png" target="blank">Open the diagram in a new tab</a>
 
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
@@ -227,6 +219,6 @@ This is a very early draft of what the software choices page may look like in th
 
 Businesses and agents using software that connects to Developer Hub APIs must give their software permission to interact with their data and HMRC. They authenticate directly with us using their Government Gateway account, and grant the software the authority to interact with HMRC on their behalf - for a set of functions called API [scopes](https://developer.service.hmrc.gov.uk/api-documentation/docs/reference-guide#scopes).
 
-Agents must sign in with their Government Gateway agent services account user Agent ID which was generated as part of the [agent services account journey](process-steps.html#create-agent-services-account-and-link-existing-vat-clients).
+Agents must sign in to their Government Gateway account with the user ID and password for their agent services account, which was generated as part of the [agent services account journey](set-up.html#create-an-agent-services-account).
 
 We then issue an OAuth 2.0 access token that’s specific to the business or agent. The software must pass this access token in subsequent API requests as explained in authorisation of [user-restricted endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/authorisation/user-restricted-endpoints).
