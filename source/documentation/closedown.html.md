@@ -56,4 +56,4 @@ This will initially be the usual process, which can be used to remove the agent 
 
 The scenario where this is needed is when an agency ceases trading.
 
-If an agency no longer wants to participate in MTD, they can stop using their Government Gateway ID.We are currently working to include a digital journey as part of the wider change of circumstances solution.
+If an agency no longer wants to participate in MTD, they can stop using their Government Gateway ID. We are currently working to include a digital journey as part of the wider change of circumstances solution.

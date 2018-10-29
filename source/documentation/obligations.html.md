@@ -9,7 +9,7 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
 alt="Agent active diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the process flow diagram for obligations and returns in a new tab</a>
+<a href="figures/agent-active.png" target="blank">Open the agent process flow diagram for obligations and returns in a new tab</a>
 
 1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Agent amends VAT return](#amend-vat-return)
@@ -23,7 +23,7 @@ Businesses set up for VAT (MTD) can submit VAT returns.
 <a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
 alt="Business active diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/business-active.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/business-active.png" target="blank">Open the business process flow diagram for obligations and returns in a new tab</a>
 
 1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Business amends VAT return](#amend-vat-return)
@@ -40,7 +40,7 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
 
 <img src="figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
 
-<a href="figures/retrieve-obligations.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations diagram in a new tab</a>
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
@@ -119,7 +119,7 @@ There are multiple ways to pay a VAT bill, listed on GOV.UK at [Pay your VAT bil
 
 With the arrival of MTD-VAT the contents of this GOV.UK page are subject to change. Likewise the URL may change in which case we will update the link above.
 
-For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account - login page is [https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
+For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account - login page is [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
 
 Using their Business Tax Account businesses can:
 
@@ -132,7 +132,7 @@ This page will also provide details of our bank account for customers wanting to
 
 ### Agents
 
-Agents can only make a payment via the unauthenticated (not logged in) route - https://www.tax.service.gov.uk/pay-online/vat. This link is accessible from the gov.uk guidance on 'Pay your VAT bill'.
+Agents can only make a payment via the unauthenticated (not logged in) route - [https://www.tax.service.gov.uk/pay-online/vat](https://www.tax.service.gov.uk/pay-online/vat). This link is accessible from the gov.uk guidance on ['Pay your VAT bill'](https://www.gov.uk/pay-vat).
 
 ### Repayments
 
@@ -153,7 +153,7 @@ The business’ or agent’s repayment bank account details are only used for a 
 We would like software developers to remind businesses to check and update their details with us.
 
 They can do this by visiting their Business Tax Account. The login page is:
-[https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)  
+[https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)  
 
 Businesses can update a range of information, including addresses, telephone numbers, e-mail and business type.
 
@@ -166,7 +166,7 @@ For exiting Controlled Go Live, functionality will be available for businesses o
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
 
 We encourage software developers to include these features within their products. Developers can also direct businesses to visit their Business Tax Account, the login page attached below:
-[https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)
+[https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)
 
 From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their Business Tax Account. This will include information such as: viewing their return, payment obligations and the option to link off from their Business Tax Account and make an online card payment.
 

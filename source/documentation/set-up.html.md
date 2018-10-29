@@ -88,7 +88,9 @@ For Partnerships or a Limited Liability Partnerships you will need to use your P
 
 ### Link existing VAT clients
 
-_DIAGRAM GOES HERE_
+<img src="figures/link-existing-vat-clients.png" alt="Link existing VAT clients diagram" style="width:500px;" />
+
+<a href="figures/link-existing-vat-clients.png" target="blank">Open the diagram in a new tab</a>
 
 1. Agent starts journey to to add existing clients
 2. Agent signs in to Government Gateway account with agent credentials for existing clients
@@ -125,7 +127,9 @@ To add a client:
 
 3. The agent is updated with the client's response. If the client accepts, we disclose the client's MTDfB-VAT data to their agent.
 
-_DIAGRAM GOES HERE_
+<img src="figures/agent-links-new-vat.png" alt="Agent links new VAT clients diagram" style="width:500px;" />
+
+<a href="figures/agent-links-new-vat.png" target="blank">Open the diagram in a new tab</a>
 
 <ol>
   <li>Agent signs into agent services account</li>
@@ -174,7 +178,9 @@ We will enable customers to register and sign up through GOV.UK. Software develo
 
 ### Sole trader and limited company can sign up
 
-_DIAGRAM GOES HERE_
+<img src="figures/business-registers-vat.png" alt="Business registers for VAT diagram" style="width:500px;" />
+
+<a href="figures/business-registers-vat.png" target="blank">Open the diagram in a new tab</a>
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
