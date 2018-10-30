@@ -9,9 +9,9 @@ weight: 2
 Before agents can represent clients they must set up their relationships and software.
 
 <img src="figures/agent-start-up.png"
-alt="Agent start Up diagram" border="1px"; style="width:520px;" />
+alt="Agent start up process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-start-up.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
 
 1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
@@ -26,9 +26,9 @@ alt="Agent start Up diagram" border="1px"; style="width:520px;" />
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
 <img src="figures/business-start-up.png"
-alt="Business start up diagram" border="1px"; style="width:520px;" />
+alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-start-up.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/business-start-up.png" target="blank">Open the business start up process diagram in a new tab</a>
 
 1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
 2. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
@@ -69,9 +69,9 @@ The agent does this through their accounting software or from GOV.UK. The agent 
   * give information about the agency, which is held by us
   * receive an agent reference number, which is the number assigned to all their existing and new clients
 
-<img src="figures/agent-services-account.png" alt="Agent services account diagram" style="width:200px;" />
+<img src="figures/agent-services-account.png" alt="Agent services account process diagram" border="1px"; style="width:200px;" />
 
-<a href="figures/agent-services-account.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/agent-services-account.png" target="blank">Open the agent services account process diagram in a new tab</a>
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -88,9 +88,9 @@ For Partnerships or a Limited Liability Partnerships you will need to use your P
 
 ### Link existing VAT clients
 
-<img src="figures/link-existing-vat-clients.png" alt="Link existing VAT clients diagram" style="width:500px;" />
+<img src="figures/link-existing-vat-clients.png" alt="Link existing VAT clients process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/link-existing-vat-clients.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/link-existing-vat-clients.png" target="blank">Open the link existing VAT clients process diagram in a new tab</a>
 
 1. Agent starts journey to to add existing clients
 2. Agent signs in to Government Gateway account with agent credentials for existing clients
@@ -127,9 +127,9 @@ To add a client:
 
 3. The agent is updated with the client's response. If the client accepts, we disclose the client's MTDfB-VAT data to their agent.
 
-<img src="figures/agent-links-new-vat.png" alt="Agent links new VAT clients diagram" style="width:500px;" />
+<img src="figures/agent-links-new-vat.png" alt="Agent links new VAT clients process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/agent-links-new-vat.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/agent-links-new-vat.png" target="blank">Open the agent links new VAT clients process diagram in a new tab</a>
 
 <ol>
   <li>Agent signs into agent services account</li>
@@ -145,9 +145,9 @@ To add a client:
 
 ## Agent registers client for VAT (MTD)
 
-<img src="figures/agents-sign-up.png" alt="Agent sign up diagram" style="width:400px;" />
+<img src="figures/agents-sign-up.png" alt="Agent sign up process diagram" border="1px"; style="width:400px;" />
 
-<a href="figures/agents-sign-up.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/agents-sign-up.png" target="blank">Open the agent registers client for VAT process diagram in a new tab</a>
 
 1. Agent signs in to Government Gateway account
 2. Agent confirms VRN of client
@@ -178,9 +178,9 @@ We will enable customers to register and sign up through GOV.UK. Software develo
 
 ### Sole trader and limited company can sign up
 
-<img src="figures/business-registers-vat.png" alt="Business registers for VAT diagram" style="width:500px;" />
+<img src="figures/business-registers-vat.png" alt="Business registers for VAT process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/business-registers-vat.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/business-registers-vat.png" target="blank">Open the business registers for VAT process diagram in a new tab</a>
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
@@ -211,9 +211,9 @@ This is a very early draft of what the software choices page may look like in th
 
 ## Link software to HMRC
 
-<img src="figures/links-software.png" alt="Links software diagram" style="width:320px;" />
+<img src="figures/links-software.png" alt="Links software to HMRC process diagram" border="1px"; style="width:320px;" />
 
-<a href="figures/links-software.png" target="blank">Open the diagram in a new tab</a>
+<a href="figures/links-software.png" target="blank">Open the links software to HMRC process diagram in a new tab</a>
 
 1. Third party software takes the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting

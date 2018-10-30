@@ -7,9 +7,9 @@ weight: 3
 Agents who have set up their clients for VAT (MTD) can submit their clients' VAT returns.
 
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
-alt="Agent active diagram" border="1px"; style="width:100px;" /></a>
+alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the agent process flow diagram for obligations and returns in a new tab</a>
+<a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>
 
 1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Agent amends VAT return](#amend-vat-return)
@@ -21,9 +21,9 @@ alt="Agent active diagram" border="1px"; style="width:100px;" /></a>
 Businesses set up for VAT (MTD) can submit VAT returns.
 
 <a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
-alt="Business active diagram" border="1px"; style="width:100px;" /></a>
+alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/business-active.png" target="blank">Open the business process flow diagram for obligations and returns in a new tab</a>
+<a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>
 
 1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Business amends VAT return](#amend-vat-return)
@@ -38,9 +38,9 @@ This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8
   * [Retrieve VAT obligations](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
-<img src="figures/retrieve-obligations.png" alt="Retrieve obligations diagram" style="width:680px;" />
+<img src="figures/retrieve-obligations.png" alt="Retrieve obligations process diagram" border="1px"; style="width:680px;" />
 
-<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations diagram in a new tab</a>
+<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations process diagram in a new tab</a>
 
 1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
