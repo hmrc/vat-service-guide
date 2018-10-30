@@ -14,7 +14,7 @@ alt="Agent penalties process diagram" border="1px"; style="width:520px;" />
 1. [Client pays penalties and interest](#pay-penalties-and-interest)
 2. [Agent appeals](#appeal)
 
-Businesses can pay penalties and interest or appeal.
+Businesses can pay penalties and interest - or appeal.
 
 <img src="figures/business-penalties.png"
 alt="Business penalties and appeals process diagram" border="1px"; style="width:520px;" />
