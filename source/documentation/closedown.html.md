@@ -11,11 +11,10 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-closedown.png" target="blank">Open the agent closedown process diagram in a new tab</a>
 
-<ol start="14">
-  <li><a href="#unsubscribe-client-from-vat-mtd">Agent unsubscribes client from MTD</a></li>
-  <li><a href="#client-breaks-link">Client breaks agent-client link</a></li>
-  <li><a href="#change-details">Agent changes details</a></li>
-</ol>
+1. [Agent unsubscribes client from MTD](#unsubscribe-client-from-vat-mtd)
+2. [Client breaks agent-client link](#client-breaks-link)
+3. [Agent changes details](#change-details)
+
 
 Businesses may choose to unsubscribe from VAT MTD.
 
@@ -24,9 +23,7 @@ alt="Business closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-closedown.png" target="blank">Open the business closedown process diagram in a new tab</a>
 
-<ol start="12">
-  <li><a href="#unsubscribe-client-from-vat-mtd">Business unsubscribes from MTD</a></li>
-</ol>
+1. [Business unsubscribes from MTD](#unsubscribe-client-from-vat-mtd)
 
 ## Unsubscribe client from VAT (MTD)
 
