@@ -59,7 +59,7 @@ To link their existing VAT clients to the agent services account the agent must:
   * sign in with each Government Gateway ID that is currently used to access HMRC online services. If an agent currently has ten Government Gateway IDs they must do this ten times.
   * submit their firm's SA or CT UTR and agent reference number. This links existing VAT clients linked to a particular Government Gateway ID to the new Agent services account.
 
-We encourage software developers to ensure their agency customers are aware of the service and give links to more information.
+We encourage software developers to ensure their agency businesses or agents are aware of the service and give links to more information.
 
 1. Agent starts journey to to add existing clients
 2. Agent signs in to Government Gateway account with agent credentials for existing clients
@@ -110,7 +110,7 @@ After a business signs up they are informed of their update obligations.
 
 The sign-up service requests minimal information from the business such as e-mail address. It reuses information provided as part of identity checking.
 
-We will enable customers to register and sign up through GOV.UK. Software developers can also link to the service from their software.
+We will enable businesses or agents to register and sign up through GOV.UK. Software developers can also link to the service from their software.
 
 1. Agent signs in to Government Gateway account
 2. Agent confirms VRN of client
@@ -217,7 +217,7 @@ It also gives the relevant period key associated with that specific obligation.
 
 A new obligation is generated on the first day of the period, whether the previous obligation has been fulfilled or not. Software will be able to search for previous open and/or fulfilled obligations but will only be able to call the next obligation.
 
-Note: MTD-VAT will be supporting more customer types throughout controlled go live and as they come on board this endpoint will return obligation information for customers that are on monthly, annual and other non standard staggers.
+Note: MTD-VAT will be supporting more customer types throughout controlled go live and as they come on board this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non standard staggers.
 
 Note: Period keys should not be shown to the customer, these are for software use to ensure the return is recorded against the correct obligation.
 
@@ -249,7 +249,7 @@ The period key is the ID code for the period that this obligation belongs to. Th
 
 This is the only POST endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
-HMRC also requires software to show their customers a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
+HMRC also requires software to show their businesses or agents a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
 
  > **Declaration text**
 
@@ -285,7 +285,7 @@ Using their Business Tax Account businesses can:
   * set up a new Direct Debit instruction
   * make a corporate credit or debit card payment
 
-This page will also provide details of our bank account for customers wanting to pay by Bacs, CHAPs or by faster payments.
+This page will also provide details of our bank account for businesses or agents wanting to pay by Bacs, CHAPs or by faster payments.
 
 ### Agents
 

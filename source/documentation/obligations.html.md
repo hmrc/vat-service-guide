@@ -33,18 +33,18 @@ alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
 ## Retrieve obligations and submit VAT return
 
-This step uses the [VAT (MTD) API](https://docs.google.com/document/d/1B5eOxmIu8bIspttCcguzF7cKtFg1dcau2WmpckLBxMo/edit#), and in particular, the following endpoints:
+This step uses the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0), and in particular, the following endpoints:
 
-  * [Retrieve VAT obligations](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
-  * [Submit VAT return for period](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
+  * [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
+  * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
 <img src="figures/retrieve-obligations.png" alt="Retrieve obligations process diagram" border="1px"; style="width:680px;" />
 
 <a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations process diagram in a new tab</a>
 
-1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://www.qa.tax.service.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
-2. Business or agent uses their software to submit a VAT return using the VAT (MTD) API submit VAT return for period endpoint.
-3. Optionally, business or agent uses their software to retrieve VAT obligations again using the VAT (MTD) API retrieve VAT obligations endpoint to see if the prior obligation has been met or to see the next obligation.
+1. Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
+2. Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
+3. Optionally, business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to see if the prior obligation has been met or to see the next obligation.
 
 ### Retrieve obligations in software
 
@@ -60,9 +60,9 @@ It also gives the relevant period key associated with that specific obligation.
 
 A new obligation is generated on the first day of the period, whether the previous obligation has been fulfilled or not. Software will be able to search for previous open and/or fulfilled obligations but will only be able to call the next obligation.
 
-Note: MTD-VAT will be supporting more customer types throughout controlled go live and as they come on board this endpoint will return obligation information for customers that are on monthly, annual and other non standard staggers.
+Note: MTD-VAT will be supporting more business or agent types throughout controlled go live and as they come on board this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non standard staggers.
 
-Note: Period keys should not be shown to the customer, these are for software use to ensure the return is recorded against the correct obligation.
+Note: Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
 
 ### Example period keys for stagger types
 
@@ -92,7 +92,7 @@ The period key is the ID code for the period that this obligation belongs to. Th
 
 This is the only POST endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
-HMRC also requires software to show their customers a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
+HMRC also requires software to show their businesses or agents a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
 
  > **Declaration text**
 
@@ -128,7 +128,7 @@ Using their Business Tax Account businesses can:
   * set up a new Direct Debit instruction
   * make a corporate credit or debit card payment
 
-This page will also provide details of our bank account for customers wanting to pay by Bacs, CHAPs or by faster payments.
+This page will also provide details of our bank account for businesses or agents wanting to pay by Bacs, CHAPs or by faster payments.
 
 ### Agents
 
@@ -170,7 +170,7 @@ We encourage software developers to include these features within their products
 
 From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their Business Tax Account. This will include information such as: viewing their return, payment obligations and the option to link off from their Business Tax Account and make an online card payment.
 
-Agents must use third party software to view their client’s future obligations and previous returns. This software will call the Retrieve VAT obligations and View VAT Return API endpoints to provide this information.
+Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
 
 1. Business signs in to Gov Gateway account
 2. Business views previous returns in BTA

@@ -14,7 +14,7 @@ alt="Agent penalties process diagram" border="1px"; style="width:520px;" />
 1. [Client pays penalties and interest](#pay-penalties-and-interest)
 2. [Agent appeals](#appeal)
 
-The business journey for penalty and interest payments and appeals.
+Businesses can pay penalties and interest or appeal.
 
 <img src="figures/business-penalties.png"
 alt="Business penalties and appeals process diagram" border="1px"; style="width:520px;" />
@@ -37,6 +37,6 @@ Existing penalties and notification methods will remain in place for businesses 
   * Breaches of regulations - VAT Notice 700/21
   * Default interest - VAT Notice 700/43
 
-## Appeal
+## Appeals
 
 The existing process for appeals will remain in place. A business or agent may contact HMRC if they have a query about a tax decision. If they don’t understand the decision they can also get advice from HMRC or professional help.

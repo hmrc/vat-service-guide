@@ -4,7 +4,7 @@ weight: 5
 
 # Close down
 
-Agent to client relationships can come to an end or agents can go out of business.
+Agent client relationships can end or agents can go out of business
 
 <img src="figures/agent-closedown.png"
 alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
@@ -16,7 +16,7 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 3. [Agent changes details](#change-details)
 
 
-Businesses may choose to unsubscribe from VAT MTD.
+Businesses can unsubscribe from VAT MTD.
 
 <img src="figures/business-closedown.png"
 alt="Business closedown process diagram" border="1px"; style="width:520px;" />
@@ -34,9 +34,9 @@ In the event that the business continues to be VAT registered, if necessary VAT 
 In time the manual process will be replaced by a digital process.
 
 
-## Client breaks link
+## Client or agent ends relationship
 
-### Client only de-authorisation
+### Client breaks agent link
 
 1. Client signs in to Government Gateway account
 2. Client manages their tax agents
@@ -45,7 +45,7 @@ In time the manual process will be replaced by a digital process.
 
 ### Agent breaks client link
 
-This process will be provided by the agent’s Agent Services account.
+Agents will be able to do this with using their agent services account.
 
 
 ## Change details

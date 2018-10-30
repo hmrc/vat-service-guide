@@ -47,7 +47,7 @@ We continue to use GOV.UK as our main way to guide businesses and agents about g
     * sign up
 
   * help build awareness about what MTD means for businesses and agents
-  * signpost the route for customer support, including how software developers vendors can contact our HMRC teams
+  * signpost the route for business or agent support, including how software developers vendors can contact our HMRC teams
   * manage users' concerns if not eligible yet, or there's no legal requirement for them yet
   * help us manage the messages businesses and agents need to know over coming months and years - who is eligible, why signing up early might help you, when this will become mandatory and so on
 
@@ -108,7 +108,7 @@ To link their existing VAT clients to the agent services account the agent must:
   * sign in with each Government Gateway ID that is currently used to access HMRC online services. If an agent currently has ten Government Gateway IDs they must do this ten times.
   * submit their firm's SA or CT UTR and agent reference number. This links existing VAT clients linked to a particular Government Gateway ID to the new Agent services account.
 
-We encourage software developers to ensure their agency customers are aware of the service and give links to more information.
+We encourage software developers to ensure their agency businesses or agents are aware of the service and give links to more information.
 
 ## Link new VAT client
 
@@ -170,7 +170,7 @@ After a business signs up they are informed of their update obligations.
 
 The sign-up service requests minimal information from the business such as e-mail address. It reuses information provided as part of identity checking.
 
-We will enable customers to register and sign up through GOV.UK. Software developers can also link to the service from their software.
+We will enable businesses or agents to register and sign up through GOV.UK. Software developers can also link to the service from their software.
 
 > Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
