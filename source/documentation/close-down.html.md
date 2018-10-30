@@ -2,14 +2,14 @@
 weight: 5
 ---
 
-# Closedown
+# Close down
 
 Agent to client relationships can come to an end or agents can go out of business.
 
 <img src="figures/agent-closedown.png"
 alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-closedown.png" target="blank">Open the agent closedown process diagram in a new tab</a>
+<a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>
 
 1. [Agent unsubscribes client from MTD](#unsubscribe-client-from-vat-mtd)
 2. [Client breaks agent-client link](#client-breaks-link)
@@ -21,7 +21,7 @@ Businesses may choose to unsubscribe from VAT MTD.
 <img src="figures/business-closedown.png"
 alt="Business closedown process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-closedown.png" target="blank">Open the business closedown process diagram in a new tab</a>
+<a href="figures/business-closedown.png" target="blank">Open the business close down process diagram in a new tab</a>
 
 1. [Business unsubscribes from MTD](#unsubscribe-client-from-vat-mtd)
 

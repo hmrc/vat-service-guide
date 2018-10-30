@@ -65,3 +65,5 @@ Adds Vision and High Level Design |
 HTML version hosted on Developer Hub Sandbox |
 Adds process diagrams to explain agent flow |
 Adds glossary of terms |
+
+## Footer
