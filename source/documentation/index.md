@@ -28,9 +28,12 @@ This streamlined digital experience will integrate tax into day-to-day business 
 ## End-to-end user journeys
 
 These journeys show examples of use. They are not exhaustive and are not meant to be prescriptive.
+Journeys are broken down into:
 
-  * [Business submits a VAT return using the Making Tax Digital process](documentation/business-journey.html#business-journey)
-  * [Agent submits a VAT return using the Making Tax Digital process](#agent-journey)
+  * VAT set up activities
+  * retrieving VAT obligations, submitting returns and paying bills
+  * paying VAT penalties and interest or appealing
+  * VAT close down activities
 
 ## Roadmap
 
@@ -40,7 +43,6 @@ The [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation
 
   * [VAT (MTD) REST API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/vat-rest)
   * [Create Test User API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/create-test-user-api)
-  * [VAT XML API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/vat-xml)
 
 ## Changelog
 

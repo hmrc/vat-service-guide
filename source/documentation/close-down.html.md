@@ -45,7 +45,7 @@ In time the manual process will be replaced by a digital process.
 
 ### Agent breaks client link
 
-Agents will be able to do this with using their agent services account.
+Agents will be able to do this using their agent services account.
 
 
 ## Change details

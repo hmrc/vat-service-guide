@@ -86,6 +86,12 @@ Live page [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.g
 
 For Partnerships or a Limited Liability Partnerships you will need to use your Partnership UTR, and not the UTR for each partner or LL partner.
 
+<br>
+This video explains the step-by-step process for creating an agent services account.
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/scHXKhu4QnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Link existing VAT clients
 
 <img src="figures/link-existing-vat-clients.png" alt="Link existing VAT clients process diagram" border="1px"; style="width:500px;" />
@@ -193,11 +199,22 @@ We will enable businesses or agents to register and sign up through GOV.UK. Soft
 
 > Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
+<br>
+This video explains the step-by-step process to sign up a business to VAT MTD.
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kOKD4kHvlzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Choose software
 
 **Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
 
 We will publish a list of software applications that are VAT (MTD) compatible on GOV.UK so businesses and agents can choose what suits them.
+
+This video is about the compatible software that businesses and agents must use as part of VAT MTD.
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 See an example of this format being used for MTD Income Tax: [www.gov.uk/guidance/software-for-sending-income-tax-updates](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).
 

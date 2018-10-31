@@ -9,7 +9,7 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
 alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>
+<a href="figures/agent-active.png" target="blank">Open the agent process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
 1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Agent amends VAT return](#amend-vat-return)
@@ -23,7 +23,7 @@ Businesses set up for VAT (MTD) can submit VAT returns.
 <a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
 alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
-<a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>
+<a href="figures/business-active.png" target="blank">Open the business process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
 1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Business amends VAT return](#amend-vat-return)
@@ -171,6 +171,10 @@ We encourage software developers to include these features within their products
 From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their Business Tax Account. This will include information such as: viewing their return, payment obligations and the option to link off from their Business Tax Account and make an online card payment.
 
 Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
+
+<img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:680px;" />
+
+<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>
 
 1. Business signs in to Gov Gateway account
 2. Business views previous returns in BTA
