@@ -172,7 +172,7 @@ From April 2018, if a business has volunteered for the pilot and signed up for M
 
 Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
 
-<img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:680px;" />
+<img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>
 
