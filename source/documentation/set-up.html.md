@@ -8,8 +8,7 @@ weight: 2
 
 Before agents can represent clients they must set up their relationships and software.
 
-<img src="figures/agent-start-up.png"
-alt="Agent start up process diagram" border="1px"; style="width:520px;" />
+<img src="figures/agent-start-up.png" alt="Agent start up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
@@ -90,7 +89,7 @@ For Partnerships or a Limited Liability Partnerships you will need to use your P
 This video explains the step-by-step process for creating an agent services account.
 <br>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/scHXKhu4QnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/scHXKhu4QnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Link existing VAT clients
 
@@ -203,7 +202,7 @@ We will enable businesses or agents to register and sign up through GOV.UK. Soft
 This video explains the step-by-step process to sign up a business to VAT MTD.
 <br>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kOKD4kHvlzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/kOKD4kHvlzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Choose software
 
@@ -214,7 +213,7 @@ We will publish a list of software applications that are VAT (MTD) compatible on
 This video is about the compatible software that businesses and agents must use as part of VAT MTD.
 <br>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 See an example of this format being used for MTD Income Tax: [www.gov.uk/guidance/software-for-sending-income-tax-updates](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).
 
