@@ -16,7 +16,7 @@ It is aimed at product owners, business analysts, architects and developers.
 
 The following resources provide some background to the service:
 
-  * [Making Tax Digital Vision](#)
+  * [Making Tax Digital Vision](https://www.gov.uk/government/publications/making-tax-digital/overview-of-making-tax-digital)
   * [VAT (MTD) high level design](#)
 
 ## Benefits
