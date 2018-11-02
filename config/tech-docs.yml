@@ -8,7 +8,7 @@ service_link: https://hmrc-devhub-cycle-33.herokuapp.com
 
 # Links to show on right-hand-side of header
 header_links:
-  Service Guide: /
+  End-to-End Service Guide: /
   Documentation: https://hmrc-devhub-cycle-33.herokuapp.com/documentation/index
   Applications: https://hmrc-devhub-cycle-33.herokuapp.com/account/signin
   Support: https://hmrc-devhub-cycle-33.herokuapp.com/developer/support
