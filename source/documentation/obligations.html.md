@@ -33,7 +33,7 @@ alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
 ## Retrieve obligations and submit VAT return
 
-This step uses the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0), and in particular, the following endpoints:
+This step uses the software to access the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) - specifically the following endpoints:
 
   * [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
@@ -44,44 +44,39 @@ This step uses the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-doc
 
 1. Mandatory: Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
-3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to see if the prior obligation has been met or to see the next obligation.
+3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to see if the prior obligation is met or to see the next obligation.
 
 ### Retrieve obligations in software
 
-This API allows software to search for obligations based on a date range (start and end) and a status (open O, fulfilled F, or both) of the obligations.
+This API endpoint allows software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
 
 If the status is:
 
-  * fulfilled (F), the received date is included
-  * open (O), the due date is used
-  * left blank then you get both open and fulfilled obligations returned
+  * fulfilled - the response includes the received date
+  * open - the response includes the due date
+  * blank - the response includes both open and fulfilled obligations
 
-It also gives the relevant period key associated with that specific obligation.
+The response also includes the relevant period key associated with each specific obligation.
 
-A new obligation is generated on the first day of the period, whether the previous obligation has been fulfilled or not. Software will be able to search for previous open and/or fulfilled obligations but will only be able to call the next obligation.
+A new obligation is generated on the first day of the period, whether the previous obligation is fulfilled or not. Software can search for previous open or fulfilled obligations but can only call the next obligation.
 
-Note: MTD-VAT will be supporting more business or agent types throughout controlled go live and as they come on board this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non standard staggers.
+Note 1: VAT MTD will support more business and agent types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non-standard staggers.
 
-Note: Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
+Note 2: Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
 
 ### Example period keys for stagger types
 
 **Monthly:**
 
-18AD 30.04.2018
-
-18AE 31.05.2018
-
+18AD 30.04.2018<br/>
+18AE 31.05.2018<br/>
 18AF 30.06.2018
 
 **Quarterly:**
 
-18A1 30.04.2018
-
-18A2 31.07.2018
-
-18A3 31.10.2018
-
+18A1 30.04.2018<br/>
+18A2 31.07.2018<br/>
+18A3 31.10.2018<br/>
 18A4 31.01.2019
 
 Note we have not yet configured annual period keys as annual accounting is not in scope for MVP.
