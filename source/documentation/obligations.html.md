@@ -13,7 +13,7 @@ alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 
 1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
 2. [Agent amends VAT return](#amend-vat-return)
-3. [Client pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
+3. [Agent pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
 4. [Agent notifies client’s change of circumstances](#notify-client-change-of-circumstances)
 5. [Client views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
 
@@ -141,9 +141,9 @@ In exceptional circumstances we repay by Chaps or Faster Payments but these type
 
 The business’ or agent’s repayment bank account details are only used for a BACS, Chaps or Faster Payment repayment.
 
-## Notify client change of circumstances
+## Notify change of circumstances
 
-**Coming soon - see the VAT (MTD) roadmap for more details.**
+**Coming soon - see the VAT (MTD) roadmap for more details.** MAKE LINK
 
 We would like software developers to remind businesses to check and update their details with us.
 

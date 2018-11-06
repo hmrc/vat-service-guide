@@ -4,20 +4,7 @@ weight: 1
 
 # VAT (MTD) End-to-End Service Guide
 
-## Overview
-
-This guide explains how you can integrate your software with our APIs to submit VAT returns using the Making Tax Digital process.
-
-It shows how the APIs fit into various end-to-end user journeys.
-
-It is aimed at product owners, business analysts, architects and developers.
-
-## Background and context
-
-The following resources provide some background to the service:
-
-  * [Making Tax Digital Vision](https://www.gov.uk/government/publications/making-tax-digital/overview-of-making-tax-digital)
-  * [VAT (MTD) high level design](#)
+This guide explains how you can integrate your software with our APIs to submit VAT returns using the Making Tax Digital process. It shows how the APIs fit into various end-to-end user journeys.
 
 ## Benefits
 
