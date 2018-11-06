@@ -4,7 +4,7 @@ weight: 2
 
 # Set up
 
-## Agent submits a VAT return using the MTD process
+## Agent submits a VAT return
 
 Before agents can represent clients they must set up their relationships and software.
 
@@ -20,7 +20,7 @@ Before agents can represent clients they must set up their relationships and sof
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
 
-## Business submits a VAT return using the MTD process
+## Business submits a VAT return
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
@@ -36,7 +36,7 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
 ## Read campaign pages and guidance
 
-**See the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
+**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/) for more details.**
 
 We continue to use GOV.UK as our main way to guide businesses and agents about government services and information, although we will not publish guidance about how to join the VAT pilot until we exit the Controlled Go Live period of the pilot and enter public beta. Initially, the guidance will:
 
@@ -203,7 +203,7 @@ This video explains the step-by-step process for a business to sign up to VAT MT
 
 ## Choose software
 
-**Coming soon - see the [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) for more details.**
+**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/) for more details.**
 
 We will publish a list of software applications that are VAT (MTD) compatible on GOV.UK so businesses and agents can choose what suits them.
 

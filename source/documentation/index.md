@@ -14,17 +14,16 @@ This streamlined digital experience will integrate tax into day-to-day business 
 
 ## End-to-end user journeys
 
-These journeys show examples of use. They are not exhaustive and are not meant to be prescriptive.
-Journeys for businesses and agents are broken down into:
+These journeys show examples of use. Journeys for businesses and agents are broken down into:
 
-  * VAT set up activities
-  * retrieving VAT obligations, submitting returns and paying bills
-  * paying VAT penalties and interest - or appealing
-  * VAT close down activities
+  * [VAT set up activities](documentation/set-up.html#set-up)
+  * [retrieving VAT obligations, submitting returns and paying bills](documentation/obligations.html#obligations-and-returns)
+  * [paying VAT penalties and interest - or appealing](documentation/penalties.html#penalties-and-appeals)
+  * [VAT close down activities](documentation/close-down.html#close-down)
 
 ## Roadmap
 
-The [VAT (MTD) roadmap](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/docs/vat-roadmap) explains how the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
+The [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com) explains how the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
 
 ## Related API documentation
 
