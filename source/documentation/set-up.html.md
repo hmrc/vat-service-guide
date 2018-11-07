@@ -12,7 +12,7 @@ Your software should include a link to the [guidance to help agents and business
 
 Before agents can represent clients they must set up their relationships and software.
 
-<img src="figures/agent-start-up.png" alt="Agent start up process diagram" border="1px"; style="width:520px;" />
+<img src="figures/agent-start-up.png" alt="Agent set up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
@@ -48,7 +48,7 @@ The agent does this through their accounting software or from GOV.UK. The agent 
 
 <img src="figures/agent-services-account.png" alt="Agent services account process diagram" border="1px"; style="width:200px;" />
 
-<a href="figures/agent-services-account.png" target="blank">Open the agent services account process diagram in a new tab</a>
+<a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>
 
 1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
 2. Agent signs in to Government Gateway account with existing agent credentials
@@ -183,24 +183,15 @@ This video explains the step-by-step process for a business to sign up to VAT MT
 
 ## Choose software
 
-**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/) for more details.**
-
-We will publish a list of software applications that are VAT (MTD) compatible on GOV.UK so businesses and agents can choose what suits them.
+Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates) so businesses and agents can choose the right software for their needs.
 
 This video is about the compatible software that businesses and agents must use as part of VAT MTD.
 <br>
 <br>
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<br>
 
-See an example of this format being used for MTD Income Tax: [www.gov.uk/guidance/software-for-sending-income-tax-updates](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).
-
-We are considering the design of this page (see the early draft shown) working with the software industry.
-
-We require that each application offered  to users complies with our Terms of Use [https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
-
-This is a very early draft of what the software choices page may look like in the future, and continues to be user tested.
-
-<img src="figures/software-choices.png" alt="Software choices screenshot" border="1px"; />
+We require that each application offered  to users complies with our [Terms of Use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
 
 ## Link software to HMRC
 
