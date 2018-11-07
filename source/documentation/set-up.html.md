@@ -16,9 +16,9 @@ Before agents can represent clients they must set up their relationships and sof
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
-1. [Agent creates an agent services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
-2. [Agent links a new VAT client](#link-new-vat-client)
-3. [Agent links existing VAT clients](#link-existing-vat-clients)
+1. [Agent creates an agent services account](#create-an-agent-services-account)
+2. [Agent links existing VAT clients](#link-existing-vat-clients)
+3. [Agent links a new VAT client](#link-new-vat-client)
 4. [Agent registers a client for VAT (MTD)](#register-client-for-vat-mtd)
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
