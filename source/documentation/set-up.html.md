@@ -16,11 +16,12 @@ Before agents can represent clients they must set up their relationships and sof
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
-1. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
-2. [Agent links new VAT client](#link-new-vat-client)
-3. [Agent registers client for MTDfB for VAT](#register-client-for-vat-mtd)
-4. [Agent chooses software](#choose-software)
-5. [Agent links software to HMRC](#link-software-to-hmrc)
+1. [Agent creates an agent services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
+2. [Agent links a new VAT client](#link-new-vat-client)
+3. [Agent links existing VAT clients](#link-existing-vat-clients)
+4. [Agent registers a client for VAT (MTD)](#register-client-for-vat-mtd)
+5. [Agent chooses software](#choose-software)
+6. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business gets set up for VAT (MTD)
 
@@ -31,13 +32,13 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-start-up.png" target="blank">Open the business start up process diagram in a new tab</a>
 
-1. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
+1. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
 2. [Business chooses software](#choose-software)
 3. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Create an agent services account
 
-An agent must create an agent services account and connect it to their accounting software. Account creation is a one-off process which enables an agency to access VAT MTD and act for their clients.
+An agent must create an agent services account and connect it to their accounting software. Account creation is a one-off process which enables an agency to access VAT (MTD) and act for their clients.
 
 The agent does this through their accounting software or from GOV.UK. The agent must:
 
@@ -70,7 +71,7 @@ This video explains the step-by-step process for creating an agent services acco
 
 ## Link existing VAT clients
 
-After an agent creates an agent services account, they link their existing VAT clients to the account. Once a client subscribes to VAT MTD, the agent can:
+After an agent creates an agent services account, they link their existing VAT clients to the account. Once a client subscribes to VAT (MTD), the agent can:
 
   * view the client's data
   * submit updates on their behalf to us at HMRC
