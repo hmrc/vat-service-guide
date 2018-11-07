@@ -36,7 +36,7 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
 ## Read campaign pages and guidance
 
-Agent and businesses will [read campaign pages and guidance](https://www.gov.uk/government/publications/making-tax-digital/overview-of-making-tax-digital) to understand how to register themselves and their clients for VAT.
+Agent and businesses will [read campaign pages and guidance](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) to understand how to register themselves and their clients for VAT.
 
 ## Create an agent services account
 
