@@ -21,9 +21,9 @@ These journeys show examples of use. Journeys for businesses and agents are brok
   * [paying VAT penalties and interest - or appealing](documentation/penalties.html#penalties-and-appeals)
   * [VAT close down activities](documentation/close-down.html#close-down)
 
-## Roadmap
+## VAT (MTD) roadmap
 
-The [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com) explains how the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
+The [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com) details the timeframe during which the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
 
 ## Related API documentation
 

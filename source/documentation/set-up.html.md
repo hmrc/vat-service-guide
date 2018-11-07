@@ -113,7 +113,7 @@ To link existing VAT clients to their agent services account the agent must:
 
 We encourage software developers to ensure their agency users are aware of the service and give links to more information.
 
-## Link new VAT client
+## Link a new VAT client
 
 After an agent creates an agent services account, they must get authority from each new client they want to represent. To do this an agent must send an email request to each new client. The client can accept or decline the request digitally.
 To link a new client:
@@ -146,7 +146,7 @@ To link a new client:
   <li>Client confirms authorisation for agent to represent them</li>
 </ol>
 
-## Agent registers client for VAT (MTD)
+## Agent registers a client for VAT (MTD)
 
 Agents can sign up an existing client’s business. However, the creation of the agent services account which is a one-off process must be completed before an agency can sign up their clients for VAT MTD.
 

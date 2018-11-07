@@ -83,7 +83,7 @@ Note we have not yet configured annual period keys as annual accounting is not i
 
 The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be URL-encoded, for example 18AD, 18A1, %23001.
 
-### Submit VAT return with declaration through software
+### Submit a VAT return with a declaration through software
 
 This is the only POST endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
@@ -93,7 +93,7 @@ HMRC also requires software to show their businesses or agents a declaration tha
 
  > When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
 
-## Amend VAT return
+## Amend a VAT return
 
 We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
 
@@ -106,7 +106,7 @@ A business or agent can choose to use method 2 and notify HMRC separately in any
 
 Please ensure businesses and agents are made aware of these methods.
 
-## Pay VAT or get repayment
+## Pay VAT or get a repayment
 
 We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
 
@@ -141,9 +141,10 @@ In exceptional circumstances we repay by Chaps or Faster Payments but these type
 
 The business’ or agent’s repayment bank account details are only used for a BACS, Chaps or Faster Payment repayment.
 
-## Notify change of circumstances
+## Notify a change of circumstances
 
-**Coming soon - see the VAT (MTD) roadmap for more details.** MAKE LINK
+**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/documentation/backlog.html#backlog) for more details.**
+
 
 We would like software developers to remind businesses to check and update their details with us.
 
