@@ -11,11 +11,11 @@ alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 
 <a href="figures/agent-active.png" target="blank">Open the agent process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
-1. [Agent receives obligations and submits a VAT return](#retrieve-obligations-and-submit-a-vat-return)
-2. [Agent amends VAT return](#amend-a-vat-return)
-3. [Agent pays VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
+2. [Agent amends client's VAT return](#amend-a-vat-return)
+3. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 4. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-5. [Client views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
+5. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
 
 Businesses set up for VAT (MTD) can submit VAT returns.
@@ -25,15 +25,15 @@ alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
 <a href="figures/business-active.png" target="blank">Open the business process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
-1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-a-vat-return)
-2. [Business amends VAT return](#amend-a-vat-return)
-3. [Business pays VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-4. [Business notifies change of circumstances](#notify-a-change-of-circumstances)
-5. [Business views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
+1. [Business receives obligations and submits VAT return](#receive-obligations-and-submit-a-vat-return)
+2. [Business amends a VAT return](#amend-a-vat-return)
+3. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+4. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
+5. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
-## Retrieve obligations and submit a VAT return
+## Receive obligations and submit a VAT return
 
-This step uses the software to access the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) - specifically the following endpoints:
+Your software should access the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) to do this - specifically the following endpoints:
 
   * [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
@@ -120,9 +120,9 @@ There are multiple ways to pay a VAT bill, listed on GOV.UK at [Pay your VAT bil
 
 With the arrival of MTD-VAT the contents of this GOV.UK page are subject to change. Likewise the URL may change in which case we will update the link above.
 
-For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account - login page is [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
+For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account (BTA) - login page is [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
 
-Using their Business Tax Account businesses can:
+Using their BTA businesses can:
 
   * check any VAT Direct Debit arrangements they have with us
   * make changes, or cancel their Direct Debit
@@ -167,10 +167,10 @@ For exiting Controlled Go Live, functionality will be available for businesses o
 
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
 
-We encourage software developers to include these features within their products. Developers can also direct businesses to visit their Business Tax Account, the login page attached below:
+We encourage software developers to include these features within their products. Developers can also direct businesses to visit their Business Tax Account (BTA), the login page attached below:
 [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)
 
-From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their Business Tax Account. This will include information such as: viewing their return, payment obligations and the option to link off from their Business Tax Account and make an online card payment.
+From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their BTA. This will include information such as: viewing their return, payment obligations and the option to link off from their BTA and make an online card payment.
 
 Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
 
