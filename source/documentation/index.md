@@ -6,12 +6,6 @@ weight: 1
 
 This guide explains how you can integrate your software with our APIs to submit VAT returns using the Making Tax Digital process. It shows how the APIs fit into various end-to-end user journeys.
 
-## Benefits
-
-Keeping VAT records digitally and providing updates to us at HMRC direct from the software will reduce the amount of avoidable errors which businesses currently make and the cost, uncertainty and worry they face when we are forced to intervene to put things right.
-
-This streamlined digital experience will integrate tax into day-to-day business record keeping, giving them confidence that they have got it right and provide them with a view of their tax position throughout the year.
-
 ## End-to-end user journeys
 
 These journeys show examples of use. Journeys for businesses and agents are broken down into:
