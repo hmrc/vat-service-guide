@@ -195,21 +195,21 @@ We require that each application offered  to users complies with our [Terms of U
 
 ## Link software to HMRC
 
-Businesses and agents using software that connects to Developer Hub APIs must give their software permission to interact with their data and HMRC.
+Businesses and agents using software that connects to the VAT (MTD) API must give their software permission to interact with their data and HMRC.
 
 <img src="figures/links-software.png" alt="Links software to HMRC process diagram" border="1px"; style="width:320px;" />
 
 <a href="figures/links-software.png" target="blank">Open the links software to HMRC process diagram in a new tab</a>
 
-1. Third party software takes the business or the agent to the authorisation endpoint
+1. Third party software sends the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
-3. Business or agent signs in to their Government Gateway account.
-4. Business or agent completes 2 step verification if applicable
+3. Business or agent signs in to their Government Gateway account
+4. Business or agent registers for or completes 2 step verification as applicable
 5. Business or agent completes identity checks if applicable
 6. Business or agent grants (or refuses) permission for the software to represent them with HMRC
 5. Business or agent is returned to third party software
 
-Business and agents authenticate directly with us using their Government Gateway account, and grant the software the authority to interact with HMRC on their behalf - for a set of functions called API [scopes](https://developer.service.hmrc.gov.uk/api-documentation/docs/reference-guide#scopes).
+Business and agents authenticate directly with us using their Government Gateway account, and grant the software the authority to interact with HMRC on their behalf. They grant this for a set of functions called API scopes which are required for [each VAT (MTD) endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#resources).
 
 In the case of agents, they must sign in to their Government Gateway account with the user ID and password for their agent services account, which was generated as part of the [agent services account journey](set-up.html#create-an-agent-services-account).
 
