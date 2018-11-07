@@ -4,7 +4,7 @@ weight: 2
 
 # Set up
 
-## Agent submits a VAT return
+## Agent sets up client for VAT (MTD)
 
 Before agents can represent clients they must set up their relationships and software.
 
@@ -20,7 +20,7 @@ Before agents can represent clients they must set up their relationships and sof
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
 
-## Business submits a VAT return
+## Business gets set up for VAT (MTD)
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
@@ -36,25 +36,7 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
 ## Read campaign pages and guidance
 
-**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/) for more details.**
-
-We continue to use GOV.UK as our main way to guide businesses and agents about government services and information, although we will not publish guidance about how to join the VAT pilot until we exit the Controlled Go Live period of the pilot and enter public beta. Initially, the guidance will:
-
-  * signpost a few more detailed, task-based content pages on GOV.UK starting with:
-    * an overview of MTD
-    * choose software page
-    * sign up
-
-  * help build awareness about what MTD means for businesses and agents
-  * signpost the route for business or agent support, including how software developers vendors can contact our HMRC teams
-  * manage users' concerns if not eligible yet, or there's no legal requirement for them yet
-  * help us manage the messages businesses and agents need to know over coming months and years - who is eligible, why signing up early might help you, when this will become mandatory and so on
-
-As we make more functionality live, we’ll add more task-based guidance onto GOV.UK to ensure that businesses and agents can continue their journey. For example, 'Sign up to report VAT through software', 'Choose software' and so on.
-
-As MTD becomes more mainstream, we will reduce campaign content and presence.
-
-We would like software applications to make businesses and agents aware of the links to the guidance detailed above if they are interested in the service.
+Agent and businesses will [read campaign pages and guidance](https://www.gov.uk/government/publications/making-tax-digital/overview-of-making-tax-digital) to understand how to register themselves and their clients for VAT.
 
 ## Create an agent services account
 
