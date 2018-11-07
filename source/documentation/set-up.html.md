@@ -4,12 +4,6 @@ weight: 2
 
 # Set up
 
-## Agent or business reads guidance
-
-Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to register themselves and their clients for VAT.
-
-## Agent sets up a client for VAT (MTD)
-
 Before agents can represent clients they must set up their relationships and software.
 
 <img src="figures/agent-start-up.png" alt="Agent set up process diagram" border="1px"; style="width:520px;" />
@@ -18,12 +12,10 @@ Before agents can represent clients they must set up their relationships and sof
 
 1. [Agent creates an agent services account](#create-an-agent-services-account)
 2. [Agent links existing VAT clients](#link-existing-vat-clients)
-3. [Agent links a new VAT client](#link-new-vat-client)
-4. [Agent registers a client for VAT (MTD)](#register-client-for-vat-mtd)
+3. [Agent links a new VAT client](#link-a-new-vat-client)
+4. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
 5. [Agent chooses software](#choose-software)
 6. [Agent links software to HMRC](#link-software-to-hmrc)
-
-## Business gets set up for VAT (MTD)
 
 Before businesses can submit VAT returns, they must register for VAT and set up their software.
 
@@ -35,6 +27,10 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 1. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
 2. [Business chooses software](#choose-software)
 3. [Business links software to HMRC](#link-software-to-hmrc)
+
+## Agent or business reads guidance
+
+Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to register themselves and their clients for VAT.
 
 ## Create an agent services account
 

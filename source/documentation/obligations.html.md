@@ -11,10 +11,10 @@ alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 
 <a href="figures/agent-active.png" target="blank">Open the agent process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
-1. [Agent receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
-2. [Agent amends VAT return](#amend-vat-return)
-3. [Agent pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
-4. [Agent notifies client’s change of circumstances](#notify-client-change-of-circumstances)
+1. [Agent receives obligations and submits a VAT return](#retrieve-obligations-and-submit-a-vat-return)
+2. [Agent amends VAT return](#amend-a-vat-return)
+3. [Agent pays VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+4. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
 5. [Client views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
 
 
@@ -25,13 +25,13 @@ alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
 
 <a href="figures/business-active.png" target="blank">Open the business process flow process thumbnail diagram for obligations and returns in a new tab</a>
 
-1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-vat-return)
-2. [Business amends VAT return](#amend-vat-return)
-3. [Business pays VAT bill or receives a repayment](#pay-vat-or-get-repayment)
-4. [Business notifies change of circumstances](#notify-client-change-of-circumstances)
+1. [Business receives obligations and submits VAT return](#retrieve-obligations-and-submit-a-vat-return)
+2. [Business amends VAT return](#amend-a-vat-return)
+3. [Business pays VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+4. [Business notifies change of circumstances](#notify-a-change-of-circumstances)
 5. [Business views future obligations and previous returns in BTA](#view-future-obligations-and-previous-returns)
 
-## Retrieve obligations and submit VAT return
+## Retrieve obligations and submit a VAT return
 
 This step uses the software to access the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) - specifically the following endpoints:
 
@@ -71,6 +71,12 @@ Note 2: Period keys should not be shown to the business or agent, these are for 
 18AD 30.04.2018<br/>
 18AE 31.05.2018<br/>
 18AF 30.06.2018
+
+**Monthly:** |
+ --- |
+18AD 30.04.2018 |
+18AE 31.05.2018 |
+18AF 30.06.2018 |
 
 **Quarterly:**
 
