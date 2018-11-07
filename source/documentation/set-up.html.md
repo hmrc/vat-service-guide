@@ -4,7 +4,11 @@ weight: 2
 
 # Set up
 
-## Agent sets up client for VAT (MTD)
+## Agent or business reads guidance
+
+Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to register themselves and their clients for VAT.
+
+## Agent sets up a client for VAT (MTD)
 
 Before agents can represent clients they must set up their relationships and software.
 
@@ -12,13 +16,11 @@ Before agents can represent clients they must set up their relationships and sof
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
 
-
-1. [Agent reads campaign pages and guidance](#read-campaign-pages-and-guidance)
-2. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
-3. [Agent links new VAT client](#link-new-vat-client)
-4. [Agent registers client for MTDfB for VAT](#register-client-for-vat-mtd)
-5. [Agent chooses software](#choose-software)
-6. [Agent links software to HMRC](#link-software-to-hmrc)
+1. [Agent creates Agent Services account and links existing VAT clients](#create-agent-services-account-and-link-existing-vat-clients)
+2. [Agent links new VAT client](#link-new-vat-client)
+3. [Agent registers client for MTDfB for VAT](#register-client-for-vat-mtd)
+4. [Agent chooses software](#choose-software)
+5. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business gets set up for VAT (MTD)
 
@@ -29,14 +31,9 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-start-up.png" target="blank">Open the business start up process diagram in a new tab</a>
 
-1. [Business reads campaign pages and guidance](#read-campaign-pages-and-guidance)
-2. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
-3. [Business chooses software](#choose-software)
-4. [Business links software to HMRC](#link-software-to-hmrc)
-
-## Read campaign pages and guidance
-
-Agent and businesses will [read campaign pages and guidance](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) to understand how to register themselves and their clients for VAT.
+1. [Business registers for MTDfB for VAT](#business-registers-for-vat-mtd)
+2. [Business chooses software](#choose-software)
+3. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Create an agent services account
 
