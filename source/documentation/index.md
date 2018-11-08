@@ -12,7 +12,7 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 
   * [VAT set up activities](documentation/set-up.html#set-up)
   * [retrieving VAT obligations, submitting returns and paying bills](documentation/obligations.html#obligations-and-returns)
-  * [paying VAT penalties and interest - or appealing](documentation/penalties.html#penalties-and-appeals)
+  * [paying VAT penalties and interest or appealing](documentation/penalties.html#penalties-and-appeals)
   * [VAT close down activities](documentation/close-down.html#close-down)
 
 ## VAT (MTD) roadmap
@@ -21,8 +21,8 @@ The [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com) details
 
 ## Related API documentation
 
-  * [VAT (MTD) REST API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/vat-rest)
-  * [Create Test User API](https://hmrc-devhub-cycle-33.herokuapp.com/documentation/apis/create-test-user-api)
+  * [VAT (MTD) REST API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0)
+  * [Create Test User API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0)
 
 ## Changelog
 

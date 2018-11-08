@@ -8,7 +8,7 @@ Before agents can represent clients they must set up their relationships and sof
 
 <img src="figures/agent-start-up.png" alt="Agent set up process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-start-up.png" target="blank">Open the agent start up process diagram in a new tab</a>
+<a href="figures/agent-start-up.png" target="blank">Open the agent set up process diagram in a new tab</a>
 
 1. [Agent creates an agent services account](#create-an-agent-services-account)
 2. [Agent links existing VAT clients](#link-existing-vat-clients)
@@ -22,7 +22,7 @@ Before businesses can submit VAT returns, they must register for VAT and set up 
 <img src="figures/business-start-up.png"
 alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-start-up.png" target="blank">Open the business start up process diagram in a new tab</a>
+<a href="figures/business-start-up.png" target="blank">Open the business set up process diagram in a new tab</a>
 
 1. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
 2. [Business chooses software](#choose-software)

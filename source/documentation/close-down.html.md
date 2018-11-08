@@ -11,7 +11,7 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>
 
-1. [Agent a unsubscribes client from MTD](#unsubscribe-a-client-from-vat-mtd)
+1. [Agent unsubscribes a client from MTD](#unsubscribe-a-client-from-vat-mtd)
 2. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 3. [Agent changes details](#change-details)
 

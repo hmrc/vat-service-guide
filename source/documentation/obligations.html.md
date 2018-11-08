@@ -72,12 +72,6 @@ Note 2: Period keys should not be shown to the business or agent, these are for 
 18AE 31.05.2018<br/>
 18AF 30.06.2018
 
-**Monthly:** |
- --- |
-18AD 30.04.2018 |
-18AE 31.05.2018 |
-18AF 30.06.2018 |
-
 **Quarterly:**
 
 18A1 30.04.2018<br/>

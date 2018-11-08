@@ -12,7 +12,7 @@ alt="Agent penalties process diagram" border="1px"; style="width:520px;" />
 <a href="figures/agent-penalties.png" target="blank">Open the agent penalties process diagram in a new tab</a>
 
 1. [Client pays penalties and interest](#pay-penalties-and-interest)
-2. [Agent appeals](#appeal)
+2. [Agent appeals](#appeals)
 
 Businesses can pay penalties and interest - or appeal.
 
@@ -22,7 +22,7 @@ alt="Business penalties and appeals process diagram" border="1px"; style="width:
 <a href="figures/business-penalties.png" target="blank">Open the business penalties process diagram in a new tab</a>
 
 1. [Business pays penalties and interest](#pay-penalties-and-interest)
-2. [Business appeals](#appeal)
+2. [Business appeals](#appeals)
 
 ## Pay penalties and interest
 
