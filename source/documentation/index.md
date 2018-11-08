@@ -1,0 +1,38 @@
+---
+weight: 1
+---
+
+# VAT (MTD) End-to-End Service Guide
+
+This guide explains how you can integrate your software with our APIs to submit VAT returns using the Making Tax Digital process. It shows how the APIs fit into various end-to-end user journeys.
+
+## End-to-end user journeys
+
+These journeys show examples of use. Journeys for businesses and agents are broken down into:
+
+  * [VAT set up activities](documentation/set-up.html#set-up)
+  * [retrieving VAT obligations, submitting returns and paying bills](documentation/obligations.html#obligations-and-returns)
+  * [paying VAT penalties and interest or appealing](documentation/penalties.html#penalties-and-appeals)
+  * [VAT close down activities](documentation/close-down.html#close-down)
+
+## VAT (MTD) roadmap
+
+The [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com) details the timeframe during which the VAT API endpoints will be rolled out to create the final API service that software developers can integrate with.
+
+## Related API documentation
+
+  * [VAT (MTD) REST API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0)
+  * [Create Test User API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0)
+
+## Changelog
+
+Description | Date
+ --- | ---
+Document name changed from Making Tax Digital (MTD)-VAT End-to-End (E2E) Customer Journeys to VAT (MTD) End-to-end Service Guide v1.0<br/>Developer Hub hosted HTML version with process diagrams replaces PDF version V4.0  |Nov 2018
+Document updated for public beta and revised to v5.0 |Oct 2018
+Document name changed to Making Tax Digital (MTD)-VAT End-to-End (E2E) Customer Journeys v4.0<br/>PDF version now includes placeholder information for post CGL features |Sep 2018
+Document name changed to MTD-VAT E2E customer journeys v3.0<br/>PDF version expands end-to-end journeys for business and agent<br/>Adds timeline of feature delivery on customer journeys |Jul 2018
+Document name changed to MTDfB-Income Tax E2E customer journeys v1.0<br/>Standalone PDF document replaces HTML pages after Sandbox merge with Developer Hub<br/>Adds end-to-end journey process diagram<br/Adds Vision and High Level Design sections>|Feb 2018
+Launch of Making Tax Digital for Business VAT Guide for Vendors Version v1.0<br/>HTML pages hosted on Developer Hub Sandbox<br/>Adds process diagrams to explain agent flow<br/>Adds glossary of terms |Jun 2017
+
+##  ---
