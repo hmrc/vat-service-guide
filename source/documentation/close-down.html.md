@@ -4,14 +4,14 @@ weight: 5
 
 # Close down
 
-Agent client relationships can end or agents can go out of business.
+**Agent** client relationships can end or agents can go out of business.
 
 1. [Agent unsubscribes a client from VAT (MTD)](#unsubscribe-a-client-from-vat-mtd)
 2. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 3. [Agent changes details](#change-details)
 
 
-Businesses can unsubscribe from VAT MTD.
+**Businesses** can unsubscribe from VAT MTD.
 
 1. [Business unsubscribes from VAT (MTD)](#unsubscribe-a-client-from-vat-mtd)
 

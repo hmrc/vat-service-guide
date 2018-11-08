@@ -4,15 +4,13 @@ weight: 4
 
 # Penalties and appeals
 
-Agents can also represent their clients during penalty and interest payments as well as appeals.
+**Agents** can also represent their clients during penalty and interest payments as well as appeals.
 
-1. [Client pays penalties and interest](#pay-penalties-and-interest)
-2. [Agent appeals](#appeals)
+**Businesses** can pay penalties and interest - or appeal.
 
-Businesses can pay penalties and interest - or appeal.
+1. [Pay penalties and interest](#pay-penalties-and-interest)
+2. [Appeals](#appeals)
 
-1. [Business pays penalties and interest](#pay-penalties-and-interest)
-2. [Business appeals](#appeals)
 
 ## Pay penalties and interest
 

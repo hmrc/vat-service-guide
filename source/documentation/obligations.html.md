@@ -6,20 +6,13 @@ weight: 3
 
 **Agents** who have set up their clients for VAT (MTD) can submit their clients' VAT returns.
 
-1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Agent amends client's VAT return](#amend-a-vat-return)
-3. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-4. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-5. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
-
-
 **Businesses** set up for VAT (MTD) can submit VAT returns.
 
-1. [Business receives obligations and submits VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Business amends a VAT return](#amend-a-vat-return)
-3. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-4. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
-5. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+1. [Receive obligations and submit a VAT return](#receive-obligations-and-submit-a-vat-return)
+2. [Amend a VAT return](#amend-a-vat-return)
+3. [Pay VAT or get a repayment](#pay-vat-or-get-a-repayment)
+4. [Notify a change of circumstances](#notify-a-change-of-circumstances)
+5. [View future obligations and previous returns](#view-future-obligations-and-previous-returns)
 
 ## Receive obligations and submit a VAT return
 
