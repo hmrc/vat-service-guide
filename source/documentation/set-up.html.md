@@ -144,7 +144,7 @@ We will develop supporting content that allows a business to identify whether th
   * register for tax and then sign up for MTD
   * sign up only
 
-After a business signs up they are informed of their update obligations.
+After a business signs up they are informed of their updated obligations.
 
 The sign-up service requests minimal information from the business such as e-mail address. It reuses information provided as part of identity checking.
 
