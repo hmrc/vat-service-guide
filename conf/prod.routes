@@ -1,2 +1,3 @@
+->      /               health.Routes
 GET     /               controllers.Assets.at(path="/public", file="index.html")
 GET     /*file          controllers.Assets.at(path="/public", file)
