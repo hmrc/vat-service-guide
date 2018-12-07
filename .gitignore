@@ -20,3 +20,8 @@
 Staticfile.auth
 
 /vendor
+/public
+/target
+/project/project
+/project/target
+/.project
