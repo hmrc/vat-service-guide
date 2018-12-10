@@ -25,3 +25,4 @@ Staticfile.auth
 /project/project
 /project/target
 /.project
+/logs
