@@ -1,4 +1,4 @@
-->      /                                health.Routes
-GET     /vat-service-guide               controllers.Assets.at(path="/public", file="index.html")
-GET     /vat-service-guide/              controllers.Assets.at(path="/public", file="index.html")
-GET     /vat-service-guide/*file         controllers.Assets.at(path="/public", file)
+->      /                                                  health.Routes
+GET     /guides/vat-mtd-end-to-end-service-guide           controllers.Assets.at(path="/public", file="index.html")
+GET     /guides/vat-mtd-end-to-end-service-guide/          controllers.Assets.at(path="/public", file="index.html")
+GET     /guides/vat-mtd-end-to-end-service-guide/*file     controllers.Assets.at(path="/public", file)
