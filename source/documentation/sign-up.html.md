@@ -2,7 +2,7 @@
 weight: 2
 ---
 
-# Set up
+# Sign up
 
 Before agents can represent clients they must set up their relationships and software.
 
