@@ -40,30 +40,20 @@ Your software should include a link to the [guidance to help agents and business
 
 ## Create an agent services account
 
-An agent must create an agent services account and connect it to their accounting software. Account creation is a one-off process which enables an agency to access VAT (MTD) and act for their clients.
-
-The agent does this through their accounting software or from GOV.UK. The agent must:
-
-  * create a new Government Gateway ID which will be the agency’s new Government Gateway ID and password. This will become the agency's user ID and password which is to access all our new HMRC services via accounting software
-  * give information about the agency, which is held by us
-  * receive an agent reference number, which is the number assigned to all their existing and new clients
+To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
 
 <img src="figures/agent-services-account.png" alt="Agent services account process diagram" border="1px"; style="width:200px;" />
 
 <a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
-1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
-2. Agent signs in to Government Gateway account with existing agent credentials
-3. Agent identifies their agency with its SA UTR or CTR
-4. Agent gives their details and email address
-5. Agent saves user ID and gateway agent ID
-6. Agent gives agency address
-7. Agent checks details and creates account
-8. Agent saves agent services account number
+1. Agent signs in to Government Gateway account with existing agent credentials
+2. Agent identifies their agency with its SA UTR or CTR and associated postcode
+3. Agent gives some agency details and chooses a password
+4. We create a new Government Gateway account for the agent, and tell them their User ID
+5. Agent checks details
+6. We create the agent services account, and tell the agent their agent services account reference number
 
-For partnerships or limited liability partnerships you will need to use your partnership UTR, and not the UTR for each partner.
-
-View the start page at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account).
+This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We recommend you include this link in your software.
 
 <br>
 This video explains the step-by-step process for creating an agent services account.
