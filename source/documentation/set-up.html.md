@@ -1,4 +1,5 @@
 ---
+title: Set up
 weight: 2
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: Penalties and appeals
 weight: 4
 ---
 
