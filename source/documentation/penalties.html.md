@@ -4,22 +4,26 @@ weight: 4
 
 # Penalties and appeals
 
+## Agent overview
+
 Agents can also represent their clients during penalty and interest payments as well as appeals.
 
 <img src="figures/agent-penalties.png"
 alt="Agent penalties process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-penalties.png" target="blank">Open the agent penalties process diagram in a new tab</a>
+<a href="figures/agent-penalties.png" target="blank">Open the agent penalties process diagram in a new tab</a>.
 
 1. [Client pays penalties and interest](#pay-penalties-and-interest)
 2. [Agent appeals](#appeals)
+
+## Business overview
 
 Businesses can pay penalties and interest - or appeal.
 
 <img src="figures/business-penalties.png"
 alt="Business penalties and appeals process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-penalties.png" target="blank">Open the business penalties process diagram in a new tab</a>
+<a href="figures/business-penalties.png" target="blank">Open the business penalties process diagram in a new tab</a>.
 
 1. [Business pays penalties and interest](#pay-penalties-and-interest)
 2. [Business appeals](#appeals)

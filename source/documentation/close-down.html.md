@@ -4,26 +4,29 @@ weight: 5
 
 # Close down
 
+## Agent overview
+
 Agent client relationships can end or agents can go out of business.
 
 <img src="figures/agent-closedown.png"
 alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>
+<a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>.
 
-1. [Agent unsubscribes a client from MTD](#unsubscribe-a-client-from-vat-mtd)
+1. [Agent unsubscribes a client from VAT (MTD)](#unsubscribe-a-client-from-vat-mtd)
 2. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 3. [Agent changes details](#change-details)
 
+## Business overview
 
-Businesses can unsubscribe from VAT MTD.
+Businesses can unsubscribe from VAT (MTD).
 
 <img src="figures/business-closedown.png"
 alt="Business closedown process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-closedown.png" target="blank">Open the business close down process diagram in a new tab</a>
+<a href="figures/business-closedown.png" target="blank">Open the business close down process diagram in a new tab</a>.
 
-1. [Business unsubscribes from MTD](#unsubscribe-a-client-from-vat-mtd)
+1. [Business unsubscribes from VAT (MTD)](#unsubscribe-a-client-from-vat-mtd)
 
 ## Unsubscribe a client from VAT (MTD)
 
@@ -53,4 +56,4 @@ This will initially be the usual process, which can be used to remove the agent 
 
 The scenario where this is needed is when an agency ceases trading.
 
-If an agency no longer wants to participate in MTD, they can stop using their Government Gateway ID. We are currently working to include a digital journey as part of the wider change of circumstances solution.
+If an agency no longer wants to participate in VAT (MTD), they can stop using their Government Gateway ID. We are currently working to include a digital journey as part of the wider change of circumstances solution.

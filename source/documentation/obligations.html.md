@@ -4,12 +4,14 @@ weight: 3
 
 # Obligations and returns
 
+## Agent journey overview
+
 Agents who have set up their clients for VAT (MTD) can submit their clients' VAT returns.
 
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
-alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
+alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the agent process flow process thumbnail diagram for obligations and returns in a new tab</a>
+<a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
 2. [Agent amends client's VAT return](#amend-a-vat-return)
@@ -17,13 +19,14 @@ alt="Agent active process diagram" border="1px"; style="width:100px;" /></a>
 4. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
 5. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
+## Business journey overview
 
 Businesses set up for VAT (MTD) can submit VAT returns.
 
 <a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
-alt="Business active process diagram" border="1px"; style="width:100px;" /></a>
+alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
 
-<a href="figures/business-active.png" target="blank">Open the business process flow process thumbnail diagram for obligations and returns in a new tab</a>
+<a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Business receives obligations and submits VAT return](#receive-obligations-and-submit-a-vat-return)
 2. [Business amends a VAT return](#amend-a-vat-return)
@@ -40,7 +43,7 @@ Your software should access the [VAT (MTD) API](https://developer.service.hmrc.g
 
 <img src="figures/retrieve-obligations.png" alt="Retrieve obligations process diagram" border="1px"; style="width:680px;" />
 
-<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations process diagram in a new tab</a>
+<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations process diagram in a new tab</a>.
 
 1. Mandatory: Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
