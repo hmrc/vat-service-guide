@@ -4,18 +4,18 @@ weight: 1
 
 # VAT (MTD) End-to-End Service Guide
 
-This guide explains how you can integrate your software with our APIs to submit VAT returns using the Making Tax Digital (MTD) process. It shows how the APIs fit into various end-to-end user journeys.
+This guide explains how you can integrate your software with our APIs to submit VAT returns under Making Tax Digital for VAT. It shows how the APIs fit into various end-to-end user journeys.
 
 ## Overview
 
-Making Tax Digital for VAT requires VAT registered businesses with taxable turnover above the VAT registration threshold to:
+VAT (MTD) requires VAT registered businesses with taxable turnover above the VAT registration threshold to:
 
 * keep records in digital form
 * file their VAT Returns using software (via our [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/))
 
-The frequency of submitting a VAT Return (quarterly or monthly) does not change under MTD.
+The frequency of submitting a VAT Return (annually, quarterly or monthly) does not change under MTD.
 
-For more details see [VAT Notice 700/22](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat). In particular, [section 7](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat#examples-of-where-a-digital-link-is-required) gives examples of acceptable software integration patterns.
+For more details see [VAT Notice 700/22](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat). In particular, [section 7](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat#examples-of-where-a-digital-link-is-required) shows the various options for software integration.
 
 
 ## End-to-end user journeys
