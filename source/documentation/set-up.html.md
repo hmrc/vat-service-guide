@@ -22,7 +22,7 @@ Before agents can represent clients they must set up their relationships and sof
 
 ## Business journey overview
 
-Before businesses can submit VAT returns, they must register for VAT and set up their software.
+Before businesses can submit VAT Returns, they must register for VAT and set up their software.
 
 <img src="figures/business-start-up.png"
 alt="Business start up process diagram" border="1px"; style="width:520px;" />
@@ -128,31 +128,29 @@ Agents can sign up an existing client’s business.
 
 <a href="figures/agents-sign-up.png" target="blank">Open the agent registers client for VAT process diagram in a new tab</a>.
 
-1. Agent signs in to Government Gateway account
+1. Agent signs in to agent services Government Gateway account
 2. Agent confirms VRN of client
 3. Agent confirms client is sole trader or limited company
-4. Agent confirms client details eg NINO/DOB for sole trader, CRN for limited company
-5. Agent confirms client's email address
-6. Client verifies their email address
+4. Agent confirms client details, for example NINO/DOB for sole trader, CRN for limited company
+5. Agent confirms their own email address
+6. Agent signs up client to receive emails
+7. Agent confirms client's email address
+8. Client verifies their email address
 7. Agent agrees to terms of participation for self and client
 8. Agent waits 24 hours to see if client is approved to sign up
 
 We will develop supporting content that allows a business to identify whether they need to:
 
-  * register for tax and then sign up for VAT (MTD)
-  * sign up only
+  * register for VAT and then sign up for VAT (MTD)
+  * sign up for VAT (MTD) only
 
-After a business signs up they are informed of their updated obligations.
+After a business signs up they are informed of their update obligations.
 
-The sign-up service requests minimal information from the business such as e-mail address. It reuses information provided as part of identity checking.
-
-We will enable businesses or agents to register and sign up through GOV.UK. You can also link to the service from your software.
-
-> Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
+We will enable businesses or agents to register and sign up through GOV.UK. We encourage you to link to the service from your software.
 
 ## Business registers for VAT (MTD)
 
-Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for income tax.
+Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
 
 <img src="figures/business-registers-vat.png" alt="Business registers for VAT process diagram" border="1px"; style="width:500px;" />
 
@@ -166,8 +164,6 @@ Sole traders and limited companies can sign up for VAT (MTD). They must sign up 
 6. Business enters and verifies its email address
 7. Business agrees to the terms of participation
 8. Business waits 24 hours to see if it is approved to sign up
-
-> Note: The link to ‘Choose accounting software’ on the sign-up confirmation page will remain inactive until VAT (MTD) leaves Controlled Go Live.
 
 <br>
 This video explains the step-by-step process for a business to sign up to VAT (MTD).
@@ -185,11 +181,11 @@ This video is about the compatible software that businesses and agents must use 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <br>
 
-We require that each application offered  to users complies with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
+We require that each application offered to users complies with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by you as software developers before we will issue its production credentials.
 
 ## Link software to HMRC
 
-Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf.
+Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/) to do this, which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey to grant this authority.
 
 <img src="figures/links-software.png" alt="Links software to HMRC process diagram" border="1px"; style="width:320px;" />
 
