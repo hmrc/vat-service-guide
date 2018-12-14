@@ -16,9 +16,10 @@ Before agents can represent clients they must set up their relationships and sof
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
-5. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
-6. [Agent chooses software](#choose-software)
-7. [Agent links software to HMRC](#link-software-to-hmrc)
+5. [Agent subscribes a client to VAT](#subscribe-to-VAT)
+6. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
+7. [Agent chooses software](#choose-software)
+8. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business journey overview
 
@@ -30,9 +31,10 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 <a href="figures/business-start-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
 
 1. [Business reads guidance](#agent-or-business-reads-guidance)
-2. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
-3. [Business chooses software](#choose-software)
-4. [Business links software to HMRC](#link-software-to-hmrc)
+2. [Business subscribes to VAT](#subscribe-to-VAT)
+3. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
+4. [Business chooses software](#choose-software)
+5. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Read guidance
 
@@ -120,6 +122,15 @@ To link a new client:
   <li>Client confirms authorisation for agent to represent them</li>
 </ol>
 
+## Subscribe to VAT
+
+Post April 2019 we will deliver a VAT Subscription (formerly known as VAT Registration) service that will allow businesses new to VAT to subscribe at the same time as they sign up to MTD.
+
+Until this service is delivered, new businesses will need to subscribe to VAT using the existing service, then navigate to the sign up service and complete that journey. The service will request information about the business and the person running it. Following
+successful subscription the business will be informed of their VAT Return deadlines.
+
+Agents must already be subscribed to HMRC agent services in order to access the new VAT subscription service on behalf of their clients.
+
 ## Agent registers a client for VAT (MTD)
 
 Agents can sign up an existing client’s business.
@@ -173,7 +184,7 @@ This video explains the step-by-step process for a business to sign up to VAT (M
 
 ## Choose software
 
-Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates) so businesses and agents can choose the right software for their needs.
+Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates#VAT) so businesses and agents can choose the right software for their needs.
 
 This video is about the compatible software that businesses and agents must use as part of VAT (MTD).
 <br>
