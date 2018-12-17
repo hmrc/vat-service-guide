@@ -3,15 +3,15 @@ host: docs.developer.service.hmrc.gov.uk
 
 # Header-related options
 show_govuk_logo: true
-service_name: VAT (MTD) End-to-End Service Guide
+service_name: HMRC Developer Hub
 service_link: https://developer.service.hmrc.gov.uk/api-documentation
 
 # Links to show on right-hand-side of header
 header_links:
-  VAT (MTD) End-to-End Service Guide: /
-  Documentation: https://developer.service.hmrc.gov.uk/api-documentation/docs/using-the-hub
-  Applications: https://developer.service.hmrc.gov.uk/developer/login
-  Support: https://developer.service.hmrc.gov.uk/developer/support
+  VAT (MTD) End-to-End Service Guide: /guides/vat-mtd-end-to-end-service-guide
+  Documentation: /api-documentation/docs/using-the-hub
+  Applications: /developer/applications
+  Support: /developer/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: false
