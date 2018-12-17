@@ -1,4 +1,5 @@
 ---
+title: Obligations and returns
 weight: 3
 ---
 

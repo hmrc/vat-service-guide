@@ -1,4 +1,5 @@
 ---
+title: Set up
 weight: 2
 ---
 
@@ -42,30 +43,20 @@ Your software should include a link to the [guidance to help agents and business
 
 ## Create an agent services account
 
-An agent must create an agent services account and connect it to their accounting software. Account creation is a one-off process which enables an agency to access VAT (MTD) and act for their clients.
-
-The agent does this through their accounting software or from GOV.UK. The agent must:
-
-  * create a new Government Gateway ID which will be the agency’s new Government Gateway ID and password. This will become the agency's user ID and password which is to access all our new HMRC services via accounting software
-  * give information about the agency, which is held by us
-  * receive an agent reference number, which is the number assigned to all their existing and new clients
+To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
 
 <img src="figures/agent-services-account.png" alt="Agent services account process diagram" border="1px"; style="width:200px;" />
 
 <a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
-1. Agent creates a new Government Gateway ID which becomes the agency's new Government Gateway ID and password.
-2. Agent signs in to Government Gateway account with existing agent credentials
-3. Agent identifies their agency with its SA UTR or CTR
-4. Agent gives their details and email address
-5. Agent saves user ID and gateway agent ID
-6. Agent gives agency address
-7. Agent checks details and creates account
-8. Agent saves agent services account number
+1. Agent signs in to Government Gateway account with existing agent credentials
+2. Agent identifies their agency with its SA UTR or CTR and associated postcode
+3. Agent gives some agency details and chooses a password
+4. We create a new Government Gateway account for the agent, and tell them their User ID
+5. Agent checks details
+6. We create the agent services account, and tell the agent their agent services account reference number
 
-For partnerships or limited liability partnerships you will need to use your partnership UTR, and not the UTR for each partner.
-
-View the start page at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account).
+This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
 <br>
 This video explains the step-by-step process for creating an agent services account.
@@ -81,46 +72,31 @@ After an agent creates an agent services account, they link their existing VAT c
 
 <a href="figures/link-existing-vat-clients.png" target="blank">Open the link existing VAT clients process diagram in a new tab</a>.
 
-1. Agent starts journey to add existing clients
-2. Agent signs in with each existing Government Gateway ID that is currently used to access HMRC online services
-3. Agent enters agent services account number and their SA UTR or CTR
-4. Connection to existing clients is confirmed for that Government Gateway account
+1. Agent signs in to their agent services account
+2. Agent requests to link existing clients
+3. Agent signs in with their existing Government Gateway ID that they use to access HMRC online services
+4. We link the clients from the existing account to the agent services account
 5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked. For example, if an agent currently has ten Government Gateway IDs they must do this ten times
 
-We encourage you to ensure your agency users are aware of the service and give them links to more information.
+This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
 ## Link a new VAT client
 
-After an agent creates an agent services account, they must get authority from each new client they want to represent. To do this an agent must send an email request to each new client. The client can accept or decline the request digitally.
-To link a new client:
-
-1. The agent:
-  * clicks the agent services account link to ask a client to authorise them
-  * gives the client’s information
-  * sends an email request to the client
-
-2. The client:
-  * receives email from the agent and clicks on the link to begin the process
-  * logs in with their Government Gateway account and completes identity checks
-  * accepts or declines the agent asking to represent them
-
-3. The agent gets an update on the client's response. If they accepted, we disclose the client's VAT data to their agent.
+After an agent creates an agent services account, they must link any new clients to the account one by one.
 
 <img src="figures/agent-links-new-vat.png" alt="Agent links new VAT clients process diagram" border="1px"; style="width:500px;" />
 
 <a href="figures/agent-links-new-vat.png" target="blank">Open the agent links new VAT clients process diagram in a new tab</a>.
 
-<ol>
-  <li>Agent signs into agent services account</li>
-  <li>Agent clicks on link to ask a client to authorise them</li>
-  <li>Agent chooses individual or organisation client type</li>
-  <li>Agent chooses what authorisation they need from client</li>
-  <li>Agent gives client's VRN and VAT registration date</li>
-  <li>Agent gets a unique link and sends it to their client in email</li>
-  <li>Client receives email from agent and clicks on the link to begin the process</li>
-  <li>Client logs in with Gov Gateway account and completes identity checks</li>
-  <li>Client confirms authorisation for agent to represent them</li>
-</ol>
+1. Agent signs into agent services account
+2. Agent requests to ask a client to authorise them
+3. Agent gives client's details including their VAT registration number (VRN) and VAT registration date
+4. Agent gets a unique link and sends it to their client in email
+5. Client receives email from agent and clicks on the link to begin the process
+6. Client logs in with Government Gateway account and completes identity checks
+7. Client confirms authorisation for agent to represent them
+
+This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
 ## Subscribe to VAT
 
@@ -133,7 +109,7 @@ Agents must already be subscribed to HMRC agent services in order to access the 
 
 ## Agent registers a client for VAT (MTD)
 
-Agents can sign up an existing client’s business.
+Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
 
 <img src="figures/agents-sign-up.png" alt="Agent sign up process diagram" border="1px"; style="width:400px;" />
 
@@ -155,9 +131,7 @@ We will develop supporting content that allows a business to identify whether th
   * register for VAT and then sign up for VAT (MTD)
   * sign up for VAT (MTD) only
 
-After a business signs up they are informed of their update obligations.
-
-We will enable businesses or agents to register and sign up through GOV.UK. We encourage you to link to the service from your software.
+This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns). We encourage you to include this link in your software.
 
 ## Business registers for VAT (MTD)
 
