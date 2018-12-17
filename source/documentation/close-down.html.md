@@ -17,7 +17,7 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 1. [Agent unsubscribes a client from VAT (MTD)](#unsubscribe-a-client-from-vat-mtd)
 2. [Client or agent ends relationship](#client-or-agent-ends-relationship)
-3. [Agent changes details](#change-details)
+3. [Agent leaves agent services](#agent-leaves-agent-services)
 
 ## Business overview
 
@@ -43,8 +43,8 @@ In time the manual process will be replaced by a digital process.
 
 ### Client breaks agent link
 
-1. Client signs in to Government Gateway account
-2. Client manages their tax agents
+1. Client signs in to Government Gateway for their Business Tax Account
+2. Client manages their tax agents 
 3. Client removes authorisation from an agency
 4. Client confirms removal of authorisation from that agency
 
@@ -53,7 +53,7 @@ In time the manual process will be replaced by a digital process.
 Agents will be able to do this using their agent services account.
 
 
-## Change details
+## Agent leaves agent services
 This will initially be the usual process, which can be used to remove the agent reference number and Government Gateway enrolment (HMRC-AS-AGENTS).
 
 The scenario where this is needed is when an agency ceases trading.

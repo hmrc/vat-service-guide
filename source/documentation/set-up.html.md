@@ -17,13 +17,14 @@ Before agents can represent clients they must set up their relationships and sof
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
-5. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
-6. [Agent chooses software](#choose-software)
-7. [Agent links software to HMRC](#link-software-to-hmrc)
+5. [Agent subscribes a client to VAT](#subscribe-to-VAT)
+6. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
+7. [Agent chooses software](#choose-software)
+8. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business journey overview
 
-Before businesses can submit VAT returns, they must register for VAT and set up their software.
+Before businesses can submit VAT Returns, they must register for VAT and set up their software.
 
 <img src="figures/business-start-up.png"
 alt="Business start up process diagram" border="1px"; style="width:520px;" />
@@ -31,9 +32,10 @@ alt="Business start up process diagram" border="1px"; style="width:520px;" />
 <a href="figures/business-start-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
 
 1. [Business reads guidance](#agent-or-business-reads-guidance)
-2. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
-3. [Business chooses software](#choose-software)
-4. [Business links software to HMRC](#link-software-to-hmrc)
+2. [Business subscribes to VAT](#subscribe-to-VAT)
+3. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
+4. [Business chooses software](#choose-software)
+5. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Read guidance
 
@@ -96,6 +98,15 @@ After an agent creates an agent services account, they must link any new clients
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
+## Subscribe to VAT
+
+Post April 2019 we will deliver a VAT Subscription (formerly known as VAT Registration) service that will allow businesses new to VAT to subscribe at the same time as they sign up to MTD.
+
+Until this service is delivered, new businesses will need to subscribe to VAT using the existing service, then navigate to the sign up service and complete that journey. The service will request information about the business and the person running it. Following
+successful subscription the business will be informed of their VAT Return deadlines.
+
+Agents must already be subscribed to HMRC agent services in order to access the new VAT subscription service on behalf of their clients.
+
 ## Agent registers a client for VAT (MTD)
 
 Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
@@ -104,25 +115,27 @@ Once an agent has linked a client to their agent services account, they can sign
 
 <a href="figures/agents-sign-up.png" target="blank">Open the agent registers client for VAT process diagram in a new tab</a>.
 
-1. Agent signs in to Government Gateway account
+1. Agent signs in to agent services Government Gateway account
 2. Agent confirms VRN of client
 3. Agent confirms client is sole trader or limited company
-4. Agent confirms client details eg NINO/DOB for sole trader, CRN for limited company
-5. Agent confirms client's email address
-6. Client verifies their email address
+4. Agent confirms client details, for example NINO/DOB for sole trader, CRN for limited company
+5. Agent confirms their own email address
+6. Agent signs up client to receive emails
+7. Agent confirms client's email address
+8. Client verifies their email address
 7. Agent agrees to terms of participation for self and client
 8. Agent waits 24 hours to see if client is approved to sign up
 
 We will develop supporting content that allows a business to identify whether they need to:
 
-  * register for tax and then sign up for VAT (MTD)
-  * sign up only
+  * register for VAT and then sign up for VAT (MTD)
+  * sign up for VAT (MTD) only
 
 This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns). We encourage you to include this link in your software.
 
 ## Business registers for VAT (MTD)
 
-Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for income tax.
+Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
 
 <img src="figures/business-registers-vat.png" alt="Business registers for VAT process diagram" border="1px"; style="width:500px;" />
 
@@ -145,7 +158,7 @@ This video explains the step-by-step process for a business to sign up to VAT (M
 
 ## Choose software
 
-Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates) so businesses and agents can choose the right software for their needs.
+Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates#VAT) so businesses and agents can choose the right software for their needs.
 
 This video is about the compatible software that businesses and agents must use as part of VAT (MTD).
 <br>
@@ -153,11 +166,11 @@ This video is about the compatible software that businesses and agents must use 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <br>
 
-We require that each application offered  to users complies with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by software developers before we issue production credentials.
+We require that each application offered to users complies with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by you as software developers before we will issue its production credentials.
 
 ## Link software to HMRC
 
-Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf.
+Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/) to do this, which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey to grant this authority.
 
 <img src="figures/links-software.png" alt="Links software to HMRC process diagram" border="1px"; style="width:320px;" />
 

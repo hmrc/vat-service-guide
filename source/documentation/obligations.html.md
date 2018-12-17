@@ -7,7 +7,7 @@ weight: 3
 
 ## Agent journey overview
 
-Agents who have set up their clients for VAT (MTD) can submit their clients' VAT returns.
+Agents who have set up their clients for VAT (MTD) can submit their clients' VAT Returns.
 
 <a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
 alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
@@ -22,22 +22,22 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 
 ## Business journey overview
 
-Businesses set up for VAT (MTD) can submit VAT returns.
+Businesses set up for VAT (MTD) can submit VAT Returns.
 
 <a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
 alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
 
 <a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
-1. [Business receives obligations and submits VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Business amends a VAT return](#amend-a-vat-return)
+1. [Business receives obligations and submits VAT Return](#receive-obligations-and-submit-a-vat-return)
+2. [Business amends a VAT Return](#amend-a-vat-return)
 3. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 4. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
 5. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
-## Receive obligations and submit a VAT return
+## Receive obligations and submit a VAT Return
 
-Your software should access the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) to do this - specifically the following endpoints:
+Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) to do this - specifically the following endpoints:
 
   * [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
@@ -85,19 +85,33 @@ Note 2: Period keys should not be shown to the business or agent, these are for 
 
 Note we have not yet configured annual period keys as annual accounting is not in scope for MVP.
 
-The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be URL-encoded, for example 18AD, 18A1, %23001.
+The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be percent-encoded, for example 18AD, 18A1, %23001.
 
-### Submit a VAT return with a declaration through software
+### Submit a VAT Return with a declaration through software
 
-This is the only POST endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
+This is the only POST API endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
-HMRC also requires software to show their businesses or agents a declaration that they must confirm before the return is sent to HMRC, confirmation that this has been done is reflected by the “finalised” boolean being “true”. The return will not be accepted without this.
+We require your software to show your businesses or agents a declaration that they must confirm before it sends the return to us at HMRC. Software should tell us that the business or agent confirmed this declaration by setting the “finalised” boolean to “true” in the VAT (MTD) API call. We will not accept the VAT Return without this.
 
- > **Declaration text**
+ > **Declaration text to use when a business confirms submission**
 
  > When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
+ 
+ > **Declaration text to use when an agent confirms the submission**
 
-## Amend a VAT return
+ > I confirm that my client has received a copy of the information contained in this return and approved the information as being correct and complete to the best of their knowledge and belief.
+
+## View previously submitted VAT Return
+
+Your software can retrieve returns submitted up to four years previously using the VAT (MTD) API:
+
+1. Find the period key for the VAT Return you wish to retrieve, using the retrieve [VAT obligations endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) (/organisations/vat/{vrn}/obligations) with the status field set to F to see all fulfilled obligations within a date range, or left blank to see both open and fulfilled obligations.
+
+2. Use the period key with the view [VAT Returns endpoint](/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion)  (/organisations/vat/{vrn}/returns/{periodKey}) to retrieve the required VAT Return.
+
+Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API. 
+
+## Amend a VAT Return
 
 We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
 
@@ -108,15 +122,15 @@ The [current process](https://www.gov.uk/government/publications/vat-notice-7004
 
 A business or agent can choose to use method 2 and notify HMRC separately in any case.
 
-Please ensure businesses and agents are made aware of these methods.
+We encourage you to make businesses and agents aware of these methods.
 
 ## Pay VAT or get a repayment
 
 We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
 
-There are multiple ways to pay a VAT bill, listed on GOV.UK at [Pay your VAT bill](https://www.gov.uk/pay-vat), each taking different amounts of time to clear. We advise software developers  to ask businesses and agents to visit that link so they can make a payment in the method that best suits them to meet the deadline.
+There are multiple ways to pay a VAT bill, listed on GOV.UK at [Pay your VAT bill](https://www.gov.uk/pay-vat), each taking different amounts of time to clear. We advise software developers to ask businesses and agents to visit that link so they can make a payment in the method that best suits them to meet the deadline.
 
-With the arrival of MTD-VAT the contents of this GOV.UK page are subject to change. Likewise the URL may change in which case we will update the link above.
+With the arrival of VAT (MTD) the contents of this GOV.UK page are subject to change. Likewise the URL may change in which case we will update the link above.
 
 For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account (BTA) - login page is [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
 
@@ -147,19 +161,16 @@ The business’ or agent’s repayment bank account details are only used for a 
 
 ## Notify a change of circumstances
 
-**See the [VAT (MTD) roadmap](https://hmrc-vat-roadmap-cycle-33.herokuapp.com/documentation/backlog.html#backlog) for more details.**
-
-
-We would like software developers to remind businesses to check and update their details with us.
+We encourage you to remind businesses to check and update their details with us.
 
 They can do this by visiting their Business Tax Account. The login page is:
 [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)  
 
 Businesses can update a range of information, including addresses, telephone numbers, e-mail and business type.
 
-Until MTD-VAT goes into Live service there will be a manual process in place whereby a business or agent can contact us directly for a manual change to be made to their details.
+Until VAT (MTD) goes into Live service there will be a manual process in place whereby a business or agent can contact us directly for a manual change to be made to their details.
 
-For exiting Controlled Go Live, functionality will be available for businesses or agents to make the most regular changes with more functionality being added up until Go Live early 2019.
+Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added up until Go Live early 2019.
 
 ## View future obligations and previous returns
 
@@ -174,7 +185,7 @@ Agents must use third party software to view their client’s future obligations
 
 <img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>
+<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>.
 
 1. Business signs in to Gov Gateway account
 2. Business views previous returns in BTA
