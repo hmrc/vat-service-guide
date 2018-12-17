@@ -17,7 +17,7 @@ Before agents can represent clients they must set up their relationships and sof
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
-5. [Agent subscribes a client to VAT](#subscribe-to-VAT)
+5. [Agent subscribes a client to VAT](#subscribe-to-vat)
 6. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
