@@ -64,7 +64,7 @@ The response also includes the relevant period key associated with each specific
 
 A new obligation is generated on the first day of the period, whether the previous obligation is fulfilled or not. Software can search for previous open or fulfilled obligations but can only call the next obligation.
 
-Note 1: VAT MTD will support more business and agent types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non-standard staggers.
+Note 1: VAT (MTD) will support more business and agent types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non-standard staggers.
 
 Note 2: Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
 
@@ -132,7 +132,7 @@ There are multiple ways to pay a VAT bill, listed on GOV.UK at [Pay your VAT bil
 
 With the arrival of VAT (MTD) the contents of this GOV.UK page are subject to change. Likewise the URL may change in which case we will update the link above.
 
-For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account (BTA) - login page is [https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account).
+For businesses to see previous payments they’ve made to us, we would like software developers to encourage them to visit their Business Tax Account (BTA) at [https://www.tax.service.gov.uk/account](https://www.tax.service.gov.uk/account).
 
 Using their BTA businesses can:
 
@@ -141,7 +141,7 @@ Using their BTA businesses can:
   * set up a new Direct Debit instruction
   * make a corporate credit or debit card payment
 
-This page will also provide details of our bank account for businesses or agents wanting to pay by Bacs, CHAPs or by faster payments.
+This page will also provide details of our bank account for businesses or agents wanting to pay by Bacs, CHAPS or by Faster Payments.
 
 ### Agents
 
@@ -151,20 +151,20 @@ Agents can only make a payment via the unauthenticated (not logged in) route - [
 
 Repayments to VAT businesses are made by:
 
-1. Card – only if the last payment on record at the time the repayment is due is a card and all other relevant criteria is met. At this time we are only refunding Worldpay transactions back to card. Barclaycard transactions are being repaid by BACS or Payable Order. This process will continue until we have our new Barclaycard repay to card process in place.
-2. BACS – to the business bank details held on file.
+1. Card – only if the last payment on record at the time the repayment is due is a card and all other relevant criteria is met. At this time we are only refunding Worldpay transactions back to card. Barclaycard transactions are being repaid by Bacs or Payable Order. This process will continue until we have our new Barclaycard repay to card process in place.
+2. Bacs – to the business bank details held on file.
 3. Payable Order – if no bank details are held on file.
 
-In exceptional circumstances we repay by Chaps or Faster Payments but these type of repayments are normally associated with hardship, complaints, etc.
+In exceptional circumstances we repay by CHAPS or Faster Payments but these type of repayments are normally associated with hardship, complaints, etc.
 
-The business’ or agent’s repayment bank account details are only used for a BACS, Chaps or Faster Payment repayment.
+The business’ or agent’s repayment bank account details are only used for a Bacs, CHAPS or Faster Payments repayment.
 
 ## Notify a change of circumstances
 
 We encourage you to remind businesses to check and update their details with us.
 
-They can do this by visiting their Business Tax Account. The login page is:
-[https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)  
+They can do this by visiting their Business Tax Account at
+[https://www.tax.service.gov.uk/account](https://www.tax.service.gov.uk/account).
 
 Businesses can update a range of information, including addresses, telephone numbers, e-mail and business type.
 
@@ -176,10 +176,10 @@ Functionality will be available for businesses or agents to make the most regula
 
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
 
-We encourage software developers to include these features within their products. Developers can also direct businesses to visit their Business Tax Account (BTA), the login page attached below:
-[https://www.tax.service.gov.uk/sign-in](https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account)
+We encourage software developers to include these features within their products. Developers can also direct businesses to visit their Business Tax Account (BTA) at
+[https://www.tax.service.gov.uk/account](https://www.tax.service.gov.uk/account).
 
-From April 2018, if a business has volunteered for the pilot and signed up for MTD, they will have the option to use and view information within their BTA. This will include information such as: viewing their return, payment obligations and the option to link off from their BTA and make an online card payment.
+From April 2018, if a business has volunteered for the pilot and signed up for VAT (MTD), they will have the option to use and view information within their BTA. This will include information such as: viewing their return, payment obligations and the option to link off from their BTA and make an online card payment.
 
 Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
 
