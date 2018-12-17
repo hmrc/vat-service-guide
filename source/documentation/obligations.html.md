@@ -184,7 +184,7 @@ Agents must use third party software to view their client’s future obligations
 
 <img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>
+<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>.
 
 1. Business signs in to Gov Gateway account
 2. Business views previous returns in BTA
