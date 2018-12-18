@@ -26,10 +26,10 @@ Before agents can represent clients they must set up their relationships and sof
 
 Before businesses can submit VAT Returns, they must register for VAT and set up their software.
 
-<img src="figures/business-start-up.png"
+<img src="figures/business-set-up.png"
 alt="Business start up process diagram" border="1px"; style="width:520px;" />
 
-<a href="figures/business-start-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
+<a href="figures/business-set-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
 
 1. [Business reads guidance](#agent-or-business-reads-guidance)
 2. [Business subscribes to VAT](#subscribe-to-VAT)
