@@ -42,10 +42,6 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
   * [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion)
   * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
-<img src="figures/retrieve-obligations.png" alt="Retrieve obligations process diagram" border="1px"; style="width:680px;" />
-
-<a href="figures/retrieve-obligations.png" target="blank">Open the retrieve VAT obligations process diagram in a new tab</a>.
-
 1. Mandatory: Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
 3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to see if the prior obligation is met or to see the next obligation.
@@ -96,7 +92,7 @@ We require your software to show your businesses or agents a declaration that th
  > **Declaration text to use when a business confirms submission**
 
  > When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution.
- 
+
  > **Declaration text to use when an agent confirms the submission**
 
  > I confirm that my client has received a copy of the information contained in this return and approved the information as being correct and complete to the best of their knowledge and belief.
@@ -109,7 +105,7 @@ Your software can retrieve returns submitted up to four years previously using t
 
 2. Use the period key with the view [VAT Returns endpoint](/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion)  (/organisations/vat/{vrn}/returns/{periodKey}) to retrieve the required VAT Return.
 
-Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API. 
+Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API.
 
 ## Amend a VAT Return
 
