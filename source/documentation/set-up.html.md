@@ -137,9 +137,9 @@ This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-s
 
 Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
 
-<img src="figures/business-registers-vat.png" alt="Business signs up for VAT (MTD) process diagram" border="1px"; style="width:500px;" />
+<img src="figures/business-signs-up-for-vat.png" alt="Business signs up for VAT (MTD) process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/business-registers-vat.png" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
+<a href="figures/business-signs-up-for-vat.png" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
