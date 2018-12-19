@@ -18,34 +18,34 @@ Before agents can represent clients they must set up their relationships and sof
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent subscribes a client to VAT](#subscribe-to-vat)
-6. [Agent registers a client for VAT (MTD)](#agent-registers-a-client-for-vat-mtd)
+6. [Agent signs up a client for VAT (MTD)](#agent-signs-up-a-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business journey overview
 
-Before businesses can submit VAT Returns, they must register for VAT and set up their software.
+Before businesses can submit VAT Returns, they must sign up for VAT (MTD) and set up their software.
 
 <img src="figures/business-set-up.png"
-alt="Business start up process diagram" border="1px"; style="width:520px;" />
+alt="Business set up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-set-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
 
 1. [Business reads guidance](#agent-or-business-reads-guidance)
 2. [Business subscribes to VAT](#subscribe-to-VAT)
-3. [Business registers for VAT (MTD)](#business-registers-for-vat-mtd)
+3. [Business signs up for VAT (MTD)](#business-signs-up-for-vat-mtd)
 4. [Business chooses software](#choose-software)
 5. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Read guidance
 
-Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to register themselves and their clients for VAT.
+Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to set up themselves and their clients for VAT (MTD).
 
 ## Create an agent services account
 
 To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
 
-<img src="figures/agent-services-account.png" alt="Agent services account process diagram" border="1px"; style="width:200px;" />
+<img src="figures/agent-services-account.png" alt="Create an agent services account process diagram" border="1px"; style="width:200px;" />
 
 <a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
@@ -84,9 +84,9 @@ This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-se
 
 After an agent creates an agent services account, they must link any new clients to the account one by one.
 
-<img src="figures/agent-links-new-vat.png" alt="Agent links new VAT clients process diagram" border="1px"; style="width:500px;" />
+<img src="figures/agent-links-new-vat.png" alt="Link a new VAT client process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/agent-links-new-vat.png" target="blank">Open the agent links new VAT clients process diagram in a new tab</a>.
+<a href="figures/agent-links-new-vat.png" target="blank">Open the link a new VAT client process diagram in a new tab</a>.
 
 1. Agent signs into agent services account
 2. Agent requests to ask a client to authorise them
@@ -107,13 +107,13 @@ successful subscription the business will be informed of their VAT Return deadli
 
 Agents must already be subscribed to HMRC agent services in order to access the new VAT subscription service on behalf of their clients.
 
-## Agent registers a client for VAT (MTD)
+## Agent signs up a client for VAT (MTD)
 
 Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
 
-<img src="figures/agents-sign-up.png" alt="Agent sign up process diagram" border="1px"; style="width:400px;" />
+<img src="figures/agents-sign-up.png" alt="Agent signs up client for VAT (MTD) process diagram" border="1px"; style="width:400px;" />
 
-<a href="figures/agents-sign-up.png" target="blank">Open the agent registers client for VAT process diagram in a new tab</a>.
+<a href="figures/agents-sign-up.png" target="blank">Open the agent signs up client for VAT (MTD) process diagram in a new tab</a>.
 
 1. Agent signs in to agent services Government Gateway account
 2. Agent confirms VRN of client
@@ -133,13 +133,13 @@ We will develop supporting content that allows a business to identify whether th
 
 This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns). We encourage you to include this link in your software.
 
-## Business registers for VAT (MTD)
+## Business signs up for VAT (MTD)
 
 Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
 
-<img src="figures/business-registers-vat.png" alt="Business registers for VAT process diagram" border="1px"; style="width:500px;" />
+<img src="figures/business-registers-vat.png" alt="Business signs up for VAT (MTD) process diagram" border="1px"; style="width:500px;" />
 
-<a href="figures/business-registers-vat.png" target="blank">Open the business registers for VAT process diagram in a new tab</a>.
+<a href="figures/business-registers-vat.png" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
 
 1. Business signs in to Government Gateway account
 2. Business confirms VRN
@@ -172,9 +172,9 @@ We require that each application offered to users complies with our [terms of us
 
 Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/) to do this, which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey to grant this authority.
 
-<img src="figures/links-software.png" alt="Links software to HMRC process diagram" border="1px"; style="width:320px;" />
+<img src="figures/links-software.png" alt="Link software to HMRC process diagram" border="1px"; style="width:320px;" />
 
-<a href="figures/links-software.png" target="blank">Open the links software to HMRC process diagram in a new tab</a>.
+<a href="figures/links-software.png" target="blank">Open the link software to HMRC process diagram in a new tab</a>.
 
 1. Your software sends the business or the agent to the authorisation endpoint
 2. Business or agent views grant authority start page for an overview of the process before starting
