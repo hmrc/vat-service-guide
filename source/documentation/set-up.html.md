@@ -18,7 +18,7 @@ Before agents can represent clients they must set up their relationships and sof
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent subscribes a client to VAT](#subscribe-to-vat)
-6. [Agent signs up a client for VAT (MTD)](#agent-signs-up-a-client-for-vat-mtd)
+6. [Agent signs up client for VAT (MTD)](#agent-signs-up-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
 
@@ -50,11 +50,11 @@ To access VAT (MTD), an agent must create an agent services account. This is a o
 <a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
 1. Agent signs in to Government Gateway account with existing agent credentials
-2. Agent identifies their agency with its SA UTR or CTR and associated postcode
-3. Agent gives some agency details and chooses a password
-4. We create a new Government Gateway account for the agent, and tell them their User ID
+2. Agent identifies their business with its SA UTR or CTR and associated postcode
+3. Agent gives some further details and chooses a password
+4. HMRC creates a new Government Gateway account for the agent, and gives them their User ID
 5. Agent checks details
-6. We create the agent services account, and tell the agent their agent services account reference number
+6. HMRC creates the agent services account, and gives the agent their agent services account reference number
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
@@ -74,8 +74,8 @@ After an agent creates an agent services account, they link their existing VAT c
 
 1. Agent signs in to their agent services account
 2. Agent requests to link existing clients
-3. Agent signs in with their existing Government Gateway ID that they use to access HMRC online services
-4. We link the clients from the existing account to the agent services account
+3. Agent signs in to their existing Government Gateway account
+4. HMRC links the clients from the existing account to the agent services account
 5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked. For example, if an agent currently has ten Government Gateway IDs they must do this ten times
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
@@ -107,7 +107,7 @@ successful subscription the business will be informed of their VAT Return deadli
 
 Agents must already be subscribed to HMRC agent services in order to access the new VAT subscription service on behalf of their clients.
 
-## Agent signs up a client for VAT (MTD)
+## Agent signs up client for VAT (MTD)
 
 Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
 
@@ -115,14 +115,12 @@ Once an agent has linked a client to their agent services account, they can sign
 
 <a href="figures/agents-sign-up.png" target="blank">Open the agent signs up client for VAT (MTD) process diagram in a new tab</a>.
 
-1. Agent signs in to agent services Government Gateway account
-2. Agent confirms VRN of client
-3. Agent confirms client is sole trader or limited company
-4. Agent confirms client details, for example NINO/DOB for sole trader, CRN for limited company
-5. Agent confirms their own email address
-6. Agent signs up client to receive emails
-7. Agent confirms client's email address
-8. Client verifies their email address
+1. Agent signs in to agent services account
+2. Agent gives client's details, including VRN, business type and other type-specific details
+3. Agent gives and verifies their own email address (once only)
+4. Agent signs up client to receive secure messages
+5. Agent gives client's email address to HMRC
+6. Client receives verification email and verifies their email address
 7. Agent agrees to terms of participation for self and client
 8. Agent waits 24 hours to see if client is approved to sign up
 
