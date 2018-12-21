@@ -39,7 +39,13 @@ alt="Business set up process diagram" border="1px"; style="width:520px;" />
 
 ## Read guidance
 
-Your software should include a link to the [guidance to help agents and businesses](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready) understand how to set up themselves and their clients for VAT (MTD).
+Businesses and agents can learn about VAT (MTD) by reading guidance on GOV.UK. In particular:
+
+* [Making Tax Digital: how VAT businesses and other VAT entities can get ready](https://www.gov.uk/government/publications/making-tax-digital-how-vat-businesses-and-other-vat-entities-can-get-ready)
+* [Use software to submit your VAT Returns](https://www.gov.uk/guidance/use-software-to-submit-your-vat-returns) - guidance for businesses, including variuous links to get started
+* [Agents: use software to submit VAT Returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns) - guidance for agents, including various links to get started
+
+We encourage you to include links to the relevant guidance in your software.
 
 ## Create an agent services account
 
@@ -156,7 +162,7 @@ This video explains the step-by-step process for a business to sign up to VAT (M
 
 ## Choose software
 
-Here is a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates#VAT) so businesses and agents can choose the right software for their needs.
+We provide a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates#VAT) so businesses and agents can choose the right software for their needs.
 
 This video is about the compatible software that businesses and agents must use as part of VAT (MTD).
 <br>
@@ -164,11 +170,11 @@ This video is about the compatible software that businesses and agents must use 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <br>
 
-We require that each application offered to users complies with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use) which must be accepted by you as software developers before we will issue its production credentials.
+Your application must comply with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use). You must accept the terms of use before we issue your application's production credentials.
 
 ## Link software to HMRC
 
-Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/) to do this, which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey to grant this authority.
+Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/), which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey.
 
 <img src="figures/links-software.png" alt="Link software to HMRC process diagram" border="1px"; style="width:320px;" />
 
