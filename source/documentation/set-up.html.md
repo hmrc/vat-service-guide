@@ -133,18 +133,18 @@ This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-s
 
 ## Business signs up for VAT (MTD)
 
-Sole traders and limited companies can sign up for VAT (MTD). They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
+Businesses can sign themselves up for VAT (MTD) whether or not they use an agent. They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
 
 <img src="figures/business-signs-up-for-vat.png" alt="Business signs up for VAT (MTD) process diagram" border="1px"; style="width:500px;" />
 
 <a href="figures/business-signs-up-for-vat.png" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
 
 1. Business signs in to Government Gateway account
-2. Business confirms VRN
-3. Business confirms whether it is sole trader or limited company
-4. Business completes identity verification (if applicable)
-5. If a limited company, confirms its Company Registration Number
-6. Business enters and verifies its email address
+2. If the account is already enrolled for VAT, business confirms VRN
+3. If the account is not already enrolled for VAT, business enters VRN and other VAT information
+4. HMRC confirms that business is eligible for VAT (MTD)
+5. Business gives HMRC its business type and other business information
+6. Business agrees to receive emails and gives and verifies its email address
 7. Business agrees to the terms of participation
 8. Business waits 24 hours to see if it is approved to sign up
 
