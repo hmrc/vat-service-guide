@@ -48,21 +48,24 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
 
 ### Retrieve obligations in software
 
-This API endpoint allows software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
+The [Retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) allows software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
 
 If the status is:
 
-  * fulfilled - the response includes the received date
-  * open - the response includes the due date
+  * F (fulfilled) - the response includes the received date
+  * O (open) - the response includes the due date
   * blank - the response includes both open and fulfilled obligations
 
 The response also includes the relevant period key associated with each specific obligation.
 
-A new obligation is generated on the first day of the period, whether the previous obligation is fulfilled or not. Software can search for previous open or fulfilled obligations but can only call the next obligation.
+A new obligation is generated on the first day of the period, whether the previous obligation has been fulfilled or not. Software can search for previous open or fulfilled obligations **within a 366 day date range** but can only call the next obligation.
 
-Note 1: VAT (MTD) will support more business and agent types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses or agents that are on monthly, annual and other non-standard staggers.
+Notes:
 
-Note 2: Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
+* VAT (MTD) will support more business types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
+* The obligations are returned with the most up to date obligation first. As the next obligation is created at the beginning of the period, it is likely that the period you are trying to file against could be provided second (see example).
+* Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
+* When checking if an obligation is fulfilled following a submission it can take xxxxx for the obligation to be marked as fulfilled in backend systems.
 
 ### Example period keys for stagger types
 
@@ -82,6 +85,29 @@ Note 2: Period keys should not be shown to the business or agent, these are for 
 Note we have not yet configured annual period keys as annual accounting is not in scope for MVP.
 
 The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (e.g. #001), so the period key must be percent-encoded, for example 18AD, 18A1, %23001.
+
+### Example format of returned obligations
+
+```js
+{
+  "obligations":[
+    {
+      "start":"2018-11-01",
+      "end":"2019-01-31",
+      "due":"2019-03-07",
+      "status":"O",
+      "periodKey":"18A4"
+    },
+    {
+      "start":"2018-08-01",
+      "end":"2018-10-31",
+      "due":"2018-12-07",
+      "status":"O",
+      "periodKey":"18A3"
+    }
+  ]
+}
+```
 
 ### Submit a VAT Return with a declaration through software
 
