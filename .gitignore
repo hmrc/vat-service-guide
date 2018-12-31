@@ -26,3 +26,4 @@ Staticfile.auth
 /project/target
 /.project
 /logs
+.idea
