@@ -1,4 +1,5 @@
 require 'govuk_tech_docs'
+require 'govuk_tech_docs/table_of_contents/heading'
 require 'govuk_tech_docs/table_of_contents/headings_builder'
 
 configure :build do
@@ -35,6 +36,14 @@ configure :build do
         end
       end
       output
+    end
+  end
+
+  module GovukTechDocs::TableOfContents
+    class Heading
+      def href
+        @element_name == 'h1' ? @page_url : @page_url + '#' + @attributes['id']
+      end
     end
   end
 end
