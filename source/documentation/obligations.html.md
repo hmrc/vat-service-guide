@@ -137,6 +137,8 @@ Your software can retrieve returns submitted up to four years previously using t
 
 Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API.
 
+Businesses can also view their previously submitted VAT Returns in their Business Tax Account.
+
 ## View VAT liabilities
 
 Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to one year).
@@ -206,11 +208,13 @@ We encourage you to remind businesses to check and update their details with us.
 They can do this by visiting their Business Tax Account at
 [https://www.tax.service.gov.uk/account](https://www.tax.service.gov.uk/account).
 
-Businesses can update a range of information, including addresses, telephone numbers, e-mail and business type.
+Businesses can update a range of information online which includes email address, principle place of business, VAT return dates, repayment bank account details and deregistering from VAT.
+
+Agents who have signed up to MTD and also have a client who is signed up, can [notify a change of circumstances](https://www.tax.service.gov.uk/gg/sign-in?continue=%2Fvat-through-software%2Faccount%2Fchange-business-details&origin=manage-vat-subscription-frontend).
 
 Until VAT (MTD) goes into Live service there will be a manual process in place whereby a business or agent can contact us directly for a manual change to be made to their details.
 
-Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added up until Go Live early 2019.
+Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added after April 2019.
 
 ## View future obligations and previous returns
 
