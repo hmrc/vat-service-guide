@@ -51,9 +51,9 @@ We encourage you to include links to the relevant guidance in your software.
 
 To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
 
-<img src="figures/agent-services-account.png" alt="Create an agent services account process diagram" border="1px"; style="width:200px;" />
+<img src="figures/create-agent-services-account.png" alt="Create an agent services account process diagram" border="1px"; style="width:200px;" />
 
-<a href="figures/agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
+<a href="figures/create-agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
 1. Agent signs in to Government Gateway account with existing agent credentials
 2. Agent identifies their business with its SA UTR or CTR and associated postcode
