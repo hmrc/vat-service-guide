@@ -1,6 +1,7 @@
 require 'govuk_tech_docs'
 require 'govuk_tech_docs/table_of_contents/heading'
 require 'govuk_tech_docs/table_of_contents/headings_builder'
+require 'govuk_tech_docs/tech_docs_html_renderer'
 
 configure :build do
   base_path = ENV['BASE_PATH'] || '/' # Note: please ensure BASE_PATH ends with a trailing '/'
@@ -49,3 +50,14 @@ configure :build do
 end
 
 GovukTechDocs.configure(self)
+
+set :markdown,
+   renderer: GovukTechDocs::TechDocsHTMLRenderer.new(
+      with_toc_data: true,
+      api: true,
+      link_attributes: { rel: 'noopener noreferrer' },
+      context: self
+    ),
+    fenced_code_blocks: true,
+    tables: true,
+    no_intra_emphasis: true
