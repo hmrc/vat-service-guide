@@ -69,7 +69,7 @@ Notes:
 * VAT (MTD) will support more business types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
 * The obligations are returned with the most up to date obligation first. As the next obligation is created at the beginning of the period, it is likely that the period you are trying to file against could be provided second (see example).
 * Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
-* When checking if an obligation is fulfilled following a submission it can take xxxxx for the obligation to be marked as fulfilled in backend systems.
+* When checking if an obligation is fulfilled following a submission it can take around 5 seconds for the obligation to be marked as fulfilled in backend systems.
 
 ### Example period keys for stagger types
 
@@ -225,7 +225,7 @@ We encourage software developers to include these features within their products
 
 From April 2018, if a business has volunteered for the pilot and signed up for VAT (MTD), they will have the option to use and view information within their BTA. This will include information such as: viewing their return, payment obligations and the option to link off from their BTA and make an online card payment.
 
-Agents must use third party software to view their client’s future obligations and previous returns. This software will call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) to provide this information.
+Agents must use your software to view their client’s future obligations and previous returns. Your software must call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) endpoints to provide this information.
 
 <img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:520px;" />
 
