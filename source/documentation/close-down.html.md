@@ -15,25 +15,25 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>.
 
-1. [Agent arranges for client to leave VAT (MTD)](#leave-vat-mtd)
+1. [Agent arranges for client to unsubscribe from VAT (MTD)](#unsubscribe-from-vat-mtd)
 1. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 2. [Agent leaves agent services](#agent-leaves-agent-services)
 
 ## Business overview
 
-Businesses can leave VAT (MTD).
+Businesses unsubscribes from VAT (MTD).
 
 <img src="figures/business-closedown.png"
 alt="Business closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-closedown.png" target="blank">Open the business close down process diagram in a new tab</a>.
 
-1. [Voluntary business leaves VAT (MTD)](#leave-vat-mtd)
+1. [Business unsubscribes from VAT (MTD)](#unsubscribe-from-vat-mtd)
 
 
-## Leave VAT (MTD)
+## Unsubscribe from VAT (MTD)
 
-Businesses who signed up for VAT (MTD) on a voluntary basis can request to leave VAT (MTD).
+Businesses who signed up for VAT (MTD) on a voluntary basis can request to unsubscribe from VAT (MTD).
 
 Initially there is a manual process in place whereby a business or agent can contact our HMRC helpline to notify us they wish to unsubscribe from the service.
 
