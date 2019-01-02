@@ -15,10 +15,11 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 <a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Agent amends client's VAT return](#amend-a-vat-return)
-3. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-4. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-5. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+2. Agent views client's [VAT liabilities](#view-vat-liabilities) or [VAT payments](#view-vat-payments) 
+3. [Agent amends client's VAT return](#amend-a-vat-return)
+4. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+5. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
+6. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
 ## Business journey overview
 
@@ -30,10 +31,11 @@ alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
 <a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Business receives obligations and submits VAT Return](#receive-obligations-and-submit-a-vat-return)
-2. [Business amends a VAT Return](#amend-a-vat-return)
-3. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-4. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
-5. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+2. Business views its [VAT liabilities](#view-vat-liabilities) or [VAT payments](#view-vat-payments) 
+3. [Business amends a VAT Return](#amend-a-vat-return)
+4. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+5. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
+6. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
 ## Receive obligations and submit a VAT Return
 
@@ -48,7 +50,7 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
 
 ### Retrieve obligations in software
 
-The [Retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) allows software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
+The [Retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) allows your software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
 
 If the status is:
 
@@ -127,11 +129,25 @@ We require your software to show your businesses or agents a declaration that th
 
 Your software can retrieve returns submitted up to four years previously using the VAT (MTD) API:
 
-1. Find the period key for the VAT Return you wish to retrieve, using the retrieve [VAT obligations endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) (/organisations/vat/{vrn}/obligations) with the status field set to F to see all fulfilled obligations within a date range, or left blank to see both open and fulfilled obligations.
+1. Find the period key for the VAT Return you wish to retrieve, using the [Retrieve VAT obligations endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) (/organisations/vat/{vrn}/obligations) with the status field set to F to see all fulfilled obligations within a date range, or left blank to see both open and fulfilled obligations.
 
 2. Use the period key with the view [VAT Returns endpoint](/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion)  (/organisations/vat/{vrn}/returns/{periodKey}) to retrieve the required VAT Return.
 
 Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API.
+
+## View VAT liabilities
+
+Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to one year).
+
+The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
+
+## View VAT payments 
+
+Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to one year).
+
+The response includes the amount allocated to a liability and, when available, the date it was received.
+
+It is not yet possible to return links between payments and liabilities
 
 ## Amend a VAT Return
 
