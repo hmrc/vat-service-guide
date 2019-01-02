@@ -15,11 +15,12 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 <a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
-2. Agent views client's [VAT liabilities](#view-vat-liabilities) or [VAT payments](#view-vat-payments) 
-3. [Agent amends client's VAT return](#amend-a-vat-return)
-4. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-5. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-6. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+2. [Agent views client's VAT liabilities](#view-vat-liabilities) 
+3. [Agent views client's VAT payments](#view-vat-payments) 
+4. [Agent amends client's VAT return](#amend-a-vat-return)
+5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
+7. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
 
 ## Business journey overview
 
@@ -31,7 +32,8 @@ alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
 <a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Business receives obligations and submits VAT Return](#receive-obligations-and-submit-a-vat-return)
-2. Business views its [VAT liabilities](#view-vat-liabilities) or [VAT payments](#view-vat-payments) 
+2. [Business views its VAT liabilities](#view-vat-liabilities) 
+3. [Business views its VAT payments](#view-vat-payments) 
 3. [Business amends a VAT Return](#amend-a-vat-return)
 4. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 5. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
