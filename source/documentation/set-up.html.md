@@ -51,7 +51,7 @@ We encourage you to include links to the relevant guidance in your software.
 
 To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
 
-<img src="figures/create-agent-services-account.png" alt="Create an agent services account process diagram" border="1px"; style="width:200px;" />
+<img src="figures/create-agent-services-account.png" alt="Create an agent services account process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/create-agent-services-account.png" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
@@ -90,7 +90,7 @@ This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-se
 
 After an agent creates an agent services account, they must link any new clients to the account one by one.
 
-<img src="figures/agent-links-new-vat.png" alt="Link a new VAT client process diagram" border="1px"; style="width:500px;" />
+<img src="figures/agent-links-new-vat.png" alt="Link a new VAT client process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-links-new-vat.png" target="blank">Open the link a new VAT client process diagram in a new tab</a>.
 
@@ -117,7 +117,7 @@ Agents must already be subscribed to HMRC agent services in order to access the 
 
 Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
 
-<img src="figures/agents-sign-up.png" alt="Agent signs up client for VAT (MTD) process diagram" border="1px"; style="width:400px;" />
+<img src="figures/agents-sign-up.png" alt="Agent signs up client for VAT (MTD) process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agents-sign-up.png" target="blank">Open the agent signs up client for VAT (MTD) process diagram in a new tab</a>.
 
