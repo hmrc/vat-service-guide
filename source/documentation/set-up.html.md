@@ -128,7 +128,7 @@ Once an agent has linked a client to their agent services account, they can sign
 5. Agent gives client's email address to HMRC
 6. Client receives verification email and verifies their email address
 7. Agent agrees to terms of participation for self and client
-8. Agent waits 24 hours to see if client is approved to sign up
+8. Agent waits 72 hours to see if client is approved to sign up
 
 We will develop supporting content that allows a business to identify whether they need to:
 
@@ -152,7 +152,7 @@ Businesses can sign themselves up for VAT (MTD) whether or not they use an agent
 5. Business gives HMRC its business type and other business information
 6. Business agrees to receive emails and gives and verifies its email address
 7. Business agrees to the terms of participation
-8. Business waits 24 hours to see if it is approved to sign up
+8. Business waits 72 hours to see if it is approved to sign up
 
 <br>
 This video explains the step-by-step process for a business to sign up to VAT (MTD).
