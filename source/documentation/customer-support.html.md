@@ -1,13 +1,13 @@
 ---
 title: Customer support model | VAT (MTD) End-to-End Service Guide
-weight: 5
+weight: 6
 ---
 
 # Customer support model
 
 We are developing a customer support model which will help guide businesses and agents to the most appropriate support. This may be provided by us at HMRC or you as a software vendor depending on the issue. Our HMRC support will be provided through a variety of channels and options for seeking advice and support.
 
-We wish to work with you as software vendors to provide a comprehensive support package that covers software usage, online access and technical issues, as well as straightforward tax queries. 
+We wish to work with you as software vendors to provide a comprehensive support package that covers software usage, online access and technical issues, as well as straightforward tax queries.
 
 Businesses and agents will be signposted to self-help through a suite of guidance products such as videos, webinars and e-learning, which are aimed at specific stages of the MTD journey. We will develop the content as we add new functionality.
 
