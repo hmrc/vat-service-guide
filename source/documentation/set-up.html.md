@@ -174,22 +174,24 @@ Your application must comply with our [terms of use](https://developer.service.h
 
 ## Link software to HMRC
 
-Businesses and agents using software that connects to the VAT (MTD) API must grant authority to the software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/), which involves the business or agent signing in via their Governmant Gateway account and following the HMRC authorisation journey.
+Businesses and agents using your software to connect to the VAT (MTD) API must grant authority to your software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/), which involves the business or agent signing in via their Governmant Gateway account and following the grant authority user journey.
 
 <img src="figures/links-software.png" alt="Link software to HMRC process diagram" border="1px"; style="width:320px;" />
 
 <a href="figures/links-software.png" target="blank">Open the link software to HMRC process diagram in a new tab</a>.
 
-1. Your software sends the business or the agent to the authorisation endpoint
-2. Business or agent views grant authority start page for an overview of the process before starting
-3. Business or agent signs in to their Government Gateway account
-4. Business or agent registers for or completes 2-step verification as applicable
-5. Business or agent completes identity checks if applicable
-6. Business or agent grants (or refuses) authority for the software to interact with HMRC on their behalf
-7. Business or agent is returned to your software
+1. Business or agent requests to link your software to HMRC
+2. Your software launches the grant authority user journey
+3. Business or agent views the start page for an overview of the process and chooses to continue
+4. Business or agent signs in to their Government Gateway account
+5. Business or agent registers for or completes 2-step verification as applicable
+6. Business or agent completes identity checks if applicable
+7. Business or agent grants authority for the software to interact with HMRC on their behalf
+8. HMRC generates an OAuth token for the business or agent
+9. Your software stores the business or agent's OAuth token for later use in API calls on their behalf
 
 Business and agents authenticate directly with us using their Government Gateway account, and grant the software the authority to interact with HMRC on their behalf. They grant this for a set of functions called API scopes which are required for [each VAT (MTD) endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#resources).
 
 In the case of agents, they must sign in to their Government Gateway account with the user ID and password for their agent services account, which was generated as part of the [agent services account journey](set-up.html#create-an-agent-services-account).
 
-We then issue an OAuth 2.0 access token to the software which is specific to the business or agent. The software must pass this access token in subsequent API requests as explained in authorisation of [user-restricted endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/authorisation/user-restricted-endpoints).
+We then generate an OAuth 2.0 access token for the software which is specific to the business or agent. The software must pass this access token in subsequent API requests as explained in authorisation of [user-restricted endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/authorisation/user-restricted-endpoints).
