@@ -13,7 +13,7 @@ Before agents can represent clients they must set up their relationships and sof
 
 <a href="figures/agent-start-up.png" target="blank">Open the agent set up process diagram in a new tab</a>.
 
-1. [Agent reads guidance](#agent-or-business-reads-guidance)
+1. [Agent reads guidance](#read-guidance)
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
@@ -31,8 +31,8 @@ alt="Business set up process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-set-up.png" target="blank">Open the business set up process diagram in a new tab</a>.
 
-1. [Business reads guidance](#agent-or-business-reads-guidance)
-2. [Business subscribes to VAT](#subscribe-to-VAT)
+1. [Business reads guidance](#read-guidance)
+2. [Business subscribes to VAT](#subscribe-to-vat)
 3. [Business signs up for VAT (MTD)](#business-signs-up-for-vat-mtd)
 4. [Business chooses software](#choose-software)
 5. [Business links software to HMRC](#link-software-to-hmrc)
