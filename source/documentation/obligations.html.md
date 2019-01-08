@@ -20,7 +20,7 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 4. [Agent amends client's VAT return](#amend-a-vat-return)
 5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-7. [Client views their future obligations and previous returns in their Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns)
 
 ## Business journey overview
 
@@ -231,7 +231,7 @@ Agents must use your software to view their client’s future obligations and pr
 
 <a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>.
 
-1. Business signs in to Gov Gateway account
+1. Business signs in to Government Gateway account
 2. Business views previous returns in BTA
 3. Business views when their next return is due in BTA
 4. Business views when their next payment is due and what they owe
