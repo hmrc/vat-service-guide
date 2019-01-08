@@ -174,7 +174,7 @@ Your application must comply with our [terms of use](https://developer.service.h
 
 ## Link software to HMRC
 
-Businesses and agents using your software to connect to the VAT (MTD) API must grant authority to your software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/), which involves the business or agent signing in via their Governmant Gateway account and following the grant authority user journey.
+Businesses and agents using your software to connect to the VAT (MTD) API must grant authority to your software to interact with HMRC on their behalf. We use the open standard [OAuth 2.0 (opens in a new tab)](https://oauth.net/2/), which involves the business or agent signing in via their Government Gateway account and following the grant authority user journey.
 
 <img src="figures/links-software.png" alt="Link software to HMRC process diagram" border="1px"; style="width:320px;" />
 
