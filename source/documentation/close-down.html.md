@@ -15,7 +15,7 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>.
 
-1. [Agent arranges for client to unsubscribe from VAT (MTD)](#unsubscribe-from-vat-mtd)
+1. [Agent unsubscribes client from VAT (MTD)](#unsubscribe-from-vat-mtd)
 1. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 2. [Agent leaves agent services](#agent-leaves-agent-services)
 
