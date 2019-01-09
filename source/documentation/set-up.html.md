@@ -182,7 +182,7 @@ Businesses and agents using your software to connect to the VAT (MTD) API must g
 
 1. Business or agent requests to link your software to HMRC
 2. Your software launches the grant authority user journey
-3. Business or agent views the start page for an overview of the process and chooses to continue
+3. Business or agent views the HMRC start page for an overview of the process and chooses to continue
 4. Business or agent signs in to their Government Gateway account
 5. Business or agent registers for or completes 2-step verification as applicable
 6. Business or agent completes identity checks if applicable
