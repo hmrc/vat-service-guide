@@ -20,7 +20,7 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 4. [Agent amends client's VAT return](#amend-a-vat-return)
 5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns)
+7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns-bta)
 
 ## Business journey overview
 
@@ -37,7 +37,7 @@ alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
 3. [Business amends a VAT Return](#amend-a-vat-return)
 4. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 5. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
-6. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns)
+6. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns-bta)
 
 ## Receive obligations and submit a VAT Return
 
@@ -216,7 +216,7 @@ Until VAT (MTD) goes into Live service there will be a manual process in place w
 
 Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added after April 2019.
 
-## View future obligations and previous returns
+## View future obligations and previous returns (BTA)
 
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
 
