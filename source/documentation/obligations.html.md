@@ -48,7 +48,7 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
 
 1. Mandatory: Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
 2. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
-3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to see if the prior obligation is met or to see the next obligation.
+3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to check if the VAT Return has met the current obligation - or to see the next obligation.
 
 ### Retrieve obligations in software
 
