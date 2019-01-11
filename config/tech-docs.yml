@@ -17,7 +17,7 @@ header_links:
 enable_search: false
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
-ga_tracking_id:
+ga_tracking_id: UA-43414424-1
 
 # Enable multipage navigation in the sidebar
 multipage_nav: true
