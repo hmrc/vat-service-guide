@@ -1,9 +1,13 @@
 ---
 title: VAT (MTD) End-to-End Service Guide
 weight: 1
+description: Software developers, designers, product owners or business analysts. Integrate your software with VAT API for Making Tax Digital.
 ---
 
 # VAT (MTD) End-to-End Service Guide
+
+Version 6.0 issued 21 January 2019
+***
 
 This guide explains how you can integrate your software with our APIs to submit VAT returns under Making Tax Digital for VAT. It shows how the APIs fit into various end-to-end user journeys. It is intended to help software developers, designers, product owners or business analysts understand how your software needs to interact with HMRC systems.
 
@@ -18,7 +22,6 @@ The frequency of submitting a VAT Return (annually, quarterly or monthly) does n
 
 For more details see [VAT Notice 700/22](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat). In particular, [section 7](https://www.gov.uk/government/publications/vat-notice-70022-making-tax-digital-for-vat/vat-notice-70022-making-tax-digital-for-vat#examples-of-where-a-digital-link-is-required) shows the various options for software integration.
 
-
 ## End-to-end user journeys
 
 These journeys show examples of use. Journeys for businesses and agents are broken down into:
@@ -32,3 +35,14 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 
   * [VAT (MTD) REST API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0)
   * [Create Test User API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0)
+
+## Changelog
+
+### Version 6.0
+
+21 January 2019
+
+What changed:
+
+* [Added documentation for Retrieve VAT liabilities endpoint](documentation/obligations.html#view-vat-liabilities)
+* [Added documentation for Retrieve VAT payments endpoint](documentation/obligations.html#view-vat-payments)
