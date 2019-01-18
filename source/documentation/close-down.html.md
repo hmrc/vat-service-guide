@@ -15,7 +15,7 @@ alt="Agent closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/agent-closedown.png" target="blank">Open the agent close down process diagram in a new tab</a>.
 
-1. [Agent unsubscribes client from VAT (MTD)](#unsubscribe-from-vat-mtd)
+1. [Agent opts client out of VAT (MTD)](#opt-out-of-vat-mtd)
 1. [Client or agent ends relationship](#client-or-agent-ends-relationship)
 2. [Agent leaves agent services](#agent-leaves-agent-services)
 
@@ -28,19 +28,15 @@ alt="Business closedown process diagram" border="1px"; style="width:520px;" />
 
 <a href="figures/business-closedown.png" target="blank">Open the business close down process diagram in a new tab</a>.
 
-1. [Business unsubscribes from VAT (MTD)](#unsubscribe-from-vat-mtd)
+1. [Business opts out of VAT (MTD)](#opt-out-of-vat-mtd)
 
 
-## Unsubscribe from VAT (MTD)
+## Opt out of VAT (MTD)
 
-Businesses who signed up for VAT (MTD) on a voluntary basis can request to unsubscribe from VAT (MTD).
+Businesses who signed up for VAT (MTD) on a voluntary basis can request to opt out of VAT (MTD).
 
-Initially there is a manual process in place whereby a business or agent can contact our HMRC helpline to notify us they wish to unsubscribe from the service.
+Initially there is a manual process in place whereby a business or agent can contact our HMRC helpline to notify us they wish to opt out of VAT (MTD). Subsequent VAT returns will be sent manually until a new digital service is released to receive them.
 
-In the event that the business continues to be VAT registered, if necessary VAT Returns can
-be submitted manually.
-
-In time the manual process will be replaced by a digital service.
 
 ## Client or agent ends relationship
 
