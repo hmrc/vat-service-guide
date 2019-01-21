@@ -69,8 +69,7 @@ Notes:
 * VAT (MTD) will support more business types throughout public beta. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
 * The obligations are returned with the most up to date obligation first. As the next obligation is created at the beginning of the period, it is likely that the period you are trying to file against could be provided second (see example).
 * Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
-* When checking if an obligation is fulfilled following a submission it can take around 5 seconds for the obligation to be marked as fulfilled in backend systems.
-* If the software submits a VAT Return from Monday to Thursday during normal working hours, the obligation will be updated by the following morning or earlier. If the software submits a return after 6pm on a Friday, then it's possible the obligation will be marked as fulfilled on the following Tuesday (or Wednesday if it's a bank holiday weekend). There should be no penalty if the return was submitted in the required timeframe as the obligation will be marked as met on the date it is received from the software.
+* If the software submits a VAT Return from Monday to Friday during normal working hours, the obligation will be updated by the following morning or earlier. If the software submits a return after 6pm on a Friday, then it's possible the obligation will be marked as fulfilled on the following Tuesday (or Wednesday if it's a bank holiday weekend). There should be no penalty if the return was submitted in the required timeframe as the obligation will be marked as met on the date it is received from the software.
 
 ### Example period keys for stagger types
 
