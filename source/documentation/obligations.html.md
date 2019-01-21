@@ -9,14 +9,13 @@ weight: 3
 
 Agents who have set up their clients for VAT (MTD) can submit their clients' VAT Returns.
 
-<a href="figures/agent-active.png" target="blank"><img src="figures/agent-active.png"
-alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
+<a href="figures/obligations-returns-agent.svg" target="blank"><img src="figures/obligations-returns-agent.svg" alt="Agent process flow process diagram for obligations and returns" style="width:520px;" /></a>
 
-<a href="figures/agent-active.png" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
+<a href="figures/obligations-returns-agent.svg" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Agent views client's VAT liabilities](#view-vat-liabilities) 
-3. [Agent views client's VAT payments](#view-vat-payments) 
+2. [Agent views client's VAT liabilities](#view-vat-liabilities)
+3. [Agent views client's VAT payments](#view-vat-payments)
 4. [Agent amends client's VAT return](#amend-a-vat-return)
 5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
@@ -26,14 +25,13 @@ alt="Agent active process diagram" border="1px"; style="width:520px;" /></a>
 
 Businesses set up for VAT (MTD) can submit VAT Returns.
 
-<a href="figures/business-active.png" target="blank"><img src="figures/business-active.png"
-alt="Business active process diagram" border="1px"; style="width:520px;" /></a>
+<a href="figures/obligations-returns-business.svg" target="blank"><img src="figures/obligations-returns-business.svg" alt="Business process flow process diagram for obligations and returns" style="width:520px;" /></a>
 
-<a href="figures/business-active.png" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
+<a href="figures/obligations-returns-business.svg" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Business receives obligations and submits VAT Return](#receive-obligations-and-submit-a-vat-return)
-2. [Business views its VAT liabilities](#view-vat-liabilities) 
-3. [Business views its VAT payments](#view-vat-payments) 
+2. [Business views its VAT liabilities](#view-vat-liabilities)
+3. [Business views its VAT payments](#view-vat-payments)
 3. [Business amends a VAT Return](#amend-a-vat-return)
 4. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 5. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
@@ -145,7 +143,7 @@ Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retriev
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
 
-## View VAT payments 
+## View VAT payments
 
 Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to one year).
 
@@ -227,9 +225,9 @@ From April 2018, if a business has volunteered for the pilot and signed up for V
 
 Agents must use your software to view their client’s future obligations and previous returns. Your software must call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) endpoints to provide this information.
 
-<img src="figures/future-obligations.png" alt="Future obligations process diagram" border="1px"; style="width:520px;" />
+<img src="figures/view-future-obligations.svg" alt="Future obligations process diagram" style="width:520px;" />
 
-<a href="figures/future-obligations.png" target="blank">Open the future obligations process diagram in a new tab</a>.
+<a href="figures/view-future-obligations.svg" target="blank">Open the future obligations process diagram in a new tab</a>.
 
 1. Business signs in to Government Gateway account
 2. Business views previous returns in BTA
