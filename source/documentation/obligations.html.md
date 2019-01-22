@@ -14,9 +14,9 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 <a href="figures/obligations-returns-agent.svg" target="blank">Open the agent process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Agent receives client's obligations and submits a VAT return](#receive-obligations-and-submit-a-vat-return)
-2. [Agent views client's VAT liabilities](#view-vat-liabilities)
-3. [Agent views client's VAT payments](#view-vat-payments)
-4. [Agent amends client's VAT return](#amend-a-vat-return)
+2. [Agent views client's VAT liabilities](#view-vat-liabilities) 
+3. [Agent views client's VAT payments](#view-vat-payments) 
+4. [Agent amends client's VAT return using current process](#amend-a-vat-return-using-current-process)
 5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
 7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns-bta)
@@ -30,12 +30,12 @@ Businesses set up for VAT (MTD) can submit VAT Returns.
 <a href="figures/obligations-returns-business.svg" target="blank">Open the business process flow process diagram for obligations and returns in a new tab</a>.
 
 1. [Business receives obligations and submits VAT Return](#receive-obligations-and-submit-a-vat-return)
-2. [Business views its VAT liabilities](#view-vat-liabilities)
-3. [Business views its VAT payments](#view-vat-payments)
-3. [Business amends a VAT Return](#amend-a-vat-return)
-4. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
-5. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
-6. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns-bta)
+2. [Business views its VAT liabilities](#view-vat-liabilities) 
+3. [Business views its VAT payments](#view-vat-payments) 
+4. [Business amends a VAT Return using current process](#amend-a-vat-return-using-current-process)
+5. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
+6. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
+7. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns-bta)
 
 ## Receive obligations and submit a VAT Return
 
@@ -64,10 +64,10 @@ A new obligation is generated on the first day of the period, whether the previo
 
 Notes:
 
-* VAT (MTD) will support more business types throughout Controlled Go Live. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
+* VAT (MTD) will support more business types throughout public beta. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
 * The obligations are returned with the most up to date obligation first. As the next obligation is created at the beginning of the period, it is likely that the period you are trying to file against could be provided second (see example).
 * Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
-* When checking if an obligation is fulfilled following a submission it can take around 5 seconds for the obligation to be marked as fulfilled in backend systems.
+* If the software submits a VAT Return from Monday to Friday during normal working hours, the obligation will be updated by the following morning or earlier. If the software submits a return after 6pm on a Friday, then it's possible the obligation will be marked as fulfilled on the following Tuesday (or Wednesday if it's a bank holiday weekend). There should be no penalty if the return was submitted in the required timeframe as the obligation will be marked as met on the date it is received from the software.
 
 ### Example period keys for stagger types
 
@@ -151,14 +151,12 @@ The response includes the amount allocated to a liability and, when available, t
 
 It is not yet possible to return links between payments and liabilities
 
-## Amend a VAT Return
+## Amend a VAT Return using current process
 
-We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
+Businesses and agents should use the [current process](https://www.gov.uk/government/publications/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims#VAT-errors-submitted) for correcting errors on a submitted VAT Return:
 
-The [current process](https://www.gov.uk/government/publications/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims#VAT-errors-submitted) for correcting errors on a submitted VAT Return remains:
-
-  * If the net value of the errors is below £10,000, or between £10,000 and £50,000 and does not exceed 1% of the box 6 amount, the business or agent can adjust their current VAT Return (method 1)
-  * If the net value of the errors is greater than that, the business or agent must notify HMRC in writing with full details of the errors (method 2)
+  * If the net value of the errors is below £10,000, or between £10,000 and £50,000 and does not exceed 1% of the box 6 amount, the business or agent can adjust their current VAT Return [(method 1)](https://www.gov.uk/government/publications/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims#Method-1)
+  * If the net value of the errors is greater than that, the business or agent must notify HMRC in writing with full details of the errors [(method 2)](https://www.gov.uk/government/publications/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims#method-2)
 
 A business or agent can choose to use method 2 and notify HMRC separately in any case.
 
