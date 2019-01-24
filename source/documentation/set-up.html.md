@@ -48,13 +48,13 @@ We encourage you to include links to the relevant guidance in your software.
 
 ## Create an agent services account
 
-To access VAT (MTD), an agent must create an agent services account. This is a one-off process.
+To access VAT (MTD), an agent must create an [agent services account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). This is a one-off process.
 
 <img src="figures/create-an-agent-services-account.svg" alt="Create an agent services account process diagram" style="width:520px;" />
 
 <a href="figures/create-an-agent-services-account.svg" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
-1. Agent signs in to Government Gateway account with existing agent credentials
+1. Agent signs in with existing Government Gateway agent user ID and password
 2. Agent identifies their business with its SA UTR or CTR and associated postcode
 3. Agent gives some further details and chooses a password
 4. HMRC creates a new Government Gateway account for the agent, and gives them their User ID
@@ -131,6 +131,8 @@ Once an agent has linked a client to their agent services account, they can sign
 7. Agent agrees to terms of participation for self and client
 8. Agent waits 72 hours to see if client is approved to sign up
 
+Note: Agents do not need to wait for client email verification before proceding to agree the terms of participation.
+
 We will develop supporting content that allows a business to identify whether they need to:
 
   * register for VAT and then sign up for VAT (MTD)
@@ -184,15 +186,15 @@ Businesses and agents using your software to connect to the VAT (MTD) API must g
 1. Business or agent requests to link your software to HMRC
 2. Your software launches the grant authority user journey
 3. Business or agent views the HMRC start page for an overview of the process and chooses to continue
-4. Business or agent signs in to their Government Gateway account
+4. Business or agent signs in with their Government Gateway user ID and password (agents must use their new agent services user ID)
 5. Business or agent registers for or completes 2-step verification as applicable
 6. Business or agent completes identity checks if applicable
 7. Business or agent grants authority for the software to interact with HMRC on their behalf
 8. HMRC generates an OAuth token for the business or agent
 9. Your software stores the business or agent's OAuth token for later use in API calls on their behalf
 
-Business and agents authenticate directly with us using their Government Gateway account, and grant the software the authority to interact with HMRC on their behalf. They grant this for a set of functions called API scopes which are required for [each VAT (MTD) endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#resources).
+Business and agents authenticate directly with us using their Government Gateway user ID and password, and grant the software the authority to interact with HMRC on their behalf. They grant this for a set of functions called API scopes which are required for [each VAT (MTD) endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#resources).
 
-In the case of agents, they must sign in to their Government Gateway account with the user ID and password for their agent services account, which was generated as part of the [agent services account journey](set-up.html#create-an-agent-services-account).
+In the case of agents, they must sign in to their Government Gateway account with the user ID and password for their new agent services account, which was generated as part of the [agent services account journey](set-up.html#create-an-agent-services-account).
 
 We then generate an OAuth 2.0 access token for the software which is specific to the business or agent. The software must pass this access token in subsequent API requests as explained in authorisation of [user-restricted endpoints](https://developer.service.hmrc.gov.uk/api-documentation/docs/authorisation/user-restricted-endpoints).
