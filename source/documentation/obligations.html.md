@@ -139,13 +139,13 @@ Businesses can also view their previously submitted VAT Returns in their Busines
 
 ## View VAT liabilities
 
-Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to one year).
+Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
 
 ## View VAT payments
 
-Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to one year).
+Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the amount allocated to a liability and, when available, the date it was received.
 
