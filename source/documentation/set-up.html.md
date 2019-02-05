@@ -89,9 +89,9 @@ This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-se
 
 After an agent creates an agent services account, they must link any new clients to the account one by one.
 
-<img src="figures/link-a-new-vat-client.svg" alt="Add a new VAT client process diagram" style="width:520px;" />
+<img src="figures/link-a-new-vat-client.svg" alt="Link a new VAT client process diagram" style="width:520px;" />
 
-<a href="figures/link-a-new-vat-client.svg" target="blank">Open the add a new VAT client process diagram in a new tab</a>.
+<a href="figures/link-a-new-vat-client.svg" target="blank">Open the link a new VAT client process diagram in a new tab</a>.
 
 1. Agent signs into agent services account
 2. Agent requests to ask a client to authorise them
