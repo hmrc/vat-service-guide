@@ -16,7 +16,7 @@ Before agents can represent clients they must set up their relationships and sof
 1. [Agent reads guidance](#read-guidance)
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
-4. [Agent adds a new VAT client](#add-a-new-vat-client)
+4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent registers a client for VAT](#register-for-vat)
 6. [Agent signs up client for VAT (MTD)](#agent-signs-up-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
@@ -85,13 +85,13 @@ After an agent creates an agent services account, they link their existing VAT c
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
-## Add a new VAT client
+## Link a new VAT client
 
-After an agent creates an agent services account, they must add any new clients to the account one by one.
+After an agent creates an agent services account, they must link any new clients to the account one by one.
 
-<img src="figures/link-a-new-vat-client.svg" alt="Add a new VAT client process diagram" style="width:520px;" />
+<img src="figures/link-a-new-vat-client.svg" alt="Link a new VAT client process diagram" style="width:520px;" />
 
-<a href="figures/link-a-new-vat-client.svg" target="blank">Open the add a new VAT client process diagram in a new tab</a>.
+<a href="figures/link-a-new-vat-client.svg" target="blank">Open the link a new VAT client process diagram in a new tab</a>.
 
 1. Agent signs into agent services account
 2. Agent requests to ask a client to authorise them
