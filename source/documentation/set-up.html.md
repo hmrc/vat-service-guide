@@ -16,7 +16,7 @@ Before agents can represent clients they must set up their relationships and sof
 1. [Agent reads guidance](#read-guidance)
 2. [Agent creates an agent services account](#create-an-agent-services-account)
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
-4. [Agent links a new VAT client](#link-a-new-vat-client)
+4. [Agent adds a new VAT client](#add-a-new-vat-client)
 5. [Agent registers a client for VAT](#register-for-vat)
 6. [Agent signs up client for VAT (MTD)](#agent-signs-up-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
@@ -55,9 +55,9 @@ To access VAT (MTD), an agent must create an [agent services account](https://ww
 <a href="figures/create-an-agent-services-account.svg" target="blank">Open the create an agent services account process diagram in a new tab</a>.
 
 1. Agent signs in with existing Government Gateway agent user ID and password
-2. Agent identifies their business with its SA UTR or CTR and associated postcode
-3. Agent gives some further details and chooses a password
-4. HMRC creates a new Government Gateway account for the agent, and gives them their User ID
+2. Agent identifies their business with its Self Assessment Unique Taxpayer Reference (SA UTR) or Corporation Tax Reference (CTR) and associated postcode
+3. Agent gives some further details
+4. HMRC creates a new Government Gateway account for the agent, and gives them their user ID
 5. Agent checks details
 6. HMRC creates the agent services account, and gives the agent their agent services account reference number
 
@@ -79,19 +79,19 @@ After an agent creates an agent services account, they link their existing VAT c
 
 1. Agent signs in to their agent services account
 2. Agent requests to link existing clients
-3. Agent signs in to their existing Government Gateway account
-4. HMRC links the clients from the existing account to the agent services account
-5. Agent repeats the process with next Government Gateway account that has existing clients until all clients are linked. For example, if an agent currently has ten Government Gateway IDs they must do this ten times
+3. Agent signs in with their existing Government Gateway user ID
+4. HMRC links the clients from the existing user ID to the agent services account
+5. Agent repeats the process with next Government Gateway user ID that has existing clients until all clients are linked. For example, if an agent currently has ten Government Gateway user IDs they must do this ten times
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
 
-## Link a new VAT client
+## Add a new VAT client
 
-After an agent creates an agent services account, they must link any new clients to the account one by one.
+After an agent creates an agent services account, they must add any new clients to the account one by one.
 
-<img src="figures/link-a-new-vat-client.svg" alt="Link a new VAT client process diagram" style="width:520px;" />
+<img src="figures/link-a-new-vat-client.svg" alt="Add a new VAT client process diagram" style="width:520px;" />
 
-<a href="figures/link-a-new-vat-client.svg" target="blank">Open the link a new VAT client process diagram in a new tab</a>.
+<a href="figures/link-a-new-vat-client.svg" target="blank">Open the add a new VAT client process diagram in a new tab</a>.
 
 1. Agent signs into agent services account
 2. Agent requests to ask a client to authorise them
