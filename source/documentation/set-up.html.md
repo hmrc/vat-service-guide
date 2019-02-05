@@ -79,7 +79,7 @@ After an agent creates an agent services account, they link their existing VAT c
 
 1. Agent signs in to their agent services account
 2. Agent requests to link existing clients
-3. Agent signs in to their existing Government Gateway user ID
+3. Agent signs in with their existing Government Gateway user ID
 4. HMRC links the clients from the existing user ID to the agent services account
 5. Agent repeats the process with next Government Gateway user ID that has existing clients until all clients are linked. For example, if an agent currently has ten Government Gateway user IDs they must do this ten times
 
