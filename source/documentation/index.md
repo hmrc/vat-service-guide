@@ -6,7 +6,7 @@ description: Software developers, designers, product owners or business analysts
 
 # VAT (MTD) end-to-end service guide
 
-Version 6.0 issued 21 January 2019
+Version 6.0 issued 6 February 2019
 ***
 
 This guide explains how you can integrate your software with our APIs to submit VAT returns under Making Tax Digital for VAT. It shows how the APIs fit into various end-to-end user journeys. It is intended to help software developers, designers, product owners or business analysts understand how your software needs to interact with HMRC systems.
