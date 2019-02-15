@@ -6,6 +6,7 @@ weight: 3
 # Obligations and returns
 
 ## Agent journey overview
+<!--- Section owner: MTD API --->
 
 Agents who have set up their clients for VAT (MTD) can submit their clients' VAT Returns.
 
@@ -22,6 +23,7 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns-bta)
 
 ## Business journey overview
+<!--- Section owner: MTD API --->
 
 Businesses set up for VAT (MTD) can submit VAT Returns.
 
@@ -38,6 +40,7 @@ Businesses set up for VAT (MTD) can submit VAT Returns.
 7. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns-bta)
 
 ## Receive obligations and submit a VAT Return
+<!--- Section owner: MTD API --->
 
 Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0) to do this - specifically the following endpoints:
 
@@ -49,6 +52,7 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
 3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to check if the VAT Return has met the current obligation - or to see the next obligation.
 
 ### Retrieve obligations in software
+
 
 The [Retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) allows your software to search for obligations based on a start and end date range and an obligation status - O for open, F for fulfilled, or blank for both.
 
@@ -126,6 +130,7 @@ We require your software to show your businesses or agents a declaration that th
  > I confirm that my client has received a copy of the information contained in this return and approved the information as being correct and complete to the best of their knowledge and belief.
 
 ## View previously submitted VAT Return
+<!--- Section owner: MTD API --->
 
 Your software can retrieve returns submitted up to four years previously using the VAT (MTD) API:
 
@@ -138,12 +143,14 @@ Your software cannot retrieve returns filed before business or agents joined VAT
 Businesses can also view their previously submitted VAT Returns in their Business Tax Account.
 
 ## View VAT liabilities
+<!--- Section owner: MTD API --->
 
 Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
 
 ## View VAT payments
+<!--- Section owner: MTD API --->
 
 Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to 366 days).
 
@@ -152,6 +159,7 @@ The response includes the amount allocated to a liability and, when available, t
 It is not yet possible to return links between payments and liabilities
 
 ## Amend a VAT Return using current process
+<!--- Section owner: MTD Programme --->
 
 Businesses and agents should use the [current process](https://www.gov.uk/government/publications/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims/vat-notice-70045-how-to-correct-vat-errors-and-make-adjustments-or-claims#VAT-errors-submitted) for correcting errors on a submitted VAT Return:
 
@@ -163,6 +171,7 @@ A business or agent can choose to use method 2 and notify HMRC separately in any
 We encourage you to make businesses and agents aware of these methods.
 
 ## Pay VAT or get a repayment
+<!--- Section owner: Payments --->
 
 We would like software developers to give businesses and agents the option to make VAT payments at key points in their journey.
 
@@ -198,6 +207,7 @@ In exceptional circumstances we repay by CHAPS or Faster Payments but these type
 The business’ or agent’s repayment bank account details are only used for a Bacs, CHAPS or Faster Payments repayment.
 
 ## Notify a change of circumstances
+<!--- Section owner: View and Change --->
 
 We encourage you to remind businesses to check and update their details with us.
 
@@ -213,6 +223,7 @@ Until VAT (MTD) goes into Live service there will be a manual process in place w
 Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added after April 2019.
 
 ## View future obligations and previous returns (BTA)
+<!--- Section owner: View and Change --->
 
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
 
