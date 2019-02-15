@@ -7,6 +7,7 @@ weight: 5
 # Close down
 
 ## Agent overview
+<!--- Section owner: Agents --->
 
 Agent client relationships can end or agents can go out of business.
 
@@ -19,6 +20,7 @@ Agent client relationships can end or agents can go out of business.
 2. [Agent leaves agent services](#agent-leaves-agent-services)
 
 ## Business overview
+<!--- Section owner: View and Change --->
 
 Businesses unsubscribes from VAT (MTD).
 
@@ -30,6 +32,7 @@ Businesses unsubscribes from VAT (MTD).
 
 
 ## Opt out of VAT (MTD)
+<!--- Section owner: View and Change --->
 
 Businesses who signed up for VAT (MTD) on a voluntary basis can request to opt out of VAT (MTD).
 
@@ -37,6 +40,7 @@ Initially there is a manual process in place whereby a business or agent can con
 
 
 ## Client or agent ends relationship
+<!--- Section owner: Agents --->
 
 ### Client breaks agent link
 
@@ -51,6 +55,7 @@ Agents will be able to do this using their agent services account.
 
 
 ## Agent leaves agent services
+<!--- Section owner: Agents --->
 
 This will initially be the usual process, which can be used to remove the agent reference number and Government Gateway enrolment (HMRC-AS-AGENTS).
 
