@@ -142,12 +142,20 @@ Your software cannot retrieve returns filed before business or agents joined VAT
 
 Businesses can also view their previously submitted VAT Returns in their Business Tax Account.
 
+Note:
+
+If the software submitted a VAT Return from Monday to Friday during normal working hours, you can use the API to provide a view of the return by the following morning or earlier. If the software submitted a return after 6pm on a Friday, then the return might not be viewable until the following Tuesday, or Wednesday if a bank holiday weekend. If the return was received within the required time frame, no penalty should have occurred, because the obligation would have been marked as met on the date it was received.
+
 ## View VAT liabilities
 <!--- Section owner: MTD API --->
 
 Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
+
+Note:
+
+If the software submits a VAT Return from Monday to Friday during normal working hours, the most up to date liability will be available to view by the following morning or earlier. If the software submits a return after 6pm on a Friday, then the most up to date liability might only be visible on the following Tuesday, or Wednesday if a bank holiday weekend.
 
 ## View VAT payments
 <!--- Section owner: MTD API --->
@@ -156,7 +164,11 @@ Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve V
 
 The response includes the amount allocated to a liability and, when available, the date it was received.
 
-It is not yet possible to return links between payments and liabilities
+It is not yet possible to return links between payments and liabilities.
+
+Note:
+
+If a payment is made from Monday to Friday during normal working hours, the payment record will be updated by the following morning or earlier. If a payment is made after 6pm on a Friday, then the payment record might only be updated on the following Tuesday, or Wednesday if a bank holiday weekend. If the payment is received within the required time frame, no penalty should occur, because the payment will be marked as received on the date that the payment was made.
 
 ## Amend a VAT Return using current process
 <!--- Section owner: MTD Programme --->
