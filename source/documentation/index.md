@@ -44,7 +44,7 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 
 ### Version 6.0
 
-21 January 2019
+6 February 2019
 
 What changed:
 
