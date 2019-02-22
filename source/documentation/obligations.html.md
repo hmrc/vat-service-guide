@@ -66,7 +66,7 @@ The response also includes the relevant period key associated with each specific
 
 A new obligation is generated on the first day of the period, whether the previous obligation has been fulfilled or not. Software can search for previous open or fulfilled obligations **within a 366 day date range** but can only call the next obligation.
 
-Notes:
+**Notes:**
 
 * VAT (MTD) will support more business types throughout public beta. As they are supported, this endpoint will return obligation information for businesses that are on monthly, annual and other non-standard staggers.
 * The obligations are returned with the most up to date obligation first. As the next obligation is created at the beginning of the period, it is likely that the period you are trying to file against could be provided second (see example).
@@ -142,7 +142,7 @@ Your software cannot retrieve returns filed before business or agents joined VAT
 
 Businesses can also view their previously submitted VAT Returns in their Business Tax Account.
 
-Note:
+**Note:**
 
 If the software submitted a VAT Return from Monday to Friday during normal working hours, you can use the API to provide a view of the return by the following morning or earlier. If the software submitted a return after 6pm on a Friday, then the return might not be viewable until the following Tuesday, or Wednesday if a bank holiday weekend. If the return was received within the required time frame, no penalty should have occurred, because the obligation would have been marked as met on the date it was received.
 
@@ -153,7 +153,7 @@ Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retriev
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
 
-Note:
+**Note:**
 
 If the software submits a VAT Return from Monday to Friday during normal working hours, the most up to date liability will be available to view by the following morning or earlier. If the software submits a return after 6pm on a Friday, then the most up to date liability might only be visible on the following Tuesday, or Wednesday if a bank holiday weekend.
 
@@ -166,7 +166,7 @@ The response includes the amount allocated to a liability and, when available, t
 
 It is not yet possible to return links between payments and liabilities.
 
-Note:
+**Note:**
 
 If a payment is made from Monday to Friday during normal working hours, the payment record will be updated by the following morning or earlier. If a payment is made after 6pm on a Friday, then the payment record might only be updated on the following Tuesday, or Wednesday if a bank holiday weekend. If the payment is received within the required time frame, no penalty should occur, because the payment will be marked as received on the date that the payment was made.
 
