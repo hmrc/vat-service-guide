@@ -51,8 +51,16 @@ end
 
 GovukTechDocs.configure(self)
 
+class ApiTechDocsHTMLRenderer < GovukTechDocs::TechDocsHTMLRenderer
+  alias_method :old_header, :header
+
+  def header(text, level)
+    %(#{old_header(text, level)}\n)
+  end
+end
+
 set :markdown,
-   renderer: GovukTechDocs::TechDocsHTMLRenderer.new(
+   renderer: ApiTechDocsHTMLRenderer.new(
       with_toc_data: true,
       api: true,
       link_attributes: { rel: 'noopener noreferrer' },
