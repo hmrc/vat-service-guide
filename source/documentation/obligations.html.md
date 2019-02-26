@@ -134,9 +134,9 @@ We require your software to show your businesses or agents a declaration that th
 
 Your software can retrieve returns submitted up to four years previously using the VAT (MTD) API:
 
-1. Find the period key for the VAT Return you wish to retrieve, using the [Retrieve VAT obligations endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) (/organisations/vat/{vrn}/obligations) with the status field set to F to see all fulfilled obligations within a date range, or left blank to see both open and fulfilled obligations.
+1. Find the period key for the VAT Return you wish to retrieve, using the [Retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) (/organisations/vat/{vrn}/obligations) with the status field set to F to see all fulfilled obligations within a date range, or left blank to see both open and fulfilled obligations.
 
-2. Use the period key with the view [VAT Returns endpoint](/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion)  (/organisations/vat/{vrn}/returns/{periodKey}) to retrieve the required VAT Return.
+2. Use the period key with the [View VAT Returns endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion)  (/organisations/vat/{vrn}/returns/{periodKey}) to retrieve the required VAT Return.
 
 Your software cannot retrieve returns filed before business or agents joined VAT (MTD) through the VAT (MTD) API.
 
@@ -149,7 +149,7 @@ If the software submitted a VAT Return from Monday to Friday during normal worki
 ## View VAT liabilities
 <!--- Section owner: MTD API --->
 
-Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to 366 days).
+Your software can retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-liabilities_get_accordion), which returns the liabilities and charges whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the charge type of the liability, the original amount, and if applicable the outstanding amount owing and the due date for payment.
 
@@ -160,7 +160,7 @@ If the software submits a VAT Return from Monday to Friday during normal working
 ## View VAT payments
 <!--- Section owner: MTD API --->
 
-Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to 366 days).
+Your software can retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-payments_get_accordion), which returns payments that have been used to offset liabilities whose To date falls in the requested date range (of up to 366 days).
 
 The response includes the amount allocated to a liability and, when available, the date it was received.
 
