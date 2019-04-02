@@ -58,7 +58,7 @@
     }
 
     function openActiveHeading() {
-      var active = $nav.find('[href="' + window.location.pathname + '"]').closest('.collapsible');
+      var active = $nav.find('[href="' + window.location.pathname + '"], [href="' + window.location.pathname + window.location.hash + '"]').closest('.collapsible');
 
       $topLevelItems.each(function() {
         var item = $(this);
