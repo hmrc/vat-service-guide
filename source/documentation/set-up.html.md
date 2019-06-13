@@ -167,10 +167,7 @@ Businesses can sign themselves up for VAT (MTD) whether or not they use an agent
 8. Business waits 72 hours to see if it is approved to sign up
 
 <br>
-This video explains the step-by-step process for a business to sign up to VAT (MTD).
-<br>
-<br>
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/kOKD4kHvlzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+The guidance video for 'Signing up for Making Tax Digital for VAT' is currently being updated. A new version will go live soon.
 
 ## Choose software 
 <!--- Section owner: MTD Programme --->
