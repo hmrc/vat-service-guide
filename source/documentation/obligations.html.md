@@ -73,26 +73,33 @@ A new obligation is generated on the first day of the period, whether the previo
 * Period keys should not be shown to the business or agent, these are for software use to ensure the return is recorded against the correct obligation.
 * If the software submits a VAT Return from Monday to Friday during normal working hours, the obligation will be updated by the following morning or earlier. If the software submits a return after 6pm on a Friday, then it's possible the obligation will be marked as fulfilled on the following Tuesday (or Wednesday if it's a bank holiday weekend). There should be no penalty if the return was submitted in the required timeframe as the obligation will be marked as met on the date it is received from the software.
 
-### Example period keys for stagger types
+
+## Period keys
+
+A period key is a ID code for an obligation period.  It is a string of four alphanumeric characters.  Some period keys include a # symbol and must be encoded or escaped in the URL, for example: %23001
+
+### Where do I find the period key
+
+The period key can be found in the returned obligation, an example is given below.
+
+#### Example period keys for stagger types
 
 **Monthly:**
 
-18AD 30.04.2018<br/>
-18AE 31.05.2018<br/>
+18AD 30.04.2018
+18AE 31.05.2018
 18AF 30.06.2018
 
 **Quarterly:**
 
-18A1 30.04.2018<br/>
-18A2 31.07.2018<br/>
-18A3 31.10.2018<br/>
+18A1 30.04.2018
+18A2 31.07.2018
+18A3 31.10.2018
 18A4 31.01.2019
 
 ### Encoding period keys
 
-The period key is the ID code for the period that this obligation belongs to. The format is a string of four alphanumeric characters.
-
-The format of the period key is a string of four alphanumeric characters. Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example 18AD, 18A1, %23001.
+Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example %23001
 
 ### Example format of returned obligations
 
