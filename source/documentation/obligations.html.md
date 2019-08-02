@@ -86,15 +86,15 @@ The period key can be found in the returned obligation, an example is given belo
 
 **Monthly:**
 
-18AD 30.04.2018
-18AE 31.05.2018
+18AD 30.04.2018</br>
+18AE 31.05.2018</br>
 18AF 30.06.2018
 
 **Quarterly:**
 
-18A1 30.04.2018
-18A2 31.07.2018
-18A3 31.10.2018
+18A1 30.04.2018</br>
+18A2 31.07.2018</br>
+18A3 31.10.2018</br>
 18A4 31.01.2019
 
 ### Encoding period keys
