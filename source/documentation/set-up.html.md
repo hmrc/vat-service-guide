@@ -148,26 +148,22 @@ We will develop supporting content that allows a business to identify whether th
 
 This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns). We encourage you to include this link in your software.
 
-## Business signs up for VAT (MTD) 
+## Business signs up for Making Tax Digital (MTD) for VAT
 <!--- Section owner: SABR --->
 
-Businesses can sign themselves up for VAT (MTD) whether or not they use an agent. They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
+Business owners can sign up for MTD for VAT either directly or through an agent. They must complete the sign up process completely before using the service.
 
-<img src="figures/business-signs-up-for-vat-mtd.svg" alt="Business signs up for VAT (MTD) process diagram" style="width:500px;" />
+They need to sign up before first use, even if they have already signed up for MTD for Income Tax.
 
-<a href="figures/business-signs-up-for-vat-mtd.svg" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
+### The process for businesses signing up
 
-1. Business signs in to Government Gateway account
-2. If the account is already enrolled for VAT, business confirms VRN
-3. If the account is not already enrolled for VAT, business enters VRN and other VAT information
-4. HMRC confirms that business is eligible for VAT (MTD)
-5. Business gives HMRC its business type and other business information
-6. Business agrees to receive emails and gives and verifies its email address
-7. Business agrees to the terms of participation
-8. Business waits 72 hours to see if it is approved to sign up
-
-<br>
-The guidance video for 'Signing up for Making Tax Digital for VAT' is currently being updated. A new version will go live soon.
+1. Sign into HMRC online services using Government Gateway user ID and password.
+2. Provide or confirm the VAT registration number.
+3. Select business type and give other business information.
+4. Choose preferred way of being contacted.
+5. Confirm and submit information.
+6. Wait up to 3 days to see if the sign up has been approved.
+7. Receive confirmation that the business can now start submitting VAT Returns using compatible accounting software.
 
 ## Choose software 
 <!--- Section owner: MTD Programme --->
