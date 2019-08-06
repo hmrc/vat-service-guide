@@ -19,7 +19,7 @@ Before agents can represent clients they must set up their relationships and sof
 3. [Agent links existing VAT clients](#link-existing-vat-clients)
 4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent registers a client for VAT](#register-for-vat)
-6. [Agent signs up client for VAT (MTD)](#agent-signs-up-client-for-vat-mtd)
+6. [Agent signs up clients for Making Tax Digital (MTD) for VAT](#agent-signs-up-client-for-vat-mtd)
 7. [Agent chooses software](#choose-software)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
 
@@ -34,7 +34,7 @@ Before businesses can submit VAT Returns, they must sign up for VAT (MTD) and se
 
 1. [Business reads guidance](#read-guidance)
 2. [Business registers for VAT](#register-for-vat)
-3. [Business signs up for VAT (MTD)](#business-signs-up-for-vat-mtd)
+3. [Business signs up for Making Tax Digital (MTD) for VAT  (MTD)](#business-signs-up-for-vat-mtd)
 4. [Business chooses software](#choose-software)
 5. [Business links software to HMRC](#link-software-to-hmrc)
 
@@ -112,62 +112,84 @@ This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-se
 ## Register for VAT 
 <!--- Section owner: SABR --->
 
-This does not apply for businesses or clients who are already VAT registered and have a VAT Registration Number (VRN).
+### For businesses
 
-Post April 2019 we will deliver a VAT Registration service that will allow businesses new to VAT to subscribe at the same time as they sign up to VAT (MTD).
+Since April 2019, most VAT registered businesses, and agents acting on their behalf, have been required to keep digital records using HMRC compatible software. This is known as Making Tax Digital for VAT (MTD).
 
-Until this service is delivered, new businesses will need to register for VAT using the existing service, then navigate to the VAT (MTD) sign up service and complete that journey. The service will request information about the business and the person running it. Following
-successful registration the business will be informed of their VAT Return deadlines.
+When the taxable turnover goes above the VAT threshold, the business must sign up to MTD and use their software to:
 
-Agents must already be subscribed to HMRC agent services in order to access the new VAT registration service on behalf of their clients.
+* keep their VAT records
+* send their VAT Returns direct to HMRC
 
-## Agent signs up client for VAT (MTD) 
+Most modern accounting software can do this already but the business should check if theirs is compatible.
+
+### For agents
+
+Accountants and tax advisers need an [Agent services account](https://www.gov.uk/guidance/sign-in-to-your-agent-services-account) to sign up their clients to Making Tax Digital for VAT. They’ll need to sign clients up individually as it’s currently not possible to sign all their clients up at the same time.
+
+### Future developments
+
+In the future, new businesses will be able to register for VAT and sign up to Making Tax Digital at the same time.
+
+Until then, businesses should:
+
+* register for VAT using the current VAT registration service
+* complete the sign-up process and provide information about the business and the person running it
+
+After signing up, the business will receive details of when they should submit their VAT Return. These details can also be found in their HMRC services account.
+
+Agents must already be subscribed to HMRC agent services to access the new VAT registration service on behalf of their clients.
+
+## Agent signs up clients for Making Tax Digital (MTD) for VAT
 <!--- Section owner: SABR --->
 
-Once an agent has linked a client to their agent services account, they can sign them up for VAT (MTD).
+Before signing up clients to MTD for VAT, agents must first create a relationship by linking clients to their agent services account.
 
-<img src="figures/agent-signs-up-client-for-vat.svg" alt="Agent signs up client for VAT (MTD) process diagram" style="width:520px;" />
+Once an agent has linked all clients to their agent services account, they can sign them up.
 
-<a href="figures/agent-signs-up-client-for-vat.svg" target="blank">Open the agent signs up client for VAT (MTD) process diagram in a new tab</a>.
+### The process for agents signing up their clients
 
-1. Agent signs in to agent services account
-2. Agent gives client's details, including VRN, business type and other type-specific details
-3. Agent gives and verifies their own email address (once only)
-4. Agent signs up client to receive secure messages
-5. Agent gives client's email address to HMRC
-6. Client receives verification email and verifies their email address
-7. Agent agrees to terms of participation for self and client
-8. Agent waits 72 hours to see if client is approved to sign up
+1. Sign into HMRC online services using agent services account.
+2. Provide client details including VAT registration and client’s business type.
+3. Give and verify agent’s own email address. This is only required once.
+4. Choose whether client prefers to get emails or letters.
+5. Enter client’s business email address.
+6. Tell clients they’ll get a verification email with a link to click on. This will verify their business email address.The link will expire after 3 days.
+7. Confirm all information is correct before submitting it to HMRC.
+8. Wait to hear if the client is approved. This can take up to 3 days.
 
-Note: Agents do not need to wait for client email verification before proceding to agree the terms of participation.
+The agent can now file VAT Returns for their client.
 
-We will develop supporting content that allows a business to identify whether they need to:
+Agents can complete the sign-up process without having to wait for their clients to verify their own email address.
 
-  * register for VAT and then sign up for VAT (MTD)
-  * sign up for VAT (MTD) only
+### Future developments
+In the future, agents will be able to do the following in one single process:
 
-This service is available on GOV.UK at [https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns). We encourage you to include this link in your software.
+* create a new company
+* register the new company for VAT
+* get the new company’s VAT registration number
+* sign up the new company for Making Tax Digital for VAT
+* use software to file and send client VAT Returns to HMRC
 
-## Business signs up for VAT (MTD) 
+There’s an easy to follow step by step guide for agents on GOV.UK at [Making Tax Digital for VAT as an agent](https://www.gov.uk/guidance/agents-use-software-to-submit-vat-returns)
+
+
+## Business signs up for Making Tax Digital (MTD) for VAT
 <!--- Section owner: SABR --->
 
-Businesses can sign themselves up for VAT (MTD) whether or not they use an agent. They must sign up before first use, even if they have already signed up for VAT (MTD) for Income Tax.
+Business owners can sign up for MTD for VAT either directly or through an agent. They must complete the sign up process completely before using the service.
 
-<img src="figures/business-signs-up-for-vat-mtd.svg" alt="Business signs up for VAT (MTD) process diagram" style="width:500px;" />
+They need to sign up before first use, even if they have already signed up for MTD for Income Tax.
 
-<a href="figures/business-signs-up-for-vat-mtd.svg" target="blank">Open the business signs for VAT (MTD) process diagram in a new tab</a>.
+### The process for businesses signing up
 
-1. Business signs in to Government Gateway account
-2. If the account is already enrolled for VAT, business confirms VRN
-3. If the account is not already enrolled for VAT, business enters VRN and other VAT information
-4. HMRC confirms that business is eligible for VAT (MTD)
-5. Business gives HMRC its business type and other business information
-6. Business agrees to receive emails and gives and verifies its email address
-7. Business agrees to the terms of participation
-8. Business waits 72 hours to see if it is approved to sign up
-
-<br>
-The guidance video for 'Signing up for Making Tax Digital for VAT' is currently being updated. A new version will go live soon.
+1. Sign into HMRC online services using Government Gateway user ID and password.
+2. Provide or confirm the VAT registration number.
+3. Select business type and give other business information.
+4. Choose preferred way of being contacted.
+5. Confirm and submit information.
+6. Wait up to 3 days to see if the sign up has been approved.
+7. Receive confirmation that the business can now start submitting VAT Returns using compatible accounting software.
 
 ## Choose software 
 <!--- Section owner: MTD Programme --->
