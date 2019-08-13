@@ -76,30 +76,13 @@ A new obligation is generated on the first day of the period, whether the previo
 
 ## Period keys
 
-A period key is a ID code for an obligation period.  It is a string of four alphanumeric characters.  Some period keys include a # symbol and must be encoded or escaped in the URL, for example: %23001
+A period key is an ID code for an obligation period. It is normally a string of four alphanumeric characters but some period keys can be four numeric digits.
+Period keys that include a # symbol must be encoded or escaped in the URL, for example: %23001
+
 
 ### Where do I find the period key
 
 The period key can be found in the returned obligation, an example is given below.
-
-#### Example period keys for stagger types
-
-**Monthly:**
-
-18AD 30.04.2018</br>
-18AE 31.05.2018</br>
-18AF 30.06.2018
-
-**Quarterly:**
-
-18A1 30.04.2018</br>
-18A2 31.07.2018</br>
-18A3 31.10.2018</br>
-18A4 31.01.2019
-
-### Encoding period keys
-
-Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example %23001
 
 ### Example format of returned obligations
 
@@ -123,6 +106,36 @@ Occasionally for special periods, the format includes a # symbol (for example #0
   ]
 }
 ```
+
+#### Example period keys for stagger types
+
+**Monthly:**
+
+18AD 30.04.2018</br>
+18AE 31.05.2018</br>
+18AF 30.06.2018
+
+**Quarterly:**
+
+18A1 30.04.2018</br>
+18A2 31.07.2018</br>
+18A3 31.10.2018</br>
+18A4 31.01.2019
+
+### Example numeric period keys
+
+0418</br>
+1218
+
+### Special cases of numeric period keys
+
+0000 – transactions that do not belong to a particular period.</br>
+9999 – the period key of a company ceasing to trade.
+ 
+### Encoding period keys
+
+Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example %23001
+
 
 ### Submit a VAT Return with a declaration through software
 
@@ -151,9 +164,6 @@ Your software cannot retrieve returns filed before business or agents joined VAT
 
 Businesses can also view their previously submitted VAT Returns in their Business Tax Account.
 
-**Note:**
-
-If the software submitted a VAT Return from Monday to Friday during normal working hours, you can use the API to provide a view of the return by the following morning or earlier. If the software submitted a return after 6pm on a Friday, then the return might not be viewable until the following Tuesday, or Wednesday if a bank holiday weekend. If the return was received within the required time frame, no penalty should have occurred, because the obligation would have been marked as met on the date it was received.
 
 ## View VAT liabilities
 <!--- Section owner: MTD API --->
