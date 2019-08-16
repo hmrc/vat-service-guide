@@ -77,10 +77,11 @@ A new obligation is generated on the first day of the period, whether the previo
 ## Period keys
 
 A period key is an ID code for an obligation period. It is normally a string of four alphanumeric characters but some period keys can be four numeric digits.
-Period keys that include a # symbol must be encoded or escaped in the URL, for example: %23001
+Period keys that include a # symbol must be encoded or escaped in the URL, for example: %23001</br>
+Period keys do not need to be shown to the end user, they are used by software to ensure the return is recorded against the correct obligation.
 
 
-### Where do I find the period key
+### Finding a period key
 
 The period key can be found in the returned obligation, an example is given below.
 
