@@ -21,7 +21,7 @@ ga_tracking_id: UA-43414424-1
 
 # Enables the tracking consent banner
 tracking_consent_frontend:
-  url: /tracking-consent/tracking.js
+  url: http://localhost:12345/tracking-consent/tracking.js
   gtm_container: b
 
 # Enable multipage navigation in the sidebar
