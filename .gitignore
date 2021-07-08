@@ -27,3 +27,4 @@ Staticfile.auth
 /.project
 /logs
 .idea
+/.bsp
