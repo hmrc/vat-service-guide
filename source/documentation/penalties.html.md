@@ -4,35 +4,37 @@ weight: 4
 ---
 
 # Penalties and appeals
-
-## Agent overview
 <!--- Section owner: MTD Programme --->
 
-Agents can also represent their clients during penalty and interest payments as well as appeals.
+The way that HMRC levies VAT penalties and interest charges has changed. The changes apply to everyone who submits VAT returns for accounting periods that start on or after 1 January 2023. Penalties for late submission and late payment are considered to be fairer, and will be more consistent across taxes when the reform is extended to other tax regimes in the future.
 
-<img src="figures/penalties-appeals-agent.svg" alt="Agent penalties process diagram" style="width:520px;" />
+Businesses that do not submit VAT returns on time will receive penalty points. When the number of penalty points reaches a threshold, HMRC will levy a penalty charge.
 
-<a href="figures/penalties-appeals-agent.svg" target="blank">Open the agent penalties process diagram in a new tab</a>.
+Additionally, HMRC will charge late payment interest from the day that a VAT payment is overdue to the day that payment is made in full.
 
-1. [Client pays penalties and interest](#pay-penalties-and-interest)
-2. [Agent appeals](#appeals)
+You can find information about the rules and thresholds that relate to late submission and payment penalties on GOV.UK:
 
-## Business overview
+  * [Prepare for upcoming changes to VAT penalties and VAT interest charges](https://www.gov.uk/guidance/prepare-for-upcoming-changes-to-vat-penalties-and-vat-interest-charges)
+  * [Penalties for late submission](https://www.gov.uk/government/publications/penalties-for-late-submission/penalties-for-late-submission)
+  * [Interest harmonisation and penalties for late payment and late submission](https://www.gov.uk/government/publications/interest-harmonisation-and-penalties-for-late-submission-and-late-payment-of-tax/interest-harmonisation-and-penalties-for-late-payment-and-late-submission)
+
+## Retrieve penalty details
 <!--- Section owner: MTD Programme --->
 
-Businesses can pay penalties and interest - or appeal.
+Your software should use the VAT (MTD) API to retrieve details of the penalties that have been applied to a VAT account.
 
-<img src="figures/penalties-appeals-business.svg" alt="Business penalties process diagram" style="width:520px;" />
+<img src="figures/penalties.svg" alt="Penalties process diagram" style="width:520px;" />
 
-<a href="figures/penalties-appeals-business.svg" target="blank">Open the business penalties process diagram in a new tab</a>.
+<a href="figures/penalties.svg" target="blank">Open the penalties process diagram in a new tab</a>.
 
-1. [Business pays penalties and interest](#pay-penalties-and-interest)
-2. [Business appeals](#appeals)
+Specifically, the software should use this endpoint:
+
+  * [Get Penalties](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#Retrieve%20VAT%20penalties%20[test%20only])
 
 ## Pay penalties and interest
 <!--- Section owner: MTD Programme --->
 
-Existing penalties and notification methods will remain in place for businesses and agents:
+For accounting periods that started before 1 January 2023,  existing penalties and notification methods will remain in place:
 
   * Late registration - Factsheet CC/FS11
   * Late Filing - VAT Notice 700/50
@@ -43,7 +45,21 @@ Existing penalties and notification methods will remain in place for businesses 
   * Breaches of regulations - VAT Notice 700/21
   * Default interest - VAT Notice 700/43
 
+For accounting periods that start on or after 1 January 2023, these notices will be issued:
+
+  * Penalty Point Notification - LSP1
+  * Late Submission Penalty Notification - LSP2
+  * Late Payment Penalty Lower Rate - LPP1
+  * Late Payment Penalty Higher Rate - LPP2
+  * Second Late Payment Penalty - LPP3
+  * Late registration - Factsheet CC/FS11
+  * Inaccuracy penalties - Factsheet CC/FS7
+  * Retention of records - VAT Notice 700/21
+  * Default interest - VAT Notice 700/43
+
 ## Appeals
 <!--- Section owner: MTD Programme --->
 
-The existing process for appeals will remain in place. A business or agent may contact HMRC if they have a query about a tax decision. If they don’t understand the decision they can also get advice from HMRC or professional help.
+The [existing process for appeals](https://www.gov.uk/tax-appeals/penalty) will remain in place, although a provision will be made to allow the user to appeal their penalties through the digital tax account.
+
+A business or agent may contact HMRC if they have a query about a tax decision. If they don’t understand the decision they can also get advice from HMRC or professional help.
