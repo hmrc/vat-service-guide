@@ -39,7 +39,7 @@ For accounting periods that started before 1 January 2023,  existing penalties a
   * [Late registration - Factsheet CC/FS11](https://www.gov.uk/government/publications/compliance-checks-penalties-for-failure-to-notify-ccfs11/compliance-checks-penalties-for-failure-to-notify-ccfs11)
   * [Late Filing - VAT Notice 700/50](https://www.gov.uk/guidance/vat-default-surcharge-notice-70050)
   * [Late Payment - VAT Notice 700/50](https://www.gov.uk/guidance/vat-default-surcharge-notice-70050)
-  * [Inaccuracy penalties - Factsheet CC/FS7](https://www.gov.uk/government/publications/compliance-checks-penalties-for-inaccuracies-in-returns-or-documents-ccfs7a)
+  * [Inaccuracy penalties - Factsheet CC/FS7a](https://www.gov.uk/government/publications/compliance-checks-penalties-for-inaccuracies-in-returns-or-documents-ccfs7a)
   * [Wrongdoing penalty - Factsheet CC/FS12](https://www.gov.uk/government/publications/compliance-checks-penalties-for-vat-and-excise-wrongdoing-ccfs12)
   * [Retention of records - VAT Notice 700/21](https://www.gov.uk/guidance/record-keeping-for-vat-notice-70021)
   * [Breaches of regulations - VAT Notice 700/21](https://www.gov.uk/guidance/record-keeping-for-vat-notice-70021)
@@ -53,7 +53,7 @@ For accounting periods that start on or after 1 January 2023, these notices will
   * Late Payment Penalty Higher Rate - LPP2
   * Second Late Payment Penalty - LPP3
   * [Late registration - Factsheet CC/FS11](https://www.gov.uk/government/publications/compliance-checks-penalties-for-failure-to-notify-ccfs11/compliance-checks-penalties-for-failure-to-notify-ccfs11)
-  * [Inaccuracy penalties - Factsheet CC/FS7](https://www.gov.uk/government/publications/compliance-checks-penalties-for-inaccuracies-in-returns-or-documents-ccfs7a)
+  * [Inaccuracy penalties - Factsheet CC/FS7a](https://www.gov.uk/government/publications/compliance-checks-penalties-for-inaccuracies-in-returns-or-documents-ccfs7a)
   * [Retention of records - VAT Notice 700/21](https://www.gov.uk/guidance/record-keeping-for-vat-notice-70021)
   * [Default interest - VAT Notice 700/43](https://www.gov.uk/guidance/default-interest-notice-70043)
 
