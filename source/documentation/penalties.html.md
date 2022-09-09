@@ -29,7 +29,7 @@ Your software should use the VAT (MTD) API to retrieve details of the penalties 
 
 Specifically, the software should use this endpoint:
 
-  * [Get Penalties](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#Retrieve%20VAT%20penalties%20[test%20only])
+  * [Retrieve VAT penalties](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#Retrieve%20VAT%20penalties%20[test%20only])
 
 ## Pay penalties and interest
 <!--- Section owner: MTD Programme --->
