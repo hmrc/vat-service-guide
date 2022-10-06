@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="780.99994"
+   height="684.88519"
+   viewBox="-0.5 -0.5 780.99994 684.88519"
+   content="&lt;mxfile modified=&quot;2020-05-11T22:39:29.976Z&quot; host=&quot;www.draw.io&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36&quot; etag=&quot;G9HtpBLdQRdGukw_FTGb&quot; version=&quot;13.1.0&quot; type=&quot;device&quot; pages=&quot;8&quot;&gt;&lt;diagram id=&quot;m9Rg51oyS3MeteJjYiaM&quot; name=&quot;Retrieves a self-assessment balance&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot;List self-assessment transactions&quot; id=&quot;SbM7oHSl8eW6tQ-BpA3N&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot;Retrieve a Self Assessment Transaction's Detail&quot; id=&quot;VMdoEIzcoV9OxHtZLB2L&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot;List Self Assessment Charges &quot; id=&quot;USBOXKvGDWL7ZxJoJBof&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot;Retrieves Self Assessment Charges history&quot; id=&quot;kPOZFTIrRYj0-ZfUnoZh&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot; Retrieves Self Assessment Payment's&quot; id=&quot;KVNP8FOu0pQuAI4YQ3Qs&quot;&gt;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&lt;/diagram&gt;&lt;diagram name=&quot;Retrieves Self Assessment Payment's Allocation Details&quot; id=&quot;xU60HV1Y2OZ7qnl8LmNn&quot;&gt;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&lt;/diagram&gt;&lt;diagram id=&quot;XvSqfAg5lgxb7rXUJVD3&quot; name=&quot;Page-2&quot;&gt;lZHLDoIwEEW/pksSoAq6xldU4gITddnQCjWFwVIi+vViWsTGja5m5sztvIpwVLRLSao8BsoE8l3aIjxDvu+N3ElnXuSuSeh6GmSSUyMaQMIfzEDX0IZTVltCBSAUr2yYQlmyVFmMSAk3W3YGYXetSMa+QJIS8U0PnKrcUC+YDokV41netw7GI50pSK82q9Q5oXD7QHiOcCQBlPaKNmLidb3+MNNDtDw1zn53vK7i7SVcb5LE0cUW/zx57yBZqX4t3TnDaF1g/TCePwE=&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg112"
+   sodipodi:docname="financial-details.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview82"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.93303299"
+     inkscape:cx="435.14003"
+     inkscape:cy="401.91505"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg112" />
+  <defs
+     id="defs2">
+    <rect
+       x="293.41431"
+       y="581.91797"
+       width="170.64682"
+       height="60.156075"
+       id="rect1002" />
+    <rect
+       x="518.96399"
+       y="612.03906"
+       width="12.410009"
+       height="21.435469"
+       id="rect6007" />
+    <rect
+       x="355.94162"
+       y="573.11676"
+       width="168.6633"
+       height="47.383671"
+       id="rect5948" />
+    <rect
+       x="504.09998"
+       y="260.76364"
+       width="44.536362"
+       height="38.727272"
+       id="rect241" />
+    <rect
+       x="38.081818"
+       y="182.01817"
+       width="157.49091"
+       height="38.727272"
+       id="rect386" />
+    <rect
+       x="38.081818"
+       y="182.01817"
+       width="157.49091"
+       height="38.727272"
+       id="rect386-6" />
+    <rect
+       x="355.94162"
+       y="573.11676"
+       width="168.6633"
+       height="47.383671"
+       id="rect5948-8" />
+  </defs>
+  <rect
+     x="250"
+     y="-0.40260333"
+     width="270"
+     height="684.78778"
+     fill="#f8f8f8"
+     stroke="none"
+     pointer-events="all"
+     id="rect6"
+     style="stroke-width:1.24753" />
+  <rect
+     x="310"
+     y="24.597397"
+     width="150"
+     height="100"
+     fill="#f1f7f5"
+     stroke="#006435"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect8" />
+  <rect
+     x="370"
+     y="64.597397"
+     width="40"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect10" />
+  <g
+     transform="translate(-4.9999976,-11.597915)"
+     id="g16">
+    <switch
+       id="switch14">
+      <text
+         x="390"
+         y="81"
+         fill="#006435"
+         font-family="Helvetica"
+         font-size="19px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text12"
+         style="white-space:pre;inline-size:129.079;display:inline"
+         xml:space="preserve"><tspan
+           x="390"
+           y="81"
+           id="tspan2465">Accountancy<tspan
+   y="81"
+   id="tspan2467"> </tspan></tspan><tspan
+           x="390"
+           y="104.75"
+           id="tspan2469">Software</tspan></text>
+    </switch>
+  </g>
+  <rect
+     x="585"
+     y="24.597397"
+     width="150"
+     height="100"
+     fill="#f1f7fa"
+     stroke="#005ea5"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect18" />
+  <rect
+     x="640"
+     y="64.597397"
+     width="40"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect20" />
+  <g
+     transform="translate(-0.69579839,-11.361343)"
+     id="g26">
+    <switch
+       id="switch24">
+      <text
+         x="660"
+         y="81"
+         fill="#005ea5"
+         font-family="Helvetica"
+         font-size="19px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text22"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:58.5092;display:inline"
+         xml:space="preserve"><tspan
+           x="660"
+           y="81"
+           id="tspan2471">HMRC<tspan
+   y="81"
+   id="tspan2473"> </tspan></tspan><tspan
+           x="660"
+           y="104.75"
+           id="tspan2475">API</tspan></text>
+    </switch>
+  </g>
+  <path
+     d="M 20.000002,149.5974 H 760"
+     fill="none"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path28" />
+  <rect
+     x="140"
+     y="64.597397"
+     width="60"
+     height="20"
+     fill="none"
+     stroke="none"
+     pointer-events="all"
+     id="rect30" />
+  <g
+     transform="translate(7.5000024,-13.476577)"
+     id="g36">
+    <switch
+       id="switch34">
+      <text
+         x="170"
+         y="81"
+         fill="#2e358b"
+         font-family="Helvetica"
+         font-size="19px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text32"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;white-space:pre;inline-size:117.943;display:inline;fill:#2e358b"
+         xml:space="preserve"><tspan
+           x="170"
+           y="81"
+           id="tspan2477">Business or<tspan
+   y="81"
+   id="tspan2479"> </tspan></tspan><tspan
+           x="170"
+           y="104.75"
+           id="tspan2481">Agent</tspan></text>
+    </switch>
+  </g>
+  <path
+     d="M 221.40824,219.5974 H 253.03999 271.65"
+     fill="none"
+     stroke="#000000"
+     stroke-width="3.08051"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path38" />
+  <path
+     d="m 280.65,219.5974 -9,4.5 v -9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path40" />
+  <rect
+     x="20.000002"
+     y="169.5974"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect42" />
+  <rect
+     x="285"
+     y="169.5974"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect50" />
+  <g
+     transform="translate(4.8007836,-19.746357)"
+     id="g56">
+    <switch
+       id="switch54">
+      <text
+         x="380"
+         y="225"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="16px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text52"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;white-space:pre;inline-size:141.864;display:inline;fill:#000000"
+         xml:space="preserve"><tspan
+           x="380"
+           y="225"
+           id="tspan2483">2. Provides VAT<tspan
+   y="225"
+   id="tspan2485"> </tspan></tspan><tspan
+           x="380"
+           y="245.00001"
+           id="tspan2487">registration<tspan
+   y="245.00001"
+   id="tspan2489"> </tspan></tspan><tspan
+           x="380"
+           y="265.00001"
+           id="tspan2491">number</tspan></text>
+    </switch>
+  </g>
+  <rect
+     x="560"
+     y="169.5974"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect58" />
+  <text
+     xml:space="preserve"
+     transform="translate(542.87207,18.823998)"
+     id="text384-5"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect386-6);display:inline;fill:#000000"
+     x="65.925781"
+     y="0"><tspan
+       x="46.12793"
+       y="196.42965"
+       id="tspan2493">3. Retrieve penalty </tspan><tspan
+       x="91.483398"
+       y="216.42965"
+       id="tspan2495">details</tspan></text>
+  <rect
+     x="285"
+     y="299.74887"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect66" />
+  <g
+     transform="translate(4.8515649,-31.184703)"
+     id="g72">
+    <switch
+       id="switch70">
+      <text
+         x="380"
+         y="355"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="16px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text68"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;white-space:pre;inline-size:153.57;display:inline;fill:#000000"
+         xml:space="preserve"><tspan
+           x="380"
+           y="355"
+           id="tspan2497">4. Receives details<tspan
+   y="355"
+   id="tspan2499"> </tspan></tspan><tspan
+           x="380"
+           y="374.99999"
+           id="tspan2501">of penalties<tspan
+   y="374.99999"
+   id="tspan2503"> </tspan></tspan><tspan
+           x="380"
+           y="394.99999"
+           id="tspan2505">(including charge<tspan
+   y="394.99999"
+   id="tspan2507"> </tspan></tspan><tspan
+           x="380"
+           y="414.99999"
+           id="tspan2509">references)</tspan></text>
+    </switch>
+  </g>
+  <ellipse
+     cx="81.5"
+     cy="53.597397"
+     rx="17.5"
+     ry="19"
+     fill="#f4f5f9"
+     stroke="#2e358b"
+     stroke-width="3"
+     pointer-events="all"
+     id="ellipse74" />
+  <ellipse
+     cx="81.5"
+     cy="97.597397"
+     rx="32.5"
+     ry="25"
+     fill="#f4f5f9"
+     stroke="#2e358b"
+     stroke-width="3"
+     pointer-events="all"
+     id="ellipse76" />
+  <path
+     d="M 64.000002,97.597397 V 118.5974"
+     fill="none"
+     stroke="#2e358b"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path78" />
+  <path
+     d="M 99.000002,97.597397 V 118.5974"
+     fill="none"
+     stroke="#2e358b"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path80" />
+  <path
+     d="m 484.32306,219.097 h 28.08179 l 35.24266,0.3808"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2.90558"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path82" />
+  <path
+     d="m 554.65,219.5674 -9.05,4.41 0.09,-9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path84" />
+  <path
+     d="m 660,269.5974 v 80 H 492.35"
+     fill="none"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path86" />
+  <path
+     d="m 489.35,349.5974 9,-4.5 v 9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path88" />
+  <text
+     xml:space="preserve"
+     transform="translate(2.5400415,18.823998)"
+     id="text384"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect386);display:inline;fill:#000000"
+     x="65.925781"
+     y="0"><tspan
+       x="41.678711"
+       y="196.42965"
+       id="tspan2511">1. Retrieves penalty </tspan><tspan
+       x="91.483398"
+       y="216.42965"
+       id="tspan2513">details</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="translate(-6.3090884,126.5421)"
+     id="text239"
+     style="font-weight:bold;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;white-space:pre;shape-inside:url(#rect241);display:inline;fill:#000000"><tspan
+       x="511.55566"
+       y="275.17574"
+       id="tspan2515">VAT </tspan><tspan
+       x="513.03223"
+       y="295.17574"
+       id="tspan2517">API</tspan></text>
+  <g
+     requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+     id="g104"
+     transform="translate(2.3916364e-6,-0.40260333)" />
+  <rect
+     x="0.12295502"
+     y="0.12295502"
+     width="779.75403"
+     height="683.21863"
+     fill="none"
+     stroke="#000000"
+     pointer-events="all"
+     id="rect4"
+     style="stroke-width:1.24591" />
+  <rect
+     x="285"
+     y="429.90036"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect66-5" />
+  <g
+     transform="translate(9.5326841,99.072257)"
+     id="g72-1">
+    <switch
+       id="switch70-7">
+      <text
+         x="380"
+         y="355"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="16px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text68-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;white-space:pre;inline-size:153.57;display:inline;fill:#000000"
+         xml:space="preserve"
+         transform="translate(-4.8881504,21.460935)"><tspan
+           x="380"
+           y="355"
+           id="tspan2519">5. Provides charge<tspan
+   y="355"
+   id="tspan2521"> </tspan></tspan><tspan
+           x="380"
+           y="374.99999"
+           id="tspan2523">reference</tspan></text>
+    </switch>
+  </g>
+  <rect
+     x="560"
+     y="429.90036"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect66-5-2" />
+  <g
+     transform="translate(279.51562,97.58007)"
+     id="g72-1-7">
+    <switch
+       id="switch70-7-0">
+      <text
+         x="380"
+         y="355"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="16px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text68-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;white-space:pre;inline-size:153.57;display:inline;fill:#000000"
+         xml:space="preserve"
+         transform="translate(0.14453388,21.460935)"><tspan
+           x="380"
+           y="355"
+           id="tspan2525">6. Retrieve financial<tspan
+   y="355"
+   id="tspan2527"> </tspan></tspan><tspan
+           x="380"
+           y="374.99999"
+           id="tspan2529">details of charge</tspan></text>
+    </switch>
+  </g>
+  <path
+     d="m 385,399.94727 v 10.17966 5.98903"
+     fill="none"
+     stroke="#000000"
+     stroke-width="1.74754"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path38-6"
+     style="stroke-width:3;stroke-dasharray:none" />
+  <path
+     d="m 385,424.66353 -4.5,-9 h 9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path40-2" />
+  <path
+     d="m 484.87218,481.74761 h 27.31454 l 34.27976,0.38114"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2.86685"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path82-2" />
+  <path
+     d="m 555.46993,482.21818 -9.05,4.41 0.09,-9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path84-2" />
+  <rect
+     x="285"
+     y="560.05188"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect66-5-4" />
+  <text
+     xml:space="preserve"
+     transform="translate(-0.49999761,-0.90260333)"
+     id="text6005"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect6007);display:inline;fill:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none" />
+  <rect
+     x="20.000002"
+     y="560.05188"
+     width="200"
+     height="100"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="3"
+     pointer-events="all"
+     id="rect66-5-4-3" />
+  <g
+     transform="translate(-258.33014,239.42354)"
+     id="g72-1-8-8">
+    <switch
+       id="switch70-7-9-4">
+      <text
+         xml:space="preserve"
+         transform="translate(-62.267516,-222.76031)"
+         id="text5946-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect5948-8);display:inline;fill:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"><tspan
+           x="374.16797"
+           y="587.52926"
+           id="tspan2531">8. Views financial </tspan><tspan
+           x="376.69922"
+           y="607.52926"
+           id="tspan2533">details of charge</tspan></text>
+    </switch>
+  </g>
+  <text
+     xml:space="preserve"
+     transform="translate(5.9345727,-2.13755)"
+     id="text1000"
+     style="font-weight:bold;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1002);display:inline;fill:#000000;stroke-width:3;stroke-linejoin:bevel"><tspan
+       x="300.47168"
+       y="596.33004"
+       id="tspan2535">7. Receives financial </tspan><tspan
+       x="298.71777"
+       y="616.33004"
+       id="tspan2537">details of charge and </tspan><tspan
+       x="325.38574"
+       y="636.33004"
+       id="tspan2539">displays them</tspan></text>
+  <path
+     d="m 659.78728,530.15432 v 80 h -167.65"
+     fill="none"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path86-2" />
+  <path
+     d="m 489.13728,610.15432 9,-4.5 v 9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path88-9" />
+  <path
+     d="m 281.46449,610.15432 h -30 -17.65"
+     fill="none"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path38-1" />
+  <path
+     d="m 223.46449,610.15432 9,-4.5 v 9 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path40-9" />
+</svg>
