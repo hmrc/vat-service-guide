@@ -6,7 +6,7 @@ description: Software developers, designers, product owners or business analysts
 
 # VAT (MTD) end-to-end service guide
 
-Version 6.0 issued 6 February 2019
+Version 7.0 issued 10 October 2022
 ***
 
 This guide explains how you can integrate your software with our APIs to submit VAT returns under Making Tax Digital for VAT. It shows how the APIs fit into various end-to-end user journeys. It is intended to help software developers, designers, product owners or business analysts understand how your software needs to interact with HMRC systems.
@@ -42,11 +42,11 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 ## Changelog
 <!--- Section owner: MTD Programme --->
 
-### Version 6.0
+### Version 7.0
 
-6 February 2019
+10 October 2022
 
 What changed:
 
-* [Added documentation for Retrieve VAT liabilities endpoint](documentation/obligations.html#view-vat-liabilities)
-* [Added documentation for Retrieve VAT payments endpoint](documentation/obligations.html#view-vat-payments)
+* Updated [Penalties and appeals](documentation/penalties.html) section to reflect forthcoming penalty reform
+* Added [Hints for using the VAT API](documentation/hints.html)
