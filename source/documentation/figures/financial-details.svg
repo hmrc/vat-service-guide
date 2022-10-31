@@ -23,8 +23,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.93303299"
-     inkscape:cx="435.14003"
-     inkscape:cy="401.91505"
+     inkscape:cx="137.187"
+     inkscape:cy="402.98682"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -123,12 +123,12 @@
          xml:space="preserve"><tspan
            x="390"
            y="81"
-           id="tspan2465">Accountancy<tspan
+           id="tspan1115">Accountancy<tspan
    y="81"
-   id="tspan2467"> </tspan></tspan><tspan
+   id="tspan1117"> </tspan></tspan><tspan
            x="390"
            y="104.75"
-           id="tspan2469">Software</tspan></text>
+           id="tspan1119">Software</tspan></text>
     </switch>
   </g>
   <rect
@@ -168,12 +168,12 @@
          xml:space="preserve"><tspan
            x="660"
            y="81"
-           id="tspan2471">HMRC<tspan
+           id="tspan1121">HMRC<tspan
    y="81"
-   id="tspan2473"> </tspan></tspan><tspan
+   id="tspan1123"> </tspan></tspan><tspan
            x="660"
            y="104.75"
-           id="tspan2475">API</tspan></text>
+           id="tspan1125">API</tspan></text>
     </switch>
   </g>
   <path
@@ -210,12 +210,12 @@
          xml:space="preserve"><tspan
            x="170"
            y="81"
-           id="tspan2477">Business or<tspan
+           id="tspan1127">Business or<tspan
    y="81"
-   id="tspan2479"> </tspan></tspan><tspan
+   id="tspan1129"> </tspan></tspan><tspan
            x="170"
            y="104.75"
-           id="tspan2481">Agent</tspan></text>
+           id="tspan1131">Agent</tspan></text>
     </switch>
   </g>
   <path
@@ -272,17 +272,17 @@
          xml:space="preserve"><tspan
            x="380"
            y="225"
-           id="tspan2483">2. Provides VAT<tspan
+           id="tspan1133">2. Provides VAT<tspan
    y="225"
-   id="tspan2485"> </tspan></tspan><tspan
+   id="tspan1135"> </tspan></tspan><tspan
            x="380"
            y="245.00001"
-           id="tspan2487">registration<tspan
+           id="tspan1137">registration<tspan
    y="245.00001"
-   id="tspan2489"> </tspan></tspan><tspan
+   id="tspan1139"> </tspan></tspan><tspan
            x="380"
            y="265.00001"
-           id="tspan2491">number</tspan></text>
+           id="tspan1141">number</tspan></text>
     </switch>
   </g>
   <rect
@@ -304,10 +304,10 @@
      y="0"><tspan
        x="46.12793"
        y="196.42965"
-       id="tspan2493">3. Retrieve penalty </tspan><tspan
+       id="tspan1143">3. Retrieve penalty </tspan><tspan
        x="91.483398"
        y="216.42965"
-       id="tspan2495">details</tspan></text>
+       id="tspan1145">details</tspan></text>
   <rect
      x="285"
      y="299.74887"
@@ -336,22 +336,22 @@
          xml:space="preserve"><tspan
            x="380"
            y="355"
-           id="tspan2497">4. Receives details<tspan
+           id="tspan1147">4. Receives details<tspan
    y="355"
-   id="tspan2499"> </tspan></tspan><tspan
+   id="tspan1149"> </tspan></tspan><tspan
            x="380"
            y="374.99999"
-           id="tspan2501">of penalties<tspan
+           id="tspan1151">of penalties<tspan
    y="374.99999"
-   id="tspan2503"> </tspan></tspan><tspan
+   id="tspan1153"> </tspan></tspan><tspan
            x="380"
            y="394.99999"
-           id="tspan2505">(including charge<tspan
+           id="tspan1155">(including charge<tspan
    y="394.99999"
-   id="tspan2507"> </tspan></tspan><tspan
+   id="tspan1157"> </tspan></tspan><tspan
            x="380"
            y="414.99999"
-           id="tspan2509">references)</tspan></text>
+           id="tspan1159">references)</tspan></text>
     </switch>
   </g>
   <ellipse
@@ -431,10 +431,10 @@
      y="0"><tspan
        x="41.678711"
        y="196.42965"
-       id="tspan2511">1. Retrieves penalty </tspan><tspan
+       id="tspan1161">1. Retrieves penalty </tspan><tspan
        x="91.483398"
        y="216.42965"
-       id="tspan2513">details</tspan></text>
+       id="tspan1163">details</tspan></text>
   <text
      xml:space="preserve"
      transform="translate(-6.3090884,126.5421)"
@@ -442,10 +442,10 @@
      style="font-weight:bold;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;white-space:pre;shape-inside:url(#rect241);display:inline;fill:#000000"><tspan
        x="511.55566"
        y="275.17574"
-       id="tspan2515">VAT </tspan><tspan
+       id="tspan1165">VAT </tspan><tspan
        x="513.03223"
        y="295.17574"
-       id="tspan2517">API</tspan></text>
+       id="tspan1167">API</tspan></text>
   <g
      requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
      id="g104"
@@ -489,12 +489,12 @@
          transform="translate(-4.8881504,21.460935)"><tspan
            x="380"
            y="355"
-           id="tspan2519">5. Provides charge<tspan
+           id="tspan1169">5. Provides penalty<tspan
    y="355"
-   id="tspan2521"> </tspan></tspan><tspan
+   id="tspan1171"> </tspan></tspan><tspan
            x="380"
            y="374.99999"
-           id="tspan2523">reference</tspan></text>
+           id="tspan1173">charge reference</tspan></text>
     </switch>
   </g>
   <rect
@@ -508,7 +508,7 @@
      pointer-events="all"
      id="rect66-5-2" />
   <g
-     transform="translate(279.51562,97.58007)"
+     transform="translate(279.51562,87.580054)"
      id="g72-1-7">
     <switch
        id="switch70-7-0">
@@ -526,12 +526,17 @@
          transform="translate(0.14453388,21.460935)"><tspan
            x="380"
            y="355"
-           id="tspan2525">6. Retrieve financial<tspan
+           id="tspan1175">6. Retrieve financial<tspan
    y="355"
-   id="tspan2527"> </tspan></tspan><tspan
+   id="tspan1177"> </tspan></tspan><tspan
            x="380"
            y="374.99999"
-           id="tspan2529">details of charge</tspan></text>
+           id="tspan1179">details relating to<tspan
+   y="374.99999"
+   id="tspan1181"> </tspan></tspan><tspan
+           x="380"
+           y="394.99999"
+           id="tspan1183">penalty</tspan></text>
     </switch>
   </g>
   <path
@@ -604,10 +609,10 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect5948-8);display:inline;fill:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none"><tspan
            x="374.16797"
            y="587.52926"
-           id="tspan2531">8. Views financial </tspan><tspan
-           x="376.69922"
+           id="tspan1185">8. Views financial </tspan><tspan
+           x="414.92969"
            y="607.52926"
-           id="tspan2533">details of charge</tspan></text>
+           id="tspan1187">details</tspan></text>
     </switch>
   </g>
   <text
@@ -617,13 +622,13 @@
      style="font-weight:bold;font-size:16px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1002);display:inline;fill:#000000;stroke-width:3;stroke-linejoin:bevel"><tspan
        x="300.47168"
        y="596.33004"
-       id="tspan2535">7. Receives financial </tspan><tspan
-       x="298.71777"
+       id="tspan1189">7. Receives financial </tspan><tspan
+       x="302.70996"
        y="616.33004"
-       id="tspan2537">details of charge and </tspan><tspan
-       x="325.38574"
+       id="tspan1191">details and displays </tspan><tspan
+       x="359.62402"
        y="636.33004"
-       id="tspan2539">displays them</tspan></text>
+       id="tspan1193">them</tspan></text>
   <path
      d="m 659.78728,530.15432 v 80 h -167.65"
      fill="none"
