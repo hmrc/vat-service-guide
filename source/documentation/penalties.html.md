@@ -38,7 +38,7 @@ To retrieve the financial details relating to a penalty, use this endpoint:
 
   * [Retrieve financial details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#Retrieve%20financial%20details%20[test%20only])
 
-Your software should use the financial-details endpoint after the penalties endpoint, passing the charge reference that the penalties endpoint has returned:
+Your software should use the financial-details endpoint after the penalties endpoint, passing the late submission or late payment penalty charge reference that the penalties endpoint has returned:
 
 <img src="figures/financial-details.svg" alt="financial-details process diagram" style="width:520px;" />
 
