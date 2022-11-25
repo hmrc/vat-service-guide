@@ -12,7 +12,7 @@ By displaying appropriate prompts, MTD software could help customers to meet the
 
 In January 2023, HMRC is introducing a new points-based system for late submissions. It is designed to be more lenient to those who make the occasional slip-up, whilst still penalising those who repeatedly avoid their obligations.
 
-The following hints will help you to build appropriate prompts into your software to assist customers to submit their VAT returns on time, preventing them from getting a late submission penalty. For customers who have submitted VAT returns late, the prompts will encourage them to submit future VAT returns on time in order to reset their points total to zero.
+The following hints will help you to build appropriate prompts into your software to assist customers to submit their VAT returns on time, preventing them from getting a late submission penalty. For customers who have submitted VAT returns late, the prompts will encourage them to submit future VAT returns on time in order to avoid a financial penalty or reset their points total to zero.
 
 <table>
     <tr>

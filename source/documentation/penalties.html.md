@@ -6,7 +6,7 @@ weight: 4
 # Penalties and appeals
 <!--- Section owner: MTD Programme --->
 
-The way that HMRC levies VAT penalties and interest charges has changed. The changes apply to everyone who submits VAT returns for accounting periods that start on or after 1 January 2023. Penalties for late submission and late payment are considered to be fairer, and will be more consistent across taxes when the reform is extended to other tax regimes in the future.
+The way that HMRC levies VAT penalties and interest charges has changed. The changes apply to everyone who submits VAT returns for accounting periods that start on or after 1 January 2023. This will apply to all returns; payment, repayment and nil. Penalties for late submission and late payment are considered to be fairer, and will be more consistent across taxes when the reform is extended to other tax regimes in the future.
 
 Businesses that do not submit VAT returns on time will receive penalty points. When the number of penalty points reaches a threshold, HMRC will levy a penalty charge.
 
