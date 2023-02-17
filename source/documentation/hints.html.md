@@ -25,13 +25,13 @@ The following hints will help you to build appropriate prompts into your softwar
         <td>Notify the customer when a VAT return is due, and inform them of their late submission penalty position if they fail to submit on time (i.e. the customer will receive a penalty point or a £200 fine).</td>
         <td>
             <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_details">Retrieve VAT obligations</a> - to find out when the next VAT return is due.</p>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a> - to see the current late submission penalty position, and hence whether the customer will receive a penalty point or a fine if they make a late submission.</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a> - to see the current late submission penalty position, and hence whether the customer will receive a penalty point or a fine if they make a late submission.</p>
         </td>
     </tr>
     <tr>
         <td>Customer submits a VAT return late</td>
         <td>Notify the customer that they have received a penalty point or they have received a £200 fine. Inform them of their points total.</td>
-        <td><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a></td>
+        <td><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a></td>
     </tr>
     <tr>
         <td>Customer has penalty points</td>
@@ -45,7 +45,7 @@ The following hints will help you to build appropriate prompts into your softwar
                 <li>find out when the next VAT return is due.</li>
                 <li>see any open VAT returns, and remind the customer to submit them.</li>
             </ul>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a> - to see whether the individual or organisation currently has any penalty points. If they have, then let them know that they can get closer to resetting their penalty points if they submit the next VAT return on time (and also submit any previous returns that are still open).</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a> - to see whether the individual or organisation currently has any penalty points. If they have, then let them know that they can get closer to resetting their penalty points if they submit the next VAT return on time (and also submit any previous returns that are still open).</p>
         </td>
     </tr>
 </table>
@@ -79,7 +79,7 @@ The following hints will help you to build appropriate prompts into your softwar
         <td>Customer has not paid 15 days after due date</td>
         <td>16 days after the payment due date, notify the customer that they have incurred a first late payment penalty at 2%. To stop that being increased to another 2%, they must pay (or agree to a payment plan) within 30 days of the due date.</td>
         <td>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a> - to get:</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a> - to get:</p>
             <ul>
                 <li>details of the new first late payment penalty that has been applied (penaltyAmountPosted)</li>
                 <li>the amount of unpaid tax at day 16 (latePaymentPenalty1LowerRateCalculationAmount).</li>
@@ -93,7 +93,7 @@ The following hints will help you to build appropriate prompts into your softwar
             <p>Until the customer pays, keep reminding them, at set intervals, of the outstanding debt and that the second penalty is still accruing.</p>
         </td>
         <td>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a> - to get:</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a> - to get:</p>
             <ul>
                 <li>the amount of unpaid tax at day 16 (latePaymentPenalty1LowerRateCalculationAmount).</li>
                 <li>the amount of unpaid tax at day 31 (latePaymentPenalty1HigherRateCalculationAmount).</li>
@@ -102,7 +102,7 @@ The following hints will help you to build appropriate prompts into your softwar
                 <li>the payment due date for the penalty charge (penaltyChargeDueDate).</li>
                 <li>the number of days for which the second late payment penalty has accrued (latePaymentPenalty2Days), the amount that has accrued (penaltyAmountAccruing) and the amount that is yet to be paid (penaltyAmountOutstanding).</li>
             </ul>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details-test-only_get_details">Retrieve financial details</a> - passing in:</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details_get_details">Retrieve financial details</a> - passing in:</p>
             <ul>
                 <li>the charge reference of the first late payment penalty, to see further financial information relating to the first late payment penalty. For example, you can see the amount of accruing or posted interest on the penalty (documentInterestTotals).</li>
                 <li>the charge reference of the second late payment penalty, to see further financial information relating to the second late payment penalty. For example, you can see the amount of accruing or posted interest on the penalty (documentInterestTotals).</li>
@@ -144,7 +144,7 @@ The following hints will help you to build appropriate prompts into your softwar
             <p>Until the customer pays, keep reminding them, at set intervals, of the outstanding debt and that the second penalty is still accruing.</p>
         </td>
         <td>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details">Retrieve VAT penalties</a> - to get:</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details">Retrieve VAT penalties</a> - to get:</p>
             <ul>
                 <li>the amount of unpaid tax at day 16 (latePaymentPenalty1LowerRateCalculationAmount).</li>
                 <li>the amount of unpaid tax at day 31 (latePaymentPenalty1HigherRateCalculationAmount).</li>
@@ -153,7 +153,7 @@ The following hints will help you to build appropriate prompts into your softwar
                 <li>the payment due date for the penalty charge (penaltyChargeDueDate).</li>
                 <li>the number of days for which the second late payment penalty has accrued (latePaymentPenalty2Days), the amount that has accrued (penaltyAmountAccruing) and the amount that is yet to be paid (penaltyAmountOutstanding).</li>
             </ul>
-            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details-test-only_get_details">Retrieve financial details</a> - passing in:</p>
+            <p><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details_get_details">Retrieve financial details</a> - passing in:</p>
             <ul>
                 <li>the charge reference of the first late payment penalty, to see further financial information relating to the first late payment penalty. For example, you can see the amount of accruing or posted interest on the penalty (documentInterestTotals).</li>
                 <li>the charge reference of the second late payment penalty, to see further financial information relating to the second late payment penalty. For example, you can see the amount of accruing or posted interest on the penalty (documentInterestTotals).</li>
