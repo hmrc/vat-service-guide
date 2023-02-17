@@ -29,14 +29,14 @@ Your software should use the VAT (MTD) API to retrieve details of the penalties 
 
 Specifically, the software should use this endpoint:
 
-  * [Retrieve VAT penalties](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties-test-only_get_details)
+  * [Retrieve VAT penalties](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-penalties_get_details)
 
 ## Retrieve financial details relating to a penalty
 <!--- Section owner: MTD Programme --->
 
 To retrieve the financial details relating to a penalty, use this endpoint:
 
-  * [Retrieve financial details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details-test-only_get_details)
+  * [Retrieve financial details](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-financial-details_get_details)
 
 Your software should use the financial-details endpoint after the penalties endpoint, passing the late submission or late payment penalty charge reference that the penalties endpoint has returned:
 
