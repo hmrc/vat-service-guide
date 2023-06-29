@@ -20,7 +20,7 @@ Agents who have set up their clients for VAT (MTD) can submit their clients' VAT
 4. [Agent amends client's VAT return using current process](#amend-a-vat-return-using-current-process)
 5. [Agent pays client's VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Agent notifies client’s change of circumstances](#notify-a-change-of-circumstances)
-7. [Agent views their client's future obligations and previous returns in software](#view-future-obligations-and-previous-returns-bta)
+7. [Agent views their client's obligations and previous returns in software](#view-obligations-and-previous-returns-bta)
 
 ## Business journey overview
 <!--- Section owner: MTD API --->
@@ -37,7 +37,7 @@ Businesses set up for VAT (MTD) can submit VAT Returns.
 4. [Business amends a VAT Return using current process](#amend-a-vat-return-using-current-process)
 5. [Business pays a VAT bill or receives a repayment](#pay-vat-or-get-a-repayment)
 6. [Business notifies a change of circumstances](#notify-a-change-of-circumstances)
-7. [Business views future obligations and previous returns in its Business Tax Account (BTA)](#view-future-obligations-and-previous-returns-bta)
+7. [Business views obligations and previous returns in its Business Tax Account (BTA)](#view-obligations-and-previous-returns-bta)
 
 ## Receive obligations and submit a VAT Return
 <!--- Section owner: MTD API --->
@@ -254,7 +254,7 @@ Until VAT (MTD) goes into Live service there will be a manual process in place w
 
 Functionality will be available for businesses or agents to make the most regular changes - with more functionality being added after April 2019.
 
-## View future obligations and previous returns (BTA)
+## View obligations and previous returns (BTA)
 <!--- Section owner: View and Change --->
 
 Businesses may wish to view information in relation to their VAT. They may also like assurance, which may help them when managing their tax affairs. This will also include viewing their previous updates that we have received.
@@ -264,11 +264,11 @@ We encourage software developers to include these features within their products
 
 From April 2018, if a business has volunteered for the pilot and signed up for VAT (MTD), they will have the option to use and view information within their BTA. This will include information such as: viewing their return, payment obligations and the option to link off from their BTA and make an online card payment.
 
-Agents must use your software to view their client’s future obligations and previous returns. Your software must call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) endpoints to provide this information.
+Agents must use your software to view their client’s obligations and previous returns. Your software must call the [Retrieve VAT obligations](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) and [View VAT Return API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_view-vat-return_get_accordion) endpoints to provide this information.
 
-<img src="figures/view-future-obligations.svg" alt="Future obligations process diagram" style="width:520px;" />
+<img src="figures/view-obligations.svg" alt="Obligations process diagram" style="width:520px;" />
 
-<a href="figures/view-future-obligations.svg" target="blank">Open the future obligations process diagram in a new tab</a>.
+<a href="figures/view-obligations.svg" target="blank">Open the obligations process diagram in a new tab</a>.
 
 1. Business signs in to Government Gateway account
 2. Business views previous returns in BTA
