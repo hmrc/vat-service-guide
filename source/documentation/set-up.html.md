@@ -20,7 +20,7 @@ Before agents can represent clients they must set up their relationships and sof
 4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent registers a client for VAT](#register-for-vat)
 6. [Agent signs up clients for Making Tax Digital (MTD) for VAT](#agent-signs-up-client-for-vat-mtd)
-7. [Agent chooses software](#choose-software)
+7. [Agent chooses software](/#software-choices)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business journey overview 
@@ -35,7 +35,7 @@ Before businesses can submit VAT Returns, they must sign up for VAT (MTD) and se
 1. [Business reads guidance](#read-guidance)
 2. [Business registers for VAT](#register-for-vat)
 3. [Business signs up for Making Tax Digital (MTD) for VAT  (MTD)](#business-signs-up-for-vat-mtd)
-4. [Business chooses software](#choose-software)
+4. [Business chooses software](/#software-choices)
 5. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Read guidance 
@@ -190,19 +190,6 @@ They need to sign up before first use, even if they have already signed up for M
 5. Confirm and submit information.
 6. Wait up to 3 days to see if the sign up has been approved.
 7. Receive confirmation that the business can now start submitting VAT Returns using compatible accounting software.
-
-## Choose software 
-<!--- Section owner: MTD Programme --->
-
-We provide a list of [software applications that are VAT (MTD) compatible](https://www.gov.uk/guidance/software-for-sending-income-tax-updates#VAT) so businesses and agents can choose the right software for their needs.
-
-This video is about the compatible software that businesses and agents must use as part of VAT (MTD).
-<br>
-<br>
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGxLwEc1OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<br>
-
-Your application must comply with our [terms of use](https://developer.service.hmrc.gov.uk/api-documentation/docs/terms-of-use). You must accept the terms of use before we issue your application's production credentials.
 
 ## Link software to HMRC 
 <!--- Section owner: API Services --->
