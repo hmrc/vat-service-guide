@@ -20,7 +20,7 @@ Before agents can represent clients they must set up their relationships and sof
 4. [Agent links a new VAT client](#link-a-new-vat-client)
 5. [Agent registers a client for VAT](#register-for-vat)
 6. [Agent signs up clients for Making Tax Digital (MTD) for VAT](#agent-signs-up-client-for-vat-mtd)
-7. [Agent chooses software](/#software-choices)
+7. [Agent chooses software](/guides/vat-mtd-end-to-end-service-guide/#software-choices)
 8. [Agent links software to HMRC](#link-software-to-hmrc)
 
 ## Business journey overview 
@@ -34,8 +34,8 @@ Before businesses can submit VAT Returns, they must sign up for VAT (MTD) and se
 
 1. [Business reads guidance](#read-guidance)
 2. [Business registers for VAT](#register-for-vat)
-3. [Business signs up for Making Tax Digital (MTD) for VAT  (MTD)](#business-signs-up-for-vat-mtd)
-4. [Business chooses software](/#software-choices)
+3. [Business signs up for Making Tax Digital (MTD) for VAT  (MTD)](#business-signs-up-for-making-tax-digital-mtd-for-vat)
+4. [Business chooses software](/guides/vat-mtd-end-to-end-service-guide/#software-choices)
 5. [Business links software to HMRC](#link-software-to-hmrc)
 
 ## Read guidance 
@@ -66,12 +66,6 @@ To access VAT (MTD), an agent must create an [agent services account](https://ww
 6. HMRC creates the agent services account, and gives the agent their agent services account reference number
 
 This service is available on GOV.UK at [www.gov.uk/guidance/get-an-hmrc-agent-services-account](https://www.gov.uk/guidance/get-an-hmrc-agent-services-account). We encourage you to include this link in your software.
-
-<br>
-This video explains the step-by-step process for creating an agent services account.
-<br>
-<br>
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/scHXKhu4QnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Link existing VAT clients 
 <!--- Section owner: Agents --->
