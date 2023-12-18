@@ -41,7 +41,7 @@ The minimum required functionality is as follows:
     * Retrieve VAT obligations using the VAT (MTD) API [Retrieve VAT obligations](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATobligations) endpoint.
     * Submit a VAT return using the VAT (MTD) API [Submit VAT return for period](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/SubmitVATreturnforperiod) endpoint.
 
-The following endpoints are also available. These are optional. However, we do recommend that you include them to support your customers’ needs.
+The following endpoints are also available. These are **optional**. However, we do recommend that you include them to support your customers’ needs.
 
 * Retrieve VAT obligations again using the VAT (MTD) API [Retrieve VAT obligations](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATobligations) endpoint to check if the VAT Return has met the current obligation - or to see the next obligation.
 * Retrieve returns submitted up to four years previously by using the VAT (MTD) [View VAT return](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/ViewVATReturn) endpoint.
@@ -78,7 +78,7 @@ Developers need to:
   <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
   <strong class="govuk-warning-text__text">
     <span class="govuk-warning-text__assistive">Warning</span>
-Once all the above steps have been completed, please contact <a href="mailto:SDSTeam@hmrc.gov.uk\">SDSTeam@hmrc.gov.uk</a> within 2 weeks of completing your API testing, to enable us to view the data within our logs. It takes 10 working days to advise of the outcome. When you contact us, we will then ask you to complete 2 questionnaires, before checking your Fraud Prevention Header and VAT (MTD) API testing.
+Once all the above steps have been completed, please contact <a href="mailto:SDSTeam@hmrc.gov.uk">SDSTeam@hmrc.gov.uk</a> within 2 weeks of completing your API testing, to enable us to view the data within our logs. It takes 10 working days to advise of the outcome. When you contact us, we will then ask you to complete 2 questionnaires, before checking your Fraud Prevention Header and VAT (MTD) API testing.
   </strong>
 </div>
 
