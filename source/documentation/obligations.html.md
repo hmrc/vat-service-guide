@@ -74,18 +74,18 @@ A new obligation is generated on the first day of the period, whether the previo
 * If the software submits a VAT Return from Monday to Friday during normal working hours, the obligation will be updated by the following morning or earlier. If the software submits a return after 6pm on a Friday, then it's possible the obligation will be marked as fulfilled on the following Tuesday (or Wednesday if it's a bank holiday weekend). There should be no penalty if the return was submitted in the required timeframe as the obligation will be marked as met on the date it is received from the software.
 
 
-## Period keys
+### Period keys
 
 A period key is an ID code for an obligation period. It is normally a string of four alphanumeric characters but some period keys can be four numeric digits.
 Period keys that include a # symbol must be encoded or escaped in the URL, for example: %23001</br>
 Period keys do not need to be shown to the end user, they are used by software to ensure the return is recorded against the correct obligation.
 
 
-### Finding a period key
+#### Finding a period key
 
 The period key can be found in the returned obligation, an example is given below.
 
-### Example format of returned obligations
+#### Example format of returned obligations
 
 ```js
 {
@@ -123,17 +123,17 @@ The period key can be found in the returned obligation, an example is given belo
 18A3 31.10.2018</br>
 18A4 31.01.2019
 
-### Example numeric period keys
+#### Example numeric period keys
 
 0418</br>
 1218
 
-### Special cases of numeric period keys
+#### Special cases of numeric period keys
 
 0000 – transactions that do not belong to a particular period.</br>
 9999 – the period key of a company ceasing to trade.
  
-### Encoding period keys
+#### Encoding period keys
 
 Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example %23001
 
@@ -141,6 +141,10 @@ Occasionally for special periods, the format includes a # symbol (for example #0
 ### Submit a VAT Return with a declaration through software
 
 This is the only POST API endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
+
+<div class="govuk-inset-text">
+  Ensure that your software calculates the total VAT due and net VAT due correctly. These figures are validated by HMRC, and an HTTP 400 client error response will be sent if they have been calculated incorrectly.
+</div>
 
 We require your software to show your businesses or agents a declaration that they must confirm before it sends the return to us at HMRC. Software should tell us that the business or agent confirmed this declaration by setting the “finalised” boolean to “true” in the VAT (MTD) API call. We will not accept the VAT Return without this.
 
