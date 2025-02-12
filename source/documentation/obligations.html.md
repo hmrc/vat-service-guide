@@ -143,7 +143,7 @@ Occasionally for special periods, the format includes a # symbol (for example #0
 This is the only POST API endpoint. The data items required are the same as the current 9 Box return. The period key that is relevant to the obligation needs to be provided as part of the return.
 
 <div class="govuk-inset-text">
-  Ensure that your software calculates the total VAT due and net VAT due correctly. These figures are validated by HMRC, and an HTTP 400 client error response will be sent if they have been calculated incorrectly.
+  Ensure that your software calculates the total VAT due and net VAT due correctly. These figures are validated by HMRC, and an HTTP 400 client error response will be sent if they are incorrect.
 </div>
 
 We require your software to show your businesses or agents a declaration that they must confirm before it sends the return to us at HMRC. Software should tell us that the business or agent confirmed this declaration by setting the “finalised” boolean to “true” in the VAT (MTD) API call. We will not accept the VAT Return without this.
