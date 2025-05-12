@@ -1,6 +1,6 @@
 ---
 title: Hints for using the VAT API | VAT (MTD) End-to-End Service Guide
-weight: 7
+weight: 40
 ---
 
 # Hints for using the VAT API

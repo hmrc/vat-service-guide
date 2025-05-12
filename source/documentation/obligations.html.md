@@ -1,6 +1,6 @@
 ---
 title: Obligations and returns | VAT (MTD) End-to-End Service Guide
-weight: 3
+weight: 20
 ---
 
 # Obligations and returns

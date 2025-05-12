@@ -1,6 +1,6 @@
 ---
 title: VAT (MTD) End-to-End Service Guide
-weight: 1
+weight: 5
 description: Software developers, designers, product owners or business analysts. Integrate your software with VAT API for Making Tax Digital.
 ---
 
@@ -43,6 +43,7 @@ The minimum required functionality is as follows:
 
 The following endpoints are also available. These are **optional**. However, we do recommend that you include them to support your customers’ needs.
 
+* Retrieve VAT customer information using the VAT (MTD) API [Retrieve VAT customer information](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATCustomerInformation) endpoint to see the customer's effective date of registration for VAT and also check whether the customer has entered the VAT Flat Rate Scheme.
 * Retrieve VAT obligations again using the VAT (MTD) API [Retrieve VAT obligations](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATobligations) endpoint to check if the VAT Return has met the current obligation - or to see the next obligation.
 * Retrieve returns submitted up to four years previously by using the VAT (MTD) [View VAT return](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/ViewVATReturn) endpoint.
 * Retrieve VAT liabilities by calling the VAT (MTD) API [Retrieve VAT liabilities](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATliabilities) endpoint.
