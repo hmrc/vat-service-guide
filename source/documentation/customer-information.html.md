@@ -14,4 +14,4 @@ Your software can use the VAT (MTD) API to retrieve information about a VAT cust
 
 Specifically, the software should use this endpoint:
 
-  * [Retrieve VAT customer information](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATCustomerInformation)
+  * [Retrieve VAT customer information](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATCustomerInformation)
