@@ -1,6 +1,6 @@
 ---
 title: Set up | VAT (MTD) End-to-End Service Guide
-weight: 2
+weight: 10
 ---
 
 # Set up
