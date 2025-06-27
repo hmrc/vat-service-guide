@@ -18,4 +18,4 @@ Specifically, the software should use this endpoint:
 
   * [Retrieve VAT customer information](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATCustomerInformation)
 
-All information that the endpoint returns has been provided from the customer to HMRC.
+All information that the endpoint returns has been provided to HMRC by the customer.
