@@ -1,6 +1,6 @@
 ---
 title: Penalties and appeals | VAT (MTD) End-to-End Service Guide
-weight: 25
+weight: 20
 ---
 
 # Penalties and appeals
