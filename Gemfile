@@ -12,3 +12,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'govuk_tech_docs'
 
 gem 'thin', '~> 1.8.2'
+gem 'nokogiri', '>= 1.18.9'
