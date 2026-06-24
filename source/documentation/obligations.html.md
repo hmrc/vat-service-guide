@@ -48,8 +48,10 @@ Your software should use the [VAT (MTD) API](https://developer.service.hmrc.gov.
   * [Submit VAT return for period](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion)
 
 1. Mandatory: Business or agent uses their software to retrieve VAT obligations using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion).
-2. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint ](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
-3. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to check if the VAT Return has met the current obligation - or to see the next obligation.
+2. Optional: Business or agent uses their software to get submission feedback from HMRC about the information that they have entered for their VAT return. The software uses the separate [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking) for this. For more information, see [HMRC Assist for VAT](#hmrc-assist-for-vat).
+3. Mandatory: Business or agent uses their software to submit a VAT return using the [VAT (MTD) API submit VAT return for period endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_submit-vat-return-for-period_post_accordion).
+4. Optional: Business or agent uses their software to retrieve VAT obligations again using the [VAT (MTD) API retrieve VAT obligations endpoint](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0#_retrieve-vat-obligations_get_accordion) to check if the VAT Return has met the current obligation - or to see the next obligation.
+
 
 ### Retrieve obligations in software
 
@@ -137,6 +139,53 @@ The period key can be found in the returned obligation, an example is given belo
 
 Occasionally for special periods, the format includes a # symbol (for example #001), so the period key must be percent-encoded, for example %23001
 
+### HMRC Assist for VAT
+
+HMRC Assist for VAT will be available from January 2027. It is a digital service that supports customers submitting their VAT returns through the VAT (MTD) service. Its goal is to help customers to get their VAT returns right the first time.
+
+#### How HMRC Assist for VAT works
+
+HMRC Assist for VAT analyses the information that is in a draft VAT return, before the return is submitted. Based on this information, it provides tailored feedback messages to the customer to help them complete the return. Additionally, the service includes links to helpful guidance on GOV.UK.
+
+Messages are only presented when HMRC identifies a potential issue that warrants customer review.
+
+#### Integrating HMRC Assist for VAT with your software
+
+As a software provider, you can use the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking) to integrate HMRC Assist for VAT with your MTD-compatible product.
+
+Customers or agents who use your software to submit draft VAT return information will then get appropriate feedback messages to support accurate VAT reporting. Therefore, when you request HMRC Assist feedback you will also submit the draft VAT return information.
+
+Messages will relate to a return that is currently being prepared and will vary in complexity. They may relate to inconsistencies:
+
+  * within an individual return
+  * with sector trends
+  * with other HMRC internal datasets
+  * with third-party data that HMRC holds
+
+HMRC will also look to detect anomalies within the return being prepared in the context of historical submissions.
+
+For more information about integrating your software with HMRC Assist, refer to [Hints for using the VAT API](documentation/hints.html).
+
+#### HMRC Assist for VAT customer journey
+
+Your software can use the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking) to retrieve feedback for VAT return information after the figures are entered.
+
+HMRC Assist will only be available:
+
+  * for the current period, which has an open return obligation
+  * when all the data that is required for the VAT return has been entered
+  * before the VAT return is submitted
+
+The software must then send through a confirmation once the messages have been displayed to the end user. 
+
+To support HMRC Assist, the software must use both endpoints:
+
+  * [Request HMRC Assist feedback for VAT](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/organisations/operation/RequestVATAssistFeedback)
+  * [Acknowledge HMRC Assist feedback for VAT](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/organisations/operation/AcknowledgeVATAssistReport)
+
+<img src="figures/hmrc-assist.svg" alt="HMRC Assist customer journey" style="width:520px;" />
+
+<a href="figures/hmrc-assist.svg" target="blank">Open the high-level diagram in a new tab</a>.
 
 ### Submit a VAT Return with a declaration through software
 

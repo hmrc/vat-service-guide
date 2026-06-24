@@ -1,16 +1,20 @@
 ---
 title: Hints for using the VAT API | VAT (MTD) End-to-End Service Guide
-weight: 40
+weight: 60
 ---
 
 # Hints for using the VAT API
 <!--- Section owner: MTD Programme --->
 
-By displaying appropriate prompts, MTD software could help customers to meet their VAT obligations on time. It could also support them to minimise their penalty position if they do fail to meet their obligation deadlines.
+By displaying appropriate prompts, MTD software aims to help customers to:
+
+  * meet their VAT obligations on time
+  * minimise their penalty position if they do fail to meet their obligation deadlines
+  * identify potential mistakes before they submit their VAT returns, making it less likely that they will have to rectify incorrect VAT submissions
 
 ## Late Submission Penalties
 
-In January 2023, HMRC is introducing a new points-based system for late submissions. It is designed to be more lenient to those who make the occasional slip-up, whilst still penalising those who repeatedly avoid their obligations.
+In January 2023, HMRC introduced a points-based system for late submissions. It is designed to be lenient to those who make the occasional slip-up, whilst still penalising those who repeatedly avoid their obligations.
 
 The following hints will help you to build appropriate prompts into your software to assist customers to submit their VAT returns on time, preventing them from getting a late submission penalty. For customers who have submitted VAT returns late, the prompts will encourage them to submit future VAT returns on time in order to avoid a financial penalty or reset their points total to zero.
 
@@ -161,4 +165,45 @@ The following hints will help you to build appropriate prompts into your softwar
             </ul>
         </td>
     </tr>
-</table> 
+</table>
+
+## HMRC Assist for VAT
+
+This section contains guidance about how to integrate your software with the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking), which will be available from January 2027.
+
+### Return submission
+
+HMRC Assist only provides advisory feedback messages. It does not stop customers filing their VAT returns, whether they act on the messages or not.
+
+Your software must:
+
+  * allow customers to submit their VAT return, irrespective of any HMRC Assist submission feedback
+  * if HMRC Assist is in use, enforce a temporary pause after requesting HMRC Assist feedback until the feedback is returned, before it allows the customer to submit their return
+
+We recommend that:
+
+  * you introduce relevant messaging to advise the customer during the pause that the software is waiting for feedback messages to be returned
+  * you send the presentation receipt through automatically once the feedback is displayed, for a smoother customer journey
+  * you do not link HMRC Assist to the button that submits VAT returns, because it may cause confusion for customers.
+  * you disable the functionality for any period with a filed VAT return
+
+### Handling feedback messages
+
+HMRC Assist does not guarantee that a customer’s VAT return is accurate, even if they do not receive any feedback messages.
+
+Customers are still responsible for making sure that the information that they provide is correct.
+
+When messages are received from HMRC Assist:
+
+  * they must not be modified by your software and must be displayed verbatim to businesses or agents.
+  * your software must use the HMRC feedback presented receipt endpoint to acknowledge that each report was displayed to the customer.
+
+Additional points to note:
+
+  * HMRC Assist messages will be listed in order of priority. Feedback that has the greatest impact on a VAT return from an HMRC perspective will be first in the list. We recommend that your software preserves the order of the messages.
+  * The service returns a maximum of five feedback messages. This limit is intended to prevent information overload and to ensure that only the most relevant and high-priority messages are presented to customers.
+  * There is no limit on the number of times VAT Assist feedback can be requested prior to submission of a VAT return, although the feedback is unlikely to change unless the customer amends their draft return data.
+  * We recommend that your software automatically repeats a request for feedback if any changes are made to the draft VAT return, to ensure that only relevant messaging is shown.
+  * If a customer does not act on a feedback message, or if HMRC Assist determines that the feedback remains applicable, the same message will be re-issued.
+
+

@@ -6,7 +6,7 @@ description: Software developers, designers, product owners or business analysts
 
 # VAT (MTD) end-to-end service guide
 
-**Version 8.0** issued 14 May 2025
+Updated 23 June 2026 (see [changelog](#changelog))
 ***
 
 This guide explains how you can integrate your software with our APIs to submit VAT returns under Making Tax Digital for VAT. It shows how the APIs fit into various end-to-end user journeys. It is intended to help software developers, designers, product owners or business analysts understand how your software needs to interact with HMRC systems.
@@ -50,6 +50,14 @@ The following endpoints are also available. These are **optional**. However, we 
 * Retrieve VAT payments by calling the VAT (MTD) API [Retrieve VAT payments](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATpayments) endpoint.
 * Retrieve details of the penalties that have been applied to a VAT account by using the VAT (MTD) [Retrieve VAT penalties](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/RetrieveVATpenalties) endpoint.
 * Retrieve the financial details relating to a penalty by using the VAT (MTD) [Retrieve financial details](/api-documentation/docs/api/service/vat-api/1.0/oas/page#tag/organisations/operation/Retrievefinancialdetails) endpoint.
+
+#### Additional functionality
+
+From January 2027, HMRC will provide tailored feedback messages that you can include in your software to support customers with their VAT returns. This is known as [HMRC Assist](documentation/obligations.html#hmrc-assist-for-vat).
+
+Using the information entered into the draft return, along with data that HMRC holds, the service flags potential mistakes or discrepancies and provides links to relevant GOV.UK guidance.
+
+It is intended for use as part of the return preparation, ahead of filing, helping the users to get their submissions right first time.
 
 ### Fraud Prevention Headers
 
@@ -113,6 +121,12 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 
 ## Changelog
 <!--- Section owner: MTD Programme --->
+
+### Version 8.0
+
+23 June 2026
+
+* Added information about HMRC Assist for VAT.
 
 ### Version 7.1
 
