@@ -169,7 +169,7 @@ The following hints will help you to build appropriate prompts into your softwar
 
 ## HMRC Assist for VAT
 
-This section contains guidance about how to integrate your software with the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking), which will be available from April 2027.
+This section contains guidance about how to integrate your software with the [VAT Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking), which will be available from April 2027.
 
 ### Return submission
 
