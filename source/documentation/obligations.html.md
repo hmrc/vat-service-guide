@@ -141,7 +141,7 @@ Occasionally for special periods, the format includes a # symbol (for example #0
 
 ### HMRC Assist for VAT
 
-HMRC Assist for VAT will be available from January 2027. It is a digital service that supports customers submitting their VAT returns through the VAT (MTD) service. Its goal is to help customers to get their VAT returns right the first time.
+HMRC Assist for VAT will be available from April 2027. It is a digital service that supports customers submitting their VAT returns through the VAT (MTD) service. Its goal is to help customers to get their VAT returns right the first time.
 
 #### How HMRC Assist for VAT works
 
