@@ -56,7 +56,7 @@ The following hints will help you to build appropriate prompts into your softwar
 
 ## Late Payment Penalties
 
-In January 2023, HMRC is introducing late payment penalties that will be charged at different rates based on when the payment is received. This will make the penalties more proportionate to the length of time that the payment is outstanding.
+In January 2023, HMRC introduced late payment penalties that are charged at different rates based on when the payment is received. This makes the penalties more proportionate to the length of time that the payment is outstanding.
 
 The following hints will help you to build appropriate prompts into your software to assist customers to submit their payments on time, and if they do not pay on time these will support customers in minimising their penalty position.
 
@@ -169,7 +169,7 @@ The following hints will help you to build appropriate prompts into your softwar
 
 ## HMRC Assist for VAT
 
-This section contains guidance about how to integrate your software with the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking), which will be available from January 2027.
+This section contains guidance about how to integrate your software with the [HMRC Assist (MTD) API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-transaction-risking), which will be available from April 2027.
 
 ### Return submission
 
