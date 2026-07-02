@@ -180,8 +180,8 @@ The software must then send through a confirmation once the messages have been d
 
 To support HMRC Assist, the software must use both endpoints:
 
-  * [Request HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/organisations/operation/RequestVATAssistFeedback)
-  * [Acknowledge HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/organisations/operation/AcknowledgeVATAssistReport)
+  * [Request HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/Endpoints/operation/RequestVATAssistFeedback)
+  * [Acknowledge HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/Endpoints/operation/AcknowledgeVATAssistReport)
 
 <img src="figures/hmrc-assist.svg" alt="HMRC Assist customer journey" style="width:520px;" />
 
