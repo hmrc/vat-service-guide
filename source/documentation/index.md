@@ -117,6 +117,7 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 <!--- Section owner: MTD Programme --->
 
   * [VAT (MTD) REST API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/vat-api/1.0)
+  * [VAT Assist (MTD) API](/api-documentation/docs/api/service/mtd-transaction-risking/1.0) (available from April 2027)
   * [Create Test User API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0)
 
 ## Changelog
@@ -126,7 +127,7 @@ These journeys show examples of use. Journeys for businesses and agents are brok
 
 23 June 2026
 
-* Added information about HMRC Assist for VAT.
+* Added information about [HMRC Assist for VAT](documentation/obligations.html#hmrc-assist-for-vat).
 
 ### Version 7.1
 
