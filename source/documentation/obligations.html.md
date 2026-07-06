@@ -205,7 +205,7 @@ We require your software to show your businesses or agents a declaration that th
 
  > I confirm that my client has received a copy of the information contained in this return and approved the information as being correct and complete to the best of their knowledge and belief.
 
-## View previously submitted VAT Return
+## View a previously submitted VAT Return
 <!--- Section owner: MTD API --->
 
 Your software can retrieve returns submitted up to four years previously using the VAT (MTD) API:
