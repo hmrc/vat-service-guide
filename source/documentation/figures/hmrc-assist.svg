@@ -4,867 +4,1031 @@
 <svg
    version="1.1"
    id="svg1"
-   width="793.27997"
-   height="1122.5601"
-   viewBox="0 0 793.27997 1122.5601"
+   width="790"
+   height="1011"
+   viewBox="0 0 790 1011"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <g
-     id="g1">
-    <path
-       id="path1"
-       d="m 277.5,100 h 270 v 1010 h -270 z"
-       style="fill:#f8f8f8"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path2"
-       d="m 346.25,130 h 150 v 100 h -150 z"
-       style="fill:#f1f7f5;stroke:#006435;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text2"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,350.24593,194.03124)"><tspan
-         id="tspan2"
-         style="font-weight:700;font-size:19px;font-family:Arial;fill:#006435"
-         x="0"
-         y="0">Accountancy</tspan></text>
-    <text
-       id="text3"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,367.77174,214.66963)"><tspan
-         id="tspan3"
-         style="font-weight:700;font-size:19px;font-family:Arial;fill:#006435"
-         x="0"
-         y="0">Software</tspan></text>
-    <path
-       id="path3"
-       d="m 612.5,130 h 150 v 100 h -150 z"
-       style="fill:#f1f7fa;stroke:#005ea5;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text4"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,601.0753,203.90177)"><tspan
-         id="tspan4"
-         style="font-weight:700;font-size:19px;font-family:Arial;fill:#005ea5"
-         x="0"
-         dx="0 0 0 0 0 -0.70507824"
-         y="0">HMRC API</tspan></text>
-    <path
-       id="path4"
-       d="m 47.5,250 h 780"
-       style="fill:none;stroke:#000000;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path5"
-       d="m 522.5,345 h 44.90002"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path6"
-       d="m 574.15002,345 -9,4.5 2.25,-4.5 -2.25,-4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path7"
-       d="m 302.5,265 h 220 v 160 h -220 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path8"
-       d="m 311,290 h 208 v 16 H 311 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text8"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,305.14152,308.88837)"><tspan
-         id="tspan8"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">2. Sends the draft return to the </tspan></text>
-    <text
-       id="text9"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,304.791,325.93748)"><tspan
-         id="tspan9"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">assist </tspan></text>
-    <text
-       id="text10"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,343.9086,325.93748)"><tspan
-         id="tspan10"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">endpoint, specifying the</tspan></text>
-    <text
-       id="text11"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,488.39137,325.93748)"><tspan
-         id="tspan11"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text12"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,300.96337,342.98659)"><tspan
-         id="tspan12"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">VRN and the periodKey that has</tspan></text>
-    <text
-       id="text13"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,492.23302,342.98659)"><tspan
-         id="tspan13"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text14"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,327.13991,360.93301)"><tspan
-         id="tspan14"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">been obtained from the</tspan></text>
-    <text
-       id="text15"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,466.04246,360.93301)"><tspan
-         id="tspan15"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text16"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,300.87924,377.98212)"><tspan
-         id="tspan16"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.039058 -1.0390625"
-         y="0">obligations endpoint on the VAT</tspan></text>
-    <text
-       id="text17"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,492.31715,377.98212)"><tspan
-         id="tspan17"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text18"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,365.07978,395.03123)"><tspan
-         id="tspan18"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 -0.51953077"
-         y="0">(MTD) API</tspan></text>
-    <path
-       id="path18"
-       d="m 444,386 h 4 v 16 h -4 z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text19"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,424.62547,395.03123)"><tspan
-         id="tspan19"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">.</tspan></text>
-    <text
-       id="text20"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,184.71818,194.92856)"><tspan
-         id="tspan20"
-         style="font-weight:700;font-size:19px;font-family:Arial;fill:#2e358b"
-         x="0"
-         y="0">User</tspan></text>
-    <path
-       id="path20"
-       d="m 126.5,149 c 0,1.24756 -0.11209,2.48312 -0.33627,3.7067 -0.22417,1.22358 -0.55612,2.41168 -0.99585,3.56427 -0.43974,1.1526 -0.97879,2.24755 -1.61717,3.28486 -0.63839,1.03731 -1.36384,1.99704 -2.17635,2.8792 -0.81252,0.88215 -1.69649,1.66978 -2.6519,2.36288 -0.95542,0.6931 -1.96392,1.27837 -3.02551,1.75579 -1.06161,0.47743 -2.1559,0.83782 -3.28288,1.0812 -1.12698,0.2434 -2.26501,0.36508 -3.41407,0.3651 -1.14907,-2e-5 -2.28709,-0.1217 -3.41408,-0.3651 -1.127,-0.24338 -2.22129,-0.60377 -3.28289,-1.0812 -1.0616,-0.47742 -2.0701,-1.06269 -3.025518,-1.7558 -0.955407,-0.6931 -1.839371,-1.48072 -2.651886,-2.36287 -0.812516,-0.88216 -1.537964,-1.84189 -2.176354,-2.8792 -0.638389,-1.03731 -1.177452,-2.13226 -1.61718,-3.28486 -0.43972,-1.15259 -0.771667,-2.34069 -0.995842,-3.56427 C 91.612083,151.48312 91.5,150.24756 91.5,149 c 0,-1.24756 0.112083,-2.48312 0.33625,-3.70671 0.224175,-1.22359 0.556122,-2.41168 0.995842,-3.56429 0.439728,-1.15258 0.978783,-2.24754 1.617173,-3.28485 0.638389,-1.03731 1.363845,-1.99704 2.176361,-2.87918 0.812515,-0.88215 1.696479,-1.6698 2.651893,-2.3629 0.955411,-0.69311 1.963911,-1.27838 3.025511,-1.7558 1.0616,-0.47741 2.15589,-0.83781 3.28288,-1.0812 C 106.7129,130.12169 107.85093,130 109,130 c 1.14906,0 2.28709,0.12169 3.41407,0.36507 1.12698,0.24339 2.22127,0.60379 3.28287,1.0812 1.06159,0.47742 2.0701,1.06269 3.02552,1.75582 0.95541,0.6931 1.83938,1.48073 2.6519,2.36288 0.81251,0.88214 1.53796,1.84187 2.17635,2.87918 0.63838,1.03731 1.17743,2.13227 1.61717,3.28485 0.43973,1.15261 0.77168,2.3407 0.99585,3.56429 0.22418,1.22359 0.33627,2.45915 0.33627,3.70671 z"
-       style="fill:#f4f5f9;stroke:#2e358b;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path21"
-       d="m 141.5,193 c 0,0.81877 -0.0522,1.63559 -0.15649,2.45042 -0.10433,0.81484 -0.26033,1.62378 -0.46801,2.42684 -0.20765,0.80305 -0.46597,1.59634 -0.77495,2.37987 -0.30899,0.78352 -0.66716,1.55349 -1.07449,2.30995 -0.40732,0.75645 -0.86186,1.49573 -1.36363,2.21785 -0.50177,0.72209 -1.04834,1.42354 -1.63969,2.10432 -0.59136,0.68079 -1.22466,1.33765 -1.89992,1.97058 -0.67525,0.63292 -1.38919,1.23886 -2.14186,1.81783 -0.75266,0.57896 -1.54038,1.12817 -2.36318,1.6476 -0.8228,0.51942 -1.67672,1.00659 -2.56176,1.46147 -0.88502,0.45489 -1.7969,0.87533 -2.73564,1.2613 -0.93873,0.38598 -1.89979,0.73562 -2.88318,1.04894 -0.9834,0.31334 -1.98438,0.58885 -3.00296,0.82654 -1.01857,0.23768 -2.04985,0.4364 -3.09382,0.59611 -1.04396,0.15975 -2.09558,0.27976 -3.15486,0.36 C 111.12627,217.95987 110.06442,218 109,218 c -1.06441,0 -2.12626,-0.0401 -3.18555,-0.12038 -1.05929,-0.0802 -2.11093,-0.20024 -3.1549,-0.35998 -1.04396,-0.15973 -2.07523,-0.35843 -3.093808,-0.5961 -1.018585,-0.23769 -2.019577,-0.51322 -3.002967,-0.82656 -0.983391,-0.31333 -1.944451,-0.66297 -2.883179,-1.04893 -0.938736,-0.38599 -1.850617,-0.80643 -2.735649,-1.26132 -0.885025,-0.45488 -1.738938,-0.94205 -2.561737,-1.46147 -0.822808,-0.51943 -1.610535,-1.06864 -2.36319,-1.6476 -0.752647,-0.57897 -1.466606,-1.18491 -2.141861,-1.81784 -0.675262,-0.63292 -1.308571,-1.28978 -1.899933,-1.97058 -0.591346,-0.68079 -1.137909,-1.38224 -1.639671,-2.10433 -0.501762,-0.7221 -0.956307,-1.46139 -1.363648,-2.21785 -0.407325,-0.75644 -0.765487,-1.52641 -1.07447,-2.30993 -0.308983,-0.78353 -0.567307,-1.57682 -0.774963,-2.37987 -0.20765,-0.80306 -0.363648,-1.61199 -0.46798,-2.42682 C 76.552162,194.63559 76.5,193.81877 76.5,193 c 0,-0.81877 0.05216,-1.63557 0.156494,-2.45041 0.104332,-0.81483 0.26033,-1.62379 0.46798,-2.42685 0.207656,-0.80304 0.46598,-1.59633 0.774963,-2.37985 0.308983,-0.78352 0.667145,-1.55353 1.07447,-2.30998 0.407341,-0.75646 0.861886,-1.49573 1.363648,-2.21784 0.501762,-0.72209 1.048325,-1.42354 1.639671,-2.10434 0.591362,-0.68078 1.224671,-1.33764 1.899925,-1.97056 0.675263,-0.63292 1.389222,-1.23888 2.141869,-1.81784 0.752655,-0.57897 1.540382,-1.12816 2.36319,-1.64759 0.822799,-0.51944 1.676712,-1.0066 2.561737,-1.4615 0.885032,-0.45488 1.796913,-0.8753 2.735649,-1.26126 0.938728,-0.38599 1.899788,-0.73564 2.883179,-1.04898 0.98339,-0.31334 1.984382,-0.58884 3.002967,-0.82651 1.018578,-0.23767 2.049848,-0.43638 3.093808,-0.59613 1.04397,-0.15973 2.09561,-0.27972 3.1549,-0.35997 1.05929,-0.0802 2.12114,-0.12037 3.18555,-0.12039 1.06442,2e-5 2.12627,0.0402 3.18555,0.12039 1.05929,0.0803 2.11091,0.20024 3.15487,0.35997 1.04397,0.15975 2.07525,0.35846 3.09383,0.59613 1.01858,0.23767 2.01955,0.51317 3.00295,0.82651 0.98339,0.31334 1.94445,0.66299 2.88318,1.04898 0.93874,0.38596 1.85062,0.80638 2.73564,1.26126 0.88504,0.4549 1.73896,0.94206 2.56176,1.46149 0.8228,0.51942 1.61052,1.06863 2.36318,1.6476 0.75267,0.57896 1.46661,1.1849 2.14186,1.81782 0.67526,0.63294 1.30856,1.2898 1.89992,1.9706 0.59135,0.6808 1.13792,1.38225 1.63969,2.10434 0.50177,0.72209 0.95631,1.46136 1.36363,2.21782 0.40733,0.75645 0.7655,1.52646 1.07449,2.30998 0.30898,0.78352 0.5673,1.5768 0.77495,2.37984 0.20768,0.80305 0.36368,1.61201 0.46801,2.42685 0.10432,0.81485 0.15649,1.63165 0.15649,2.45042 z"
-       style="fill:#f4f5f9;stroke:#2e358b;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path22"
-       d="m 91.5,193 v 21"
-       style="fill:none;stroke:#2e358b;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path23"
-       d="m 126.5,193 v 21"
-       style="fill:none;stroke:#2e358b;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path24"
-       d="M 304,575 H 272.10001"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path25"
-       d="m 265.35001,575 9,-4.5 -2.25,4.5 2.25,4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path26"
-       d="M 304,505 H 524 V 645 H 304 Z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path27"
-       d="m 313,529 h 206 v 17 H 313 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text27"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,306.824,524.2455)"><tspan
-         id="tspan27"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25292471"
-         y="0">4. Software receives HTTP 200</tspan></text>
-    <text
-       id="text28"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,488.15301,524.2455)"><tspan
-         id="tspan28"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path28"
-       d="m 312,548 h 208 v 17 H 312 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text29"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,305.70234,541.29461)"><tspan
-         id="tspan29"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">response with the reportId and</tspan></text>
-    <text
-       id="text30"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,489.28869,541.29461)"><tspan
-         id="tspan30"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path30"
-       d="m 312,567 h 208 v 17 H 312 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text31"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,305.68832,558.34371)"><tspan
-         id="tspan31"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">correlationId, and presents the</tspan></text>
-    <text
-       id="text32"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,489.28869,558.34371)"><tspan
-         id="tspan32"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path32"
-       d="m 318,586 h 196 v 17 H 318 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text33"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,310.91802,575.39282)"><tspan
-         id="tspan33"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">messages to the customer in</tspan></text>
-    <text
-       id="text34"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,484.05898,575.39282)"><tspan
-         id="tspan34"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path34"
-       d="m 402,605 h 24 v 17 h -24 z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text35"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,386.32106,592.44193)"><tspan
-         id="tspan35"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">full.</tspan></text>
-    <path
-       id="path35"
-       d="M 687.5,415 V 575 H 534.09998"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path36"
-       d="m 527.34998,575 9,-4.5 -2.25,4.5 2.25,4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path37"
-       d="m 577.5,275 h 220 v 140 h -220 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text37"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,555.03149,308.88837)"><tspan
-         id="tspan37"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">3. HMRC receives the request</tspan></text>
-    <text
-       id="text38"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,551.18984,325.93748)"><tspan
-         id="tspan38"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">and sends feedback messages</tspan></text>
-    <text
-       id="text39"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,586.47981,342.98659)"><tspan
-         id="tspan39"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">for the draft return.</tspan></text>
-    <text
-       id="text40"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,570.04761,360.93301)"><tspan
-         id="tspan40"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">If there is no feedback, a</tspan></text>
-    <text
-       id="text41"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,559.93872,377.98212)"><tspan
-         id="tspan41"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">message will be sent to that</tspan></text>
-    <text
-       id="text42"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,624.85431,395.03123)"><tspan
-         id="tspan42"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">effect.</tspan></text>
-    <path
-       id="path42"
-       d="M 150,645 V 795 H 292.39999"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path43"
-       d="m 299.14999,795 -9,4.5 2.25,-4.5 -2.25,-4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path44"
-       d="M 42,505 H 262 V 645 H 42 Z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text44"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,96.065634,549.3705)"><tspan
-         id="tspan44"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">5. Customer views the</tspan></text>
-    <text
-       id="text45"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,130.26199,567.31693)"><tspan
-         id="tspan45"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">messages.</tspan></text>
-    <path
-       id="path45"
-       d="m 522.5,795 h 44.90002"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path46"
-       d="m 574.15002,795 -9,4.5 2.25,-4.5 -2.25,-4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path47"
-       d="m 302.5,725 h 220 v 140 h -220 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text47"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,336.19725,712.68299)"><tspan
-         id="tspan47"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">6. Software </tspan></text>
-    <path
-       id="path48"
-       d="m 424,740 h 60 v 16 h -60 z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text48"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,406.7211,712.68299)"><tspan
-         id="tspan48"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">calls the</tspan></text>
-    <text
-       id="text49"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,456.99914,712.68299)"><tspan
-         id="tspan49"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path49"
-       d="m 313,759 h 8 v 16 h -8 z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text50"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,306.89409,729.7321)"><tspan
-         id="tspan50"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">a</tspan></text>
-    <text
-       id="text51"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,313.8904,729.7321)"><tspan
-         id="tspan51"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">cknowledge-report</tspan></text>
-    <text
-       id="text52"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,426.2799,729.7321)"><tspan
-         id="tspan52"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> endpoint,</tspan></text>
-    <text
-       id="text53"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,486.30229,729.7321)"><tspan
-         id="tspan53"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text54"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,306.54358,747.67852)"><tspan
-         id="tspan54"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">passing the </tspan></text>
-    <path
-       id="path54"
-       d="m 394,779 h 123 v 16 H 394 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text55"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,379.84352,747.67852)"><tspan
-         id="tspan55"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">VRN, reportId and</tspan></text>
-    <text
-       id="text56"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,486.63878,747.67852)"><tspan
-         id="tspan56"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path56"
-       d="m 312,798 h 206 v 16 H 312 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text57"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,305.84255,764.72763)"><tspan
-         id="tspan57"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">correlationId. It also sends the</tspan></text>
-    <text
-       id="text58"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,487.35384,764.72763)"><tspan
-         id="tspan58"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path58"
-       d="m 308,817 h 214 v 16 H 308 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text59"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,302.70193,781.77674)"><tspan
-         id="tspan59"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">date and time that the feedback</tspan></text>
-    <text
-       id="text60"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,490.49446,781.77674)"><tspan
-         id="tspan60"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path60"
-       d="m 326,836 h 174 v 16 H 326 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text61"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,318.74155,798.82584)"><tspan
-         id="tspan61"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.77246124"
-         y="0">was displayed to the user.</tspan></text>
-    <path
-       id="path61"
-       d="m 690,865 v 150 H 532.59998"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path62"
-       d="m 525.84998,1015 9,-4.5 -2.25,4.5 2.25,4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path63"
-       d="m 577.5,725 h 220 v 140 h -220 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text63"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,557.12058,738.70531)"><tspan
-         id="tspan63"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">7. HMRC receives the receipt</tspan></text>
-    <text
-       id="text64"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,573.3004,755.75442)"><tspan
-         id="tspan64"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25292891"
-         y="0">and returns a HTTP 204</tspan></text>
-    <text
-       id="text65"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,613.67986,772.80352)"><tspan
-         id="tspan65"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">response.</tspan></text>
-    <path
-       id="path65"
-       d="m 302.5,945 h 220 v 140 h -220 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <text
-       id="text66"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,306.88008,944.1919)"><tspan
-         id="tspan66"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">8. Software receives the HTTP</tspan></text>
-    <text
-       id="text67"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,354.69048,962.13833)"><tspan
-         id="tspan67"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">204 response.</tspan></text>
-    <path
-       id="path67"
-       d="m 262,345 h 21 9.39999"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path68"
-       d="m 299.14999,345 -9,4.5 2.25,-4.5 -2.25,-4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path69"
-       d="M 42,265 H 262 V 425 H 42 Z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path70"
-       d="m 54,299 h 16 v 16 H 54 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text70"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,74.670128,316.96427)"><tspan
-         id="tspan70"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">1. </tspan></text>
-    <text
-       id="text71"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,88.648712,316.96427)"><tspan
-         id="tspan71"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 -1.0390619 -1.0390625"
-         y="0">When the VAT period ends,</tspan></text>
-    <text
-       id="text72"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,250.11048,316.96427)"><tspan
-         id="tspan72"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text73"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,69.188055,334.91069)"><tspan
-         id="tspan73"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">the business or agent prepares</tspan></text>
-    <text
-       id="text74"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,255.59255,334.91069)"><tspan
-         id="tspan74"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text75"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,95.729139,351.9598)"><tspan
-         id="tspan75"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">transactional data and</tspan></text>
-    <text
-       id="text76"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,229.06549,351.9598)"><tspan
-         id="tspan76"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text77"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,71.178987,369.00891)"><tspan
-         id="tspan77"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.039062 -1.0390625"
-         y="0">generates a draft VAT return (9</tspan></text>
-    <text
-       id="text78"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,253.61564,369.00891)"><tspan
-         id="tspan78"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <text
-       id="text79"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,140.39892,386.05801)"><tspan
-         id="tspan79"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">boxes).</tspan></text>
-    <path
-       id="path79"
-       d="M 302,1014 H 270.10001"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path80"
-       d="m 263.35001,1014 9,-4.5 -2.25,4.5 2.25,4.5 z"
-       style="fill:#000000;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path81"
-       d="m 41,944 h 220 v 140 H 41 Z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:10"
-       transform="matrix(0.89732137,0,0,0.89732137,26.453124,37.448658)" />
-    <path
-       id="path82"
-       d="m 47,968 h 212 v 17 H 47 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text82"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,68.304754,918.16958)"><tspan
-         id="tspan82"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">9. Customer</tspan></text>
-    <text
-       id="text83"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,140.91768,918.16958)"><tspan
-         id="tspan83"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> updates the return</tspan></text>
-    <text
-       id="text84"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,254.69523,918.16958)"><tspan
-         id="tspan84"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path84"
-       d="m 71,987 h 164 v 17 H 71 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text85"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,90.050777,935.21869)"><tspan
-         id="tspan85"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 -1.0390625"
-         y="0">if necessary, then either</tspan></text>
-    <text
-       id="text86"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,232.94921,935.21869)"><tspan
-         id="tspan86"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path86"
-       d="m 56,1006 h 194 v 17 H 56 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text87"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,76.324564,952.2678)"><tspan
-         id="tspan87"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">requests further feedback or</tspan></text>
-    <text
-       id="text88"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,246.67542,952.2678)"><tspan
-         id="tspan88"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path88"
-       d="m 58,1025 h 189 v 17 H 58 Z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text89"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,78.427661,969.3169)"><tspan
-         id="tspan89"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">formally submits the return.</tspan></text>
-    <text
-       id="text90"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,244.57233,969.3169)"><tspan
-         id="tspan90"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0"> </tspan></text>
-    <path
-       id="path90"
-       d="m 132,1044 h 38 v 17 h -38 z"
-       style="fill:#ffffff"
-       transform="matrix(0.89732137,0,0,0.89732137,26.004464,36.999998)" />
-    <text
-       id="text91"
-       xml:space="preserve"
-       transform="matrix(0.89732137,0,0,0.89732137,144.04429,986.36601)"><tspan
-         id="tspan91"
-         style="font-weight:700;font-size:14px;font-family:Arial;fill:#000000"
-         x="0"
-         y="0">(END)</tspan></text>
-  </g>
+  <path
+     id="path1"
+     d="M 238.60325,0 H 509.28893 V 1011 H 238.60325 Z"
+     style="fill:#f8f8f8;stroke-width:1.00176" />
+  <path
+     id="path2"
+     d="M 307.52784,30.029702 H 457.90878 V 130.1287 H 307.52784 Z"
+     style="fill:#f1f7f5;stroke:#006435;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text2"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="321.90964"
+     y="74.631462"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan2"
+       style="font-weight:700;font-size:19.0335px;font-family:Arial;fill:#006435"
+       x="321.90964"
+       y="74.631462">Accountancy</tspan></text>
+  <text
+     id="text3"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="341.47537"
+     y="97.672043"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan3"
+       style="font-weight:700;font-size:19.0335px;font-family:Arial;fill:#006435"
+       x="341.47537"
+       y="97.672043">Software</tspan></text>
+  <path
+     id="path3"
+     d="M 574.454,30.029702 H 724.83493 V 130.1287 H 574.454 Z"
+     style="fill:#f1f7fa;stroke:#005ea5;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text4"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="601.93414"
+     y="85.650864"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan4"
+       style="font-weight:700;font-size:19.0335px;font-family:Arial;fill:#005ea5"
+       x="601.93414"
+       dx="0 0 0 0 0 -0.70632237"
+       y="85.650864">HMRC API</tspan></text>
+  <path
+     id="path4"
+     d="M 8.019152,150.14851 H 790"
+     style="fill:none;stroke:#000000;stroke-width:1.00176;stroke-miterlimit:10" />
+  <path
+     id="path5"
+     d="m 484.22544,245.24257 h 45.01405"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path6"
+     d="m 536.00663,245.24257 -9.02286,4.50446 2.25572,-4.50446 -2.25572,-4.50445 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path7"
+     d="m 263.66674,165.16337 h 220.5587 v 160.1584 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path8"
+     d="m 271.68706,189.68763 h 208.52822 v 16.01584 H 271.68706 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text8"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="271.55533"
+     y="202.85728"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan8"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="271.55533"
+       y="202.85728">2. Sends the draft return to the </tspan></text>
+  <text
+     id="text9"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="271.164"
+     y="221.89082"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan9"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="271.164"
+       y="221.89082">assist </tspan></text>
+  <text
+     id="text10"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="314.83469"
+     y="221.89082"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan10"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="314.83469"
+       y="221.89082">endpoint, specifying the</tspan></text>
+  <text
+     id="text11"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="476.13443"
+     y="221.89082"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan11"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="476.13443"
+       y="221.89082"> </tspan></text>
+  <text
+     id="text12"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="266.89087"
+     y="240.92436"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan12"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="266.89087"
+       y="240.92436">VRN and the periodKey that has</tspan></text>
+  <text
+     id="text13"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="480.42322"
+     y="240.92436"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan13"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="480.42322"
+       y="240.92436"> </tspan></text>
+  <text
+     id="text14"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="296.11417"
+     y="260.95963"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan14"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="296.11417"
+       y="260.95963">been obtained from the</tspan></text>
+  <text
+     id="text15"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="451.18423"
+     y="260.95963"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan15"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="451.18423"
+       y="260.95963"> </tspan></text>
+  <text
+     id="text16"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="266.79694"
+     y="279.99316"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan16"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="266.79694"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.0408914 -1.0408959"
+       y="279.99316">obligations endpoint on the VAT</tspan></text>
+  <text
+     id="text17"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="480.51715"
+     y="279.99316"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan17"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="480.51715"
+       y="279.99316"> </tspan></text>
+  <text
+     id="text18"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="338.47006"
+     y="299.0267"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan18"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="338.47006"
+       dx="0 0 0 0 0 0 -0.52044749"
+       y="299.0267">(MTD) API</tspan></text>
+  <path
+     id="path18"
+     d="m 405.02481,285.78267 h 4.01016 v 16.01584 h -4.01016 z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text19"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="404.94653"
+     y="299.0267"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan19"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="404.94653"
+       y="299.0267">.</tspan></text>
+  <text
+     id="text20"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="137.11536"
+     y="75.633224"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan20"
+       style="font-weight:700;font-size:19.0335px;font-family:Arial;fill:#2e358b"
+       x="137.11536"
+       y="75.633224">User</tspan></text>
+  <path
+     id="path20"
+     d="m 87.219777,49.048514 c 0,1.248795 -0.112375,2.485577 -0.337124,3.710369 -0.224739,1.224791 -0.557533,2.414068 -0.998379,3.567799 -0.440857,1.153741 -0.981276,2.249775 -1.621277,3.288112 -0.640012,1.038337 -1.367304,1.999017 -2.181877,2.882051 -0.814584,0.883023 -1.700799,1.671433 -2.658634,2.365219 -0.957847,0.693787 -1.968908,1.279636 -3.033194,1.757529 -1.064307,0.477903 -2.161375,0.838649 -3.291217,1.08227 -1.129842,0.243641 -2.270763,0.365442 -3.42274,0.365462 -1.151988,-2e-5 -2.292899,-0.121821 -3.422752,-0.365462 -1.129862,-0.243621 -2.226931,-0.604367 -3.291227,-1.08227 -1.064295,-0.477893 -2.075357,-1.063742 -3.033202,-1.757539 -0.957832,-0.693786 -1.844041,-1.482186 -2.65862,-2.365209 -0.814579,-0.883034 -1.54187,-1.843714 -2.181881,-2.882051 -0.64001,-1.038337 -1.180442,-2.134371 -1.621287,-3.288112 -0.440836,-1.153731 -0.773627,-2.343008 -0.998371,-3.567799 -0.224736,-1.224792 -0.337104,-2.461574 -0.337104,-3.710369 0,-1.248795 0.112368,-2.485579 0.337104,-3.71038 0.224744,-1.224802 0.557535,-2.414068 0.998371,-3.567819 0.440845,-1.153721 0.981269,-2.249765 1.62128,-3.288102 0.64001,-1.038337 1.367309,-1.999018 2.181888,-2.882031 0.814579,-0.883024 1.700788,-1.671453 2.658627,-2.36524 0.957838,-0.693796 1.9689,-1.279645 3.033195,-1.757538 1.064296,-0.477883 2.161365,-0.83864 3.291217,-1.082271 1.129853,-0.243621 2.270774,-0.365431 3.422762,-0.365431 1.151977,0 2.292898,0.12181 3.42274,0.365431 1.129842,0.243631 2.22691,0.604388 3.291207,1.082271 1.064286,0.477893 2.075357,1.063742 3.033204,1.757558 0.957835,0.693787 1.84405,1.482196 2.658634,2.36522 0.814573,0.883013 1.541865,1.843694 2.181877,2.882031 0.640001,1.038337 1.18042,2.134381 1.621277,3.288102 0.440846,1.153751 0.77364,2.343017 0.998379,3.567819 0.224749,1.224801 0.337124,2.461585 0.337124,3.71038 z"
+     style="fill:#f4f5f9;stroke:#2e358b;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path21"
+     d="m 102.25787,93.092076 c 0,0.819581 -0.0523,1.63721 -0.15688,2.452846 -0.1046,0.815647 -0.26099,1.625388 -0.4692,2.429243 -0.20818,0.803845 -0.46715,1.597921 -0.77693,2.382225 -0.30977,0.7843 -0.66885,1.55503 -1.077213,2.31224 -0.408355,0.7572 -0.864048,1.49721 -1.367093,2.22005 -0.503044,0.7228 -1.051002,1.42495 -1.643854,2.1064 -0.592862,0.68147 -1.227769,1.33898 -1.904745,1.97253 -0.676965,0.63355 -1.392718,1.24009 -2.147299,1.81963 -0.754572,0.57954 -1.544292,1.12929 -2.369182,1.64923 -0.824889,0.51994 -1.680978,1.00759 -2.568265,1.46292 -0.887268,0.45534 -1.801463,0.8762 -2.742588,1.26255 -0.941113,0.38636 -1.904615,0.73635 -2.890501,1.04998 -0.985898,0.31365 -1.98942,0.58943 -3.010587,0.82736 -1.021156,0.23791 -2.055055,0.43683 -3.101677,0.5967 -1.046611,0.1599 -2.100902,0.28003 -3.162872,0.36035 -1.06198,0.0803 -2.126527,0.1205 -3.193649,0.1205 -1.067113,0 -2.13166,-0.0401 -3.193641,-0.1205 -1.06198,-0.0803 -2.116291,-0.20044 -3.162912,-0.36033 -1.046612,-0.15989 -2.080501,-0.35879 -3.101665,-0.59669 -1.021172,-0.23793 -2.024706,-0.51373 -3.010594,-0.82738 -0.985888,-0.31364 -1.949389,-0.66363 -2.8905,-1.04997 -0.941121,-0.38637 -1.855317,-0.80723 -2.742596,-1.26257 -0.887273,-0.45533 -1.743355,-0.94298 -2.568243,-1.46292 -0.824898,-0.51994 -1.614625,-1.06969 -2.369192,-1.64923 -0.754558,-0.57954 -1.47033,-1.18608 -2.1473,-1.81964 -0.676977,-0.63354 -1.311894,-1.29105 -1.904758,-1.97254 -0.592848,-0.68146 -1.140799,-1.38361 -1.643835,-2.1064 -0.503037,-0.72282 -0.958735,-1.46284 -1.367111,-2.22005 -0.40836,-0.75719 -0.767431,-1.52792 -1.077199,-2.31222 -0.309767,-0.784304 -0.568748,-1.57838 -0.776931,-2.382225 -0.208177,-0.803855 -0.364571,-1.613586 -0.469169,-2.429223 -0.104597,-0.815656 -0.156891,-1.633285 -0.156891,-2.452866 0,-0.81958 0.05229,-1.637189 0.156891,-2.452836 0.104598,-0.815637 0.260992,-1.625398 0.469169,-2.429253 0.208183,-0.803835 0.467164,-1.59791 0.776931,-2.382206 0.309768,-0.784296 0.668839,-1.555068 1.077199,-2.312267 0.408376,-0.757209 0.864074,-1.497211 1.367111,-2.220036 0.503036,-0.722805 1.050987,-1.424949 1.643835,-2.106423 0.592864,-0.681455 1.227781,-1.338965 1.90475,-1.972512 0.676978,-0.633546 1.39275,-1.240106 2.147308,-1.819638 0.754567,-0.579544 1.544294,-1.129277 2.369192,-1.649222 0.824888,-0.519954 1.68097,-1.007596 2.568243,-1.462947 0.887279,-0.45533 1.801475,-0.876166 2.742596,-1.262508 0.941111,-0.386373 1.904612,-0.736369 2.8905,-1.050019 0.985888,-0.31365 1.989422,-0.589423 3.010594,-0.827328 1.021164,-0.237906 2.055053,-0.436812 3.101665,-0.596721 1.046621,-0.159888 2.100932,-0.279997 3.162912,-0.360326 1.061981,-0.08028 2.126528,-0.120489 3.193641,-0.120509 1.067122,2e-5 2.131669,0.04024 3.193639,0.120509 1.06198,0.08038 2.116271,0.200438 3.162882,0.360326 1.046622,0.159909 2.080521,0.358815 3.101687,0.596721 1.021167,0.237905 2.024679,0.513678 3.010577,0.827328 0.985886,0.31365 1.949388,0.663646 2.890501,1.050019 0.941125,0.386342 1.85532,0.807178 2.742588,1.262508 0.887287,0.455351 1.743376,0.942993 2.568265,1.462937 0.82489,0.519935 1.61461,1.069688 2.369182,1.649232 0.754581,0.579532 1.470334,1.186072 2.147299,1.819618 0.676976,0.633567 1.311883,1.291077 1.904745,1.972552 0.592852,0.681474 1.14081,1.383618 1.643854,2.106423 0.503045,0.722805 0.958738,1.462807 1.367093,2.220016 0.408363,0.757199 0.767443,1.527971 1.077213,2.312267 0.30978,0.784296 0.56875,1.578361 0.77693,2.382196 0.20821,0.803845 0.3646,1.613606 0.4692,2.429253 0.10458,0.815657 0.15688,1.633266 0.15688,2.452846 z"
+     style="fill:#f4f5f9;stroke:#2e358b;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path22"
+     d="M 52.130891,93.092076 V 114.11287"
+     style="fill:none;stroke:#2e358b;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path23"
+     d="M 87.219777,93.092076 V 114.11287"
+     style="fill:none;stroke:#2e358b;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path24"
+     d="m 265.17055,475.47029 h -31.981"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path25"
+     d="m 226.42241,475.47029 9.02285,-4.50446 -2.25571,4.50446 2.25571,4.50445 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path26"
+     d="m 265.17055,405.40098 h 220.5587 v 140.1386 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path27"
+     d="m 273.69213,428.92425 h 206.52315 v 17.01683 H 273.69213 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text27"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="273.43362"
+     y="443.28079"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan27"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="273.43362"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25337103"
+       y="443.28079">4. Software receives HTTP 200</tspan></text>
+  <text
+     id="text28"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="475.86832"
+     y="443.28079"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan28"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="475.86832"
+       y="443.28079"> </tspan></text>
+  <path
+     id="path28"
+     d="M 272.68959,447.94306 H 481.21782 V 464.9599 H 272.68959 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text29"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="272.18143"
+     y="462.3143"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan29"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="272.18143"
+       y="462.3143">response with the reportId and</tspan></text>
+  <text
+     id="text30"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="477.1362"
+     y="462.3143"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan30"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="477.1362"
+       y="462.3143"> </tspan></text>
+  <path
+     id="path30"
+     d="m 272.68959,466.96188 h 208.52823 v 17.01683 H 272.68959 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text31"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="272.16577"
+     y="481.34781"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan31"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="272.16577"
+       y="481.34781">correlationId, and presents the</tspan></text>
+  <text
+     id="text32"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="477.1362"
+     y="481.34781"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan32"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="477.1362"
+       y="481.34781"> </tspan></text>
+  <path
+     id="path32"
+     d="m 278.70483,485.98069 h 196.49775 v 17.01683 H 278.70483 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text33"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="278.00418"
+     y="500.38135"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan33"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="278.00418"
+       y="500.38135">messages to the customer in</tspan></text>
+  <text
+     id="text34"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="471.29779"
+     y="500.38135"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan34"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="471.29779"
+       y="500.38135"> </tspan></text>
+  <path
+     id="path34"
+     d="m 362.91815,504.9995 h 24.06096 v 17.01682 h -24.06096 z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text35"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="362.18369"
+     y="519.41492"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan35"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="362.18369"
+       y="519.41492">full.</tspan></text>
+  <path
+     id="path35"
+     d="M 649.64446,315.31187 V 475.47029 H 495.85488"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path36"
+     d="m 489.08773,475.47029 9.02286,-4.50446 -2.25571,4.50446 2.25571,4.50445 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path37"
+     d="m 539.36511,175.17327 h 220.5587 v 140.1386 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text37"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="550.53107"
+     y="202.85728"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan37"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="550.53107"
+       y="202.85728">3. HMRC receives the request</tspan></text>
+  <text
+     id="text38"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="546.24225"
+     y="221.89082"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan38"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="546.24225"
+       y="221.89082">and sends feedback messages</tspan></text>
+  <text
+     id="text39"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="585.63977"
+     y="240.92436"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan39"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="585.63977"
+       y="240.92436">for the draft return.</tspan></text>
+  <text
+     id="text40"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="567.29498"
+     y="260.95963"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan40"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="567.29498"
+       y="260.95963">If there is no feedback, a</tspan></text>
+  <text
+     id="text41"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="556.00946"
+     y="279.99316"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan41"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="556.00946"
+       y="279.99316">message will be sent to that</tspan></text>
+  <text
+     id="text42"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="628.48083"
+     y="299.0267"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan42"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="628.48083"
+       y="299.0267">effect.</tspan></text>
+  <path
+     id="path42"
+     d="M 110.77946,545.53958 V 695.6881 h 142.76162"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path43"
+     d="m 260.30822,695.6881 -9.02285,4.50445 2.25571,-4.50445 -2.25571,-4.50446 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path44"
+     d="M 2.5051845,405.40097 H 223.06388 V 545.53958 H 2.5051845 Z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text44"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="38.144157"
+     y="471.33017"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan44"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="38.144157"
+       y="471.33017">5. Customer views the</tspan></text>
+  <text
+     id="text45"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="76.320786"
+     y="491.36548"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan45"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="76.320786"
+       y="491.36548">messages.</tspan></text>
+  <path
+     id="path45"
+     d="m 484.22544,695.6881 h 45.01405"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path46"
+     d="m 536.00663,695.6881 -9.02286,4.50445 2.25572,-4.50445 -2.25572,-4.50446 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path47"
+     d="m 263.66674,625.61879 h 220.5587 V 765.7574 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text47"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="306.22577"
+     y="653.65131"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan47"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="306.22577"
+       y="653.65131">6. Software </tspan></text>
+  <path
+     id="path48"
+     d="M 384.97402,640.13315 H 445.1264 V 656.149 h -60.15238 z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text48"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="384.95819"
+     y="653.65131"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan48"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="384.95819"
+       y="653.65131">calls the</tspan></text>
+  <text
+     id="text49"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="441.08832"
+     y="653.65131"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan49"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="441.08832"
+       y="653.65131"> </tspan></text>
+  <path
+     id="path49"
+     d="m 273.69213,659.15197 h 8.02032 v 16.01584 h -8.02032 z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text50"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="273.51187"
+     y="672.68488"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan50"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="273.51187"
+       y="672.68488">a</tspan></text>
+  <text
+     id="text51"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="281.32251"
+     y="672.68488"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan51"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="281.32251"
+       y="672.68488">cknowledge-report</tspan></text>
+  <text
+     id="text52"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="406.79352"
+     y="672.68488"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan52"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="406.79352"
+       y="672.68488"> endpoint,</tspan></text>
+  <text
+     id="text53"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="473.80219"
+     y="672.68488"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan53"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="473.80219"
+       y="672.68488"> </tspan></text>
+  <text
+     id="text54"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="273.12057"
+     y="692.72015"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan54"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="273.12057"
+       y="692.72015">passing the </tspan></text>
+  <path
+     id="path54"
+     d="M 354.89784,679.17177 H 478.2102 v 16.01584 H 354.89784 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text55"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="354.95221"
+     y="692.72015"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan55"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="354.95221"
+       y="692.72015">VRN, reportId and</tspan></text>
+  <text
+     id="text56"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="474.17786"
+     y="692.72015"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan56"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="474.17786"
+       y="692.72015"> </tspan></text>
+  <path
+     id="path56"
+     d="m 272.68959,698.19058 h 206.52315 v 16.01584 H 272.68959 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text57"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="272.33795"
+     y="711.75366"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan57"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="272.33795"
+       y="711.75366">correlationId. It also sends the</tspan></text>
+  <text
+     id="text58"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="474.97614"
+     y="711.75366"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan58"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="474.97614"
+       y="711.75366"> </tspan></text>
+  <path
+     id="path58"
+     d="M 268.67943,717.20939 H 483.2229 v 16.01584 H 268.67943 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text59"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="268.83179"
+     y="730.78717"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan59"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="268.83179"
+       y="730.78717">date and time that the feedback</tspan></text>
+  <text
+     id="text60"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="478.4823"
+     y="730.78717"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan60"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="478.4823"
+       y="730.78717"> </tspan></text>
+  <path
+     id="path60"
+     d="m 286.72515,736.2282 h 174.44188 v 16.01585 H 286.72515 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text61"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="286.73831"
+     y="749.82074"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan61"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="286.73831"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.77382427"
+       y="749.82074">was displayed to the user.</tspan></text>
+  <path
+     id="path61"
+     d="M 652.15082,765.7574 V 915.90591 H 494.35107"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path62"
+     d="m 487.58392,915.90591 9.02287,-4.50445 -2.25572,4.50445 2.25572,4.50446 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path63"
+     d="m 539.36511,625.61879 h 220.5587 V 765.7574 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text63"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="552.86328"
+     y="682.70251"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan63"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="552.86328"
+       y="682.70251">7. HMRC receives the receipt</tspan></text>
+  <text
+     id="text64"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="570.92633"
+     y="701.73602"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan64"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="570.92633"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25337523"
+       y="701.73602">and returns a HTTP 204</tspan></text>
+  <text
+     id="text65"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="616.0058"
+     y="720.76953"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan65"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="616.0058"
+       y="720.76953">response.</tspan></text>
+  <path
+     id="path65"
+     d="m 263.66674,845.8366 h 220.5587 v 140.13862 h -220.5587 z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <text
+     id="text66"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="273.49625"
+     y="912.10657"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan66"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="273.49625"
+       y="912.10657">8. Software receives the HTTP</tspan></text>
+  <text
+     id="text67"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="326.87149"
+     y="932.14185"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan67"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="326.87149"
+       y="932.14185">204 response.</tspan></text>
+  <path
+     id="path67"
+     d="m 223.06388,245.24257 h 21.05334 9.42386"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path68"
+     d="m 260.30822,245.24257 -9.02285,4.50446 2.25571,-4.50446 -2.25571,-4.50445 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path69"
+     d="M 2.5051845,165.16336 H 223.06388 V 325.32177 H 2.5051845 Z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path70"
+     d="m 14.03439,198.69653 h 16.040632 v 16.01584 H 14.03439 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text70"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="14.258331"
+     y="211.87317"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan70"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="14.258331"
+       y="211.87317">1. </tspan></text>
+  <text
+     id="text71"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="29.863945"
+     y="211.87317"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan71"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="29.863945"
+       dx="0 0 0 0 0 0 0 0 0 0 -1.0408953 -1.0408959"
+       y="211.87317">When the VAT period ends,</tspan></text>
+  <text
+     id="text72"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="210.11896"
+     y="211.87317"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan72"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="210.11896"
+       y="211.87317"> </tspan></text>
+  <text
+     id="text73"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="8.138176"
+     y="231.90846"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan73"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="8.138176"
+       y="231.90846">the business or agent prepares</tspan></text>
+  <text
+     id="text74"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="216.23912"
+     y="231.90846"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan74"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="216.23912"
+       y="231.90846"> </tspan></text>
+  <text
+     id="text75"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="37.768494"
+     y="250.94199"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan75"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="37.768494"
+       y="250.94199">transactional data and</tspan></text>
+  <text
+     id="text76"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="186.62444"
+     y="250.94199"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan76"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="186.62444"
+       y="250.94199"> </tspan></text>
+  <text
+     id="text77"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="10.360842"
+     y="269.97552"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan77"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="10.360842"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.0408955 -1.0408959"
+       y="269.97552">generates a draft VAT return (9</tspan></text>
+  <text
+     id="text78"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="214.0321"
+     y="269.97552"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan78"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="214.0321"
+       y="269.97552"> </tspan></text>
+  <text
+     id="text79"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="87.637596"
+     y="289.00906"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan79"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="87.637596"
+       y="289.00906">boxes).</tspan></text>
+  <path
+     id="path79"
+     d="m 263.16547,914.90492 h -31.981"
+     style="fill:none;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path80"
+     d="m 224.41733,914.90492 9.02285,-4.50445 -2.25571,4.50445 2.25571,4.50446 z"
+     style="fill:#000000;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path81"
+     d="M 1.502645,844.83561 H 222.06134 V 984.97424 H 1.502645 Z"
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.00529;stroke-miterlimit:10" />
+  <path
+     id="path82"
+     d="M 7.0166135,868.35889 H 219.555 v 17.01683 H 7.0166135 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text82"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="7.1520643"
+     y="883.05536"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan82"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="7.1520643"
+       y="883.05536">9. Customer</tspan></text>
+  <text
+     id="text83"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="88.216736"
+     y="883.05536"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan83"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="88.216736"
+       y="883.05536"> updates the return</tspan></text>
+  <text
+     id="text84"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="215.23735"
+     y="883.05536"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan84"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="215.23735"
+       y="883.05536"> </tspan></text>
+  <path
+     id="path84"
+     d="M 31.077562,887.3777 H 195.49405 v 17.01684 H 31.077562 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text85"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="31.429201"
+     y="902.08893"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan85"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="31.429201"
+       dx="0 0 0 0 0 0 0 0 0 0 0 0 -1.0408959"
+       y="902.08893">if necessary, then either</tspan></text>
+  <text
+     id="text86"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="190.96022"
+     y="902.08893"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan86"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="190.96022"
+       y="902.08893"> </tspan></text>
+  <path
+     id="path86"
+     d="M 16.039469,906.39652 H 210.53214 v 17.01683 H 16.039469 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text87"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="16.105335"
+     y="921.12244"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan87"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="16.105335"
+       y="921.12244">requests further feedback or</tspan></text>
+  <text
+     id="text88"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="206.28407"
+     y="921.12244"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan88"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="206.28407"
+       y="921.12244"> </tspan></text>
+  <path
+     id="path88"
+     d="M 18.044548,925.41532 H 207.52452 v 17.01683 H 18.044548 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text89"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="18.45322"
+     y="940.15594"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan89"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="18.45322"
+       y="940.15594">formally submits the return.</tspan></text>
+  <text
+     id="text90"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="203.9362"
+     y="940.15594"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan90"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="203.9362"
+       y="940.15594"> </tspan></text>
+  <path
+     id="path90"
+     d="m 92.232475,944.43413 h 38.096505 v 17.01684 H 92.232475 Z"
+     style="fill:#ffffff;stroke-width:1.00176" />
+  <text
+     id="text91"
+     xml:space="preserve"
+     transform="scale(1.0007737,0.9992269)"
+     x="91.70726"
+     y="959.18945"
+     style="font-size:12.0212px;stroke-width:1.00176"><tspan
+       id="tspan91"
+       style="font-weight:700;font-size:14.0247px;font-family:Arial;fill:#000000"
+       x="91.70726"
+       y="959.18945">(END)</tspan></text>
 </svg>
