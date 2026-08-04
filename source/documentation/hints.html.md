@@ -183,9 +183,9 @@ Your software must:
 We recommend that:
 
   * you introduce relevant messaging to advise the customer during the pause that the software is waiting for feedback messages to be returned
-  * you send the presentation receipt through automatically once the feedback is displayed, for a smoother customer journey
+  * you send the presentation receipt through automatically once all of the feedback has been displayed, for a smoother customer journey
   * you do not link HMRC Assist to the button that submits VAT returns, because it may cause confusion for customers
-  * you disable the functionality for any period with a filed VAT return
+  * you disable the functionality for any period with a filed VAT return (use the *obligations* endpoint on the VAT (MTD) API to determine the obligation status for a period)
 
 ### Handling feedback messages
 
@@ -196,7 +196,7 @@ Customers are still responsible for making sure that the information that they p
 When messages are received from HMRC Assist:
 
   * they must not be modified by your software and must be displayed verbatim to businesses or agents
-  * your software must use the HMRC feedback presented receipt endpoint to acknowledge that each report was displayed to the customer
+  * your software must use the HMRC feedback presented receipt endpoint to acknowledge that all of the feedback messages in the report have been displayed to the customer
 
 Additional points to note:
 
