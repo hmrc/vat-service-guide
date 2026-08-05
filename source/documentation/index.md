@@ -1,9 +1,3 @@
----
-title: VAT (MTD) End-to-End Service Guide
-weight: 5
-description: Software developers, designers, product owners or business analysts. Integrate your software with VAT API for Making Tax Digital.
----
-
 # VAT (MTD) end-to-end service guide
 
 Updated 23 June 2026 (see [changelog](#changelog))
