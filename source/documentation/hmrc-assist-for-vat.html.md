@@ -5,13 +5,15 @@ weight: 18
 
 # HMRC Assist for VAT
 
-HMRC Assist for VAT will be available from April 2027. It is a digital service that supports customers submitting their VAT returns through the VAT (MTD) service. Its goal is to help customers to get their VAT returns right the first time.
+HMRC Assist for VAT will be available from April 2027. It is a digital service, the [VAT Assist (MTD) API](/api-documentation/docs/api/service/mtd-transaction-risking), which supports customers submitting their VAT returns through the VAT (MTD) service. Its goal is to help customers to get their VAT returns right the first time.
 
 ## How HMRC Assist for VAT works
 
 HMRC Assist for VAT analyses the information that is in a draft VAT return, before the return is submitted. Based on this information, it provides tailored feedback messages to the customer to help them complete the return. Additionally, the service includes links to helpful guidance on GOV.UK.
 
 Messages are only presented when HMRC identifies a potential issue that warrants customer review.
+
+**Note:** HMRC Assist is a rules-based service. It does not use artificial intelligence (AI) to analyse draft VAT returns or generate feedback messages. No human assessment of draft returns takes place either.
 
 ## Integrating HMRC Assist for VAT with your software
 
@@ -28,7 +30,7 @@ Messages will relate to a return that is currently being prepared and will vary 
 
 HMRC will also look to detect anomalies within the return being prepared in the context of historical submissions.
 
-## HMRC Assist for VAT customer journey
+## Customer journey
 
 Your software can use the [VAT Assist (MTD) API](/api-documentation/docs/api/service/mtd-transaction-risking) to retrieve feedback for VAT return information after the figures are entered.
 

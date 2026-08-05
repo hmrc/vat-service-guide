@@ -47,7 +47,7 @@ The following endpoints are also available. These are **optional**. However, we 
 
 #### Additional functionality
 
-From April 2027, HMRC will provide tailored feedback messages that you can include in your software to support customers with their VAT returns. This is known as [HMRC Assist](documentation/hmrc-assist-for-vat).
+From April 2027, HMRC will provide tailored feedback messages that you can include in your software to support customers with their VAT returns. This is known as [HMRC Assist for VAT](documentation/hmrc-assist-for-vat).
 
 Using the information entered into the draft return, along with data that HMRC holds, the service flags potential mistakes or discrepancies and provides links to relevant GOV.UK guidance.
 
