@@ -80,7 +80,7 @@ When messages are received from HMRC Assist:
 
 Additional points to note:
 
-  * HMRC Assist messages will be listed in order of priority. Feedback that has the greatest impact on a VAT return from an HMRC perspective will be first in the list. We recommend that your software preserves the order of the messages.
+  * HMRC Assist messages will be listed in order of priority. Feedback that has the greatest impact on a VAT return from an HMRC perspective will be first in the list. We recommend that your software preserves the order of the messages. In particular, the initial message (item 1) must be displayed first because it specifies that the messages originate from HMRC.
   * The service returns a maximum of five feedback messages. This limit is intended to prevent information overload and to ensure that only the most relevant and high-priority messages are presented to customers.
   * There is no limit on the number of times VAT Assist feedback can be requested prior to submission of a VAT return, although the feedback is unlikely to change unless the customer amends their draft return data.
   * We recommend that your software automatically repeats a request for feedback if any changes are made to the draft VAT return, to ensure that only relevant messaging is shown.
