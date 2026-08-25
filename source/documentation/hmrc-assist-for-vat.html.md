@@ -66,6 +66,7 @@ We recommend that:
   * you send the presentation receipt through automatically once all of the feedback has been displayed, for a smoother customer journey
   * you do not link HMRC Assist to the button that submits VAT returns, because it may cause confusion for customers
   * you disable the functionality for any period with a filed VAT return (use the *obligations* endpoint on the [VAT (MTD) API](/api-documentation/docs/api/service/vat-api) to determine the obligation status for a period)
+  * you ensure that your existing privacy notices and consent forms cover the pre-submission data that customers will be sending in their draft VAT returns
 
 ## Handling feedback messages
 
