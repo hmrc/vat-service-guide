@@ -47,7 +47,7 @@ To support HMRC Assist, the software must use both endpoints:
   * [Request HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/Endpoints/operation/RequestVATAssistFeedback)
   * [Acknowledge HMRC Assist feedback for VAT](/api-documentation/docs/api/service/mtd-transaction-risking/1.0/oas/page#tag/Endpoints/operation/AcknowledgeVATAssistReport)
 
-<img src="figures/hmrc-assist.svg" alt="HMRC Assist customer journey" style="width:520px;" />
+<a href="figures/hmrc-assist.svg" target="blank"><img src="figures/hmrc-assist.svg" alt="HMRC Assist customer journey" style="width:520px;" /></a>
 
 <a href="figures/hmrc-assist.svg" target="blank">Open the high-level diagram in a new tab</a>.
 
