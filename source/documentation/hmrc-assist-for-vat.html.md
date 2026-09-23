@@ -86,3 +86,4 @@ Additional points to note:
   * There is no limit on the number of times VAT Assist feedback can be requested prior to submission of a VAT return, although the feedback is unlikely to change unless the customer amends their draft return data.
   * We recommend that your software automatically repeats a request for feedback if any changes are made to the draft VAT return, to ensure that only relevant messaging is shown.
   * If a customer does not act on a feedback message, or if HMRC Assist determines that the feedback remains applicable, the same message will be re-issued.
+  * Each feedback message is provided in English and Welsh language versions. You are free to choose which of these versions to display in your software.
