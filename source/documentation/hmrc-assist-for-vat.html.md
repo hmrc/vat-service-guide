@@ -40,7 +40,9 @@ HMRC Assist will only be available:
   * when all the data that is required for the VAT return has been entered
   * before the VAT return is submitted
 
-The software must then send through a confirmation once the messages have been displayed to the end user. 
+The software must then send through a confirmation once the messages have been displayed to the end user.
+
+**Note:** If HMRC Assist only returns a "no feedback" message, your software is not required to send a confirmation.
 
 To support HMRC Assist, the software must use both endpoints:
 
@@ -87,3 +89,4 @@ Additional points to note:
   * We recommend that your software automatically repeats a request for feedback if any changes are made to the draft VAT return, to ensure that only relevant messaging is shown.
   * If a customer does not act on a feedback message, or if HMRC Assist determines that the feedback remains applicable, the same message will be re-issued.
   * Each feedback message is provided in English and Welsh language versions. You are free to choose which of these versions to display in your software.
+  * If HMRC Assist only returns a "no feedback" message, the feedback report will not have a *correlationId*. In this case, your software is not required to send an acknowledgement.
