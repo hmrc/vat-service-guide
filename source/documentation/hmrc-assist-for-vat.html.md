@@ -62,6 +62,8 @@ Your software must:
   * allow customers to submit their VAT return, irrespective of any HMRC Assist submission feedback
   * if HMRC Assist is in use, enforce a temporary pause after requesting HMRC Assist feedback until the feedback is returned, before it allows the customer to submit their return
 
+**Note:** Your software can expect a response from HMRC Assist within 30 seconds.
+
 We recommend that:
 
   * you introduce relevant messaging to advise the customer during the pause that the software is waiting for feedback messages to be returned
